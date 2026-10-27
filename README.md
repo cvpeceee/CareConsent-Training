@@ -4,7 +4,7 @@ English beginner training for hospital staff, patients and administrators using 
 
 **Course:** 34 minutes 45 seconds · 24 chapters · 64 scenes · English narration and 501 subtitle cues. **Reference review:** 27 October 2026.
 
-[Download the video](https://github.com/cvpeceee/CareConsent-Training/releases/download/training-en-2026-10-27/CareConsent-English-Training.mp4) · [Download the complete offline course](https://github.com/cvpeceee/CareConsent-Training/releases/download/training-en-2026-10-27/CareConsent-English-Training-Package.zip) · [All release files](https://github.com/cvpeceee/CareConsent-Training/releases/tag/training-en-2026-10-27)
+[Download the video](https://raw.githubusercontent.com/cvpeceee/CareConsent-Training/training-en-2026-10-27-media/CareConsent-English-Training.mp4) · [Download the complete offline course](https://raw.githubusercontent.com/cvpeceee/CareConsent-Training/training-en-2026-10-27-media/CareConsent-English-Training-Package.zip) · [Release notes](https://github.com/cvpeceee/CareConsent-Training/releases/tag/training-en-2026-10-27)
 
 ![CareConsent training poster](CareConsent-English-Training-Poster.png)
 
@@ -12,9 +12,9 @@ English beginner training for hospital staff, patients and administrators using 
 
 Share this repository or its release page; viewers do not need access to the private application repository. The MP4 has visible English subtitles. Separate [SRT](CareConsent-English-Training.srt), [WebVTT](CareConsent-English-Training.vtt), [transcript](CareConsent-English-Training-Transcript.md) and [chapter timings](CareConsent-English-Training-Chapters.json) are available.
 
-For an offline chapter player, download the complete course ZIP from **Releases**, extract all nine files into one folder, and open `index.html` in a modern browser. The player and media work locally. If a browser blocks local playback, open the MP4 directly. GitHub's automatic **Source code** ZIP contains the repository documents and does not include the training video.
+For an offline chapter player, use **Download the complete offline course** above, extract all nine files into one folder, and open `index.html` in a modern browser. The player and media work locally. If a browser blocks local playback, open the MP4 directly. Use this course package rather than GitHub's automatic **Source code** archives.
 
-`SHA256SUMS.txt` covers the eight playback/reference payloads, excluding itself and the ZIP. The release notes give the ZIP's own SHA-256 fingerprint.
+`SHA256SUMS.txt` covers the eight playback/reference payloads, excluding itself and the ZIP. The release notes give the ZIP's own SHA-256 fingerprint. Published downloads are also stored in this training repository; `.gitattributes` preserves their exact bytes. Download links are pinned to the media tag for this edition.
 
 ## What the course covers
 

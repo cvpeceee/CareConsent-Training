@@ -1,0 +1,5 @@
+# Preserve published download bytes so SHA-256 values match the offline package.
+CareConsent-English-Training* -text
+References-and-Scope.md -text
+SHA256SUMS.txt -text
+index.html -text
