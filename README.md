@@ -1,37 +1,52 @@
 # CareConsent training
 
-English beginner training for hospital staff, patients and administrators using CareConsent. This public repository contains training materials only. The application source remains in a separate private repository.
+English beginner training for hospital staff, patients and administrators using CareConsent. This public repository contains the synthetic training course and its playback companions. Application source stays in its separate private repository.
 
-**Course:** 34 minutes 45 seconds · 24 chapters · 64 scenes · English narration and 501 subtitle cues. **Reference review:** 27 October 2026.
+**29 October 2026 edition:** 1 hour 4 minutes 13 seconds · 33 chapters · 104 scenes · English narration and 910 subtitle cues. Recorded against local application build `27bf584`; the hosted demonstration may show an earlier build.
 
-[Download the video](https://raw.githubusercontent.com/cvpeceee/CareConsent-Training/training-en-2026-10-27-media/CareConsent-English-Training.mp4) · [Download the complete offline course](https://raw.githubusercontent.com/cvpeceee/CareConsent-Training/training-en-2026-10-27-media/CareConsent-English-Training-Package.zip) · [Release notes](https://github.com/cvpeceee/CareConsent-Training/releases/tag/training-en-2026-10-27)
+[Download the video](https://raw.githubusercontent.com/cvpeceee/CareConsent-Training/training-en-2026-10-29-media/CareConsent-English-Training.mp4) · [Download the complete offline course](https://raw.githubusercontent.com/cvpeceee/CareConsent-Training/training-en-2026-10-29-media/CareConsent-English-Training-Package.zip) · [Release notes](https://github.com/cvpeceee/CareConsent-Training/releases/tag/training-en-2026-10-29)
 
 ![CareConsent training poster](CareConsent-English-Training-Poster.png)
 
 ## Watch and share
 
-Share this repository or its release page; viewers do not need access to the private application repository. The MP4 has visible English subtitles. Separate [SRT](CareConsent-English-Training.srt), [WebVTT](CareConsent-English-Training.vtt), [transcript](CareConsent-English-Training-Transcript.md) and [chapter timings](CareConsent-English-Training-Chapters.json) are available.
+Share this repository or the release page; viewers do not need access to the application repository. The MP4 has English subtitles visible in the picture. Separate [SRT](CareConsent-English-Training.srt), [WebVTT](CareConsent-English-Training.vtt), [transcript](CareConsent-English-Training-Transcript.md) and [chapter timings](CareConsent-English-Training-Chapters.json) are included.
 
-For an offline chapter player, use **Download the complete offline course** above, extract all nine files into one folder, and open `index.html` in a modern browser. The player and media work locally. If a browser blocks local playback, open the MP4 directly. Use this course package rather than GitHub's automatic **Source code** archives.
+For the offline chapter player, download the **complete offline course**, extract all nine files together, and open `index.html` in a modern browser. It needs no server or external player service. If local browser playback is blocked, open the MP4 directly. The single MP4 download does not include the player or companions.
 
-`SHA256SUMS.txt` covers the eight playback/reference payloads, excluding itself and the ZIP. The release notes give the ZIP's own SHA-256 fingerprint. Published downloads are also stored in this training repository; `.gitattributes` preserves their exact bytes. Download links are pinned to the media tag for this edition.
+The checksum file covers the eight playback/reference files, excluding itself and the ZIP. The release notes record the ZIP's own SHA-256. Download links are pinned to this edition's media tag; `.gitattributes` preserves exact payload bytes. Earlier editions remain available through their release pages and tags.
 
-## What the course covers
+## What changed
 
-The course follows reception, patient, clinical, privacy, reviewer, administrator, auditor and hospital IT roles. It covers sign-in and MFA, device preferences and accessibility controls, registration, notices and individual purpose choices, synthetic OTP verification, readable receipts, selective withdrawal, patient self-service, rights requests, legal holds, guardians, sharing/procedure evidence, incident reporting, retention, notice review/publication, users/branches, signing keys, audit and integrations.
+The first 24 chapters have been refreshed against the recorded build. They teach sign-in/MFA, preferences, registration, purpose choices, simulated OTP, patient receipts and verification, selective withdrawal, sharing and clinical evidence, guardians, patient requests, legal holds, incidents, retention, notice review/publication, administration, audit and operational boundaries.
 
-The walkthrough combines real application screenshots with clearly labelled explainers and narration. It is not a continuous recording of every click. Features that currently require an API or managed setup are explained as such; they are not presented as available front-desk screens.
+New chapters 25–33 cover:
 
-## References and safe use
+- Verified patient access, private activation handover, remote withdrawal and recovery; guardian/delegate authority and staff assignments.
+- Personal/shared/no-phone reception, witnessed or paper evidence and emergency records.
+- Notice/SMS delivery review, reconciliation, branch metadata/conflicts, nodes and managed operations.
+- Disabled FHIR/custom OAuth and ABDM local-mock boundaries; language and reviewed-audio limits.
+- The privacy workspace: inventories, flows, obligations, policies, governance, vendors, agreements, transfers, impact/risk assessments, retention and rights oversight, children, workforce training, reviews, marketing, security and breach evidence.
+- Drafting, submission, independent MFA review, revision approvals, reports, export and hospital readiness gates.
 
-Read [References and Scope](References-and-Scope.md). It links to the official 2023 DPDP Act, November 2025 commencement notification and final Rules, December 2025 corrigendum, October 2026 Order and separate CERT-In directions. Commencement is phased; the publication does not mean every duty is already effective. The configured demo retention notice and hospital response targets are not universal statutory deadlines.
+Returning viewers can start at chapter 25 in the offline player, or chapter 31 for the privacy workspace. Every chapter can be selected independently.
 
-This is a dated synthetic demonstration of the application release tested on 26 October 2026, including the corrected rights forms. The original visual baseline label is retained for traceability. The public edition adds a dated legal-context introduction and corrects two spoken button labels. Recheck official notifications and hospital policy before operational reliance.
+The course combines actual synthetic application captures with narrated guidance and 17 explicitly labelled explainer scenes. It is a sequence of teaching screens, rather than continuous mouse recording. Explanations of API-only or unqualified integrations do not imply an available front-desk button or successful live connection.
 
-Only invented people and a synthetic hospital are used. Simulated OTPs and notification screens do not establish real SMS delivery, regulator submission, recipient enforcement, registered Consent Manager status or production readiness. Patient links require verified hospital-controlled setup. The prepared edge buffer covers staff withdrawal intents; general offline registration, grants and complete multi-branch synchronisation are outside this course's implemented scope.
+## References and scope
 
-Hospital legal/privacy approval, reviewed translations, live-provider and HIS integration tests, accessibility/security assessment, recovery drills and operational acceptance remain required before real patient use. This course is product training, not legal advice or a production certification.
+Read [References and Scope](References-and-Scope.md), reviewed on 29 October 2026. It links the official DPDP Act, final Rules, commencement notification, corrigendum, subsequent Order and separate CERT-In directions. Commencement is phased. Configured demo retention guardrails and hospital service targets are not universal statutory deadlines.
 
-## Version
+All people, hospital records, evidence references and contact details shown are invented. Passwords, activation codes, authenticator material and other account secrets are masked. Simulated OTP and notification demonstrations send no real SMS or regulatory submission.
 
-Public training edition: `training-en-2026-10-27`. It is a fixed snapshot, not a promise that the video automatically follows future application or legal changes. Updates will be published as new releases.
+Remote patient withdrawal is shown for an already verified and activated account; a hospital visit is not required for that flow. Withdrawal in the register, legal record retention and verified downstream enforcement are separate outcomes. The hospital must confirm its actual identity checks, contact routes and connected-system behavior.
+
+The new privacy registers support hospital evidence work. An approved internal record revision does not prove hospital-wide compliance or complete missing independent evidence. Live SMS/DLT and HIS qualification, managed infrastructure, reviewed languages/audio, independent security/accessibility assessment and hospital acceptance remain external release gates. Directory managers remain trusted identity roots with further privileged-lifecycle separation work documented in the application project.
+
+Branch/node screens cover bounded consent metadata and managed withdrawal operations. They do not establish a general offline patient database or unrestricted multi-branch grants. FHIR/custom OAuth is disabled in this recording; ABDM examples use a local mock and do not establish NHA qualification. Training publication does not deploy the application or certify production readiness.
+
+## Editions
+
+Current: [`training-en-2026-10-29`](https://github.com/cvpeceee/CareConsent-Training/releases/tag/training-en-2026-10-29), local source build `27bf584`, references reviewed 29 October 2026.
+
+Previous: [`training-en-2026-10-27`](https://github.com/cvpeceee/CareConsent-Training/releases/tag/training-en-2026-10-27), 34:45 / 24 chapters / 64 scenes. Its original media tag and downloads are preserved. Each edition is a fixed snapshot; later product or legal changes require a new reviewed release.
