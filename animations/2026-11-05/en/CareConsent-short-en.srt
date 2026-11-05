@@ -1,0 +1,35 @@
+1
+00:00:00,100 --> 00:00:04,464
+She came for care. Can she trust you with her information?
+
+2
+00:00:05,567 --> 00:00:11,101
+CareConsent helps your team explain each use, and give patients a real choice.
+
+3
+00:00:12,200 --> 00:00:18,778
+English or Tamil. Read it. Hear it. Understand it.
+
+4
+00:00:19,900 --> 00:00:22,530
+Keep a simple receipt of what was agreed.
+
+5
+00:00:23,667 --> 00:00:30,230
+At home, a verified patient can withdraw optional marketing, without another hospital visit.
+
+6
+00:00:31,333 --> 00:00:35,591
+Your team tracks the change and follows up with connected systems.
+
+7
+00:00:36,733 --> 00:00:42,764
+Authorised access. Protected sign-in. Evidence you can review.
+
+8
+00:00:43,867 --> 00:00:50,484
+CareConsent. Clear choices. Accountable care. Try
+
+9
+00:00:50,484 --> 00:00:51,799
+our synthetic demo.

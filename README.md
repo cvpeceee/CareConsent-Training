@@ -8,6 +8,20 @@ English beginner training for hospital staff, patients and administrators using 
 
 ![CareConsent training poster](CareConsent-English-Training-Poster.png)
 
+
+## Short animated introduction · 5 November 2026
+
+[Watch English and Tamil in your browser](https://cvpeceee.github.io/CareConsent-Training/animations/)
+
+- [English · 53 seconds](https://raw.githubusercontent.com/cvpeceee/CareConsent-Training/intro-en-ta-2026-11-05/animations/2026-11-05/en/CareConsent-short-en.mp4)
+- [Tamil · 59 seconds](https://raw.githubusercontent.com/cvpeceee/CareConsent-Training/intro-en-ta-2026-11-05/animations/2026-11-05/ta/CareConsent-short-ta.mp4)
+
+Eight animated story scenes show patient choices, language/audio, a receipt, withdrawal from home, hospital follow-up and protected access. Both videos have narration and visible subtitles; transcript, SRT/WebVTT, audio and checksums are in their language folders. No account or access to the private application repository is required.
+
+These are public **review editions**. The visuals and wording are original; narration uses Microsoft Edge online neural voices (`en-IN-NeerjaNeural` and `ta-IN-PallaviNeural`). Human language/pronunciation review and commercial narration rights remain unverified. Publication here does not grant commercial rights in the narration or claim paid Azure Speech provenance. This note does not qualify the app for hospital production use.
+
+The detailed training course below is the previous published edition while its latest refresh is being recorded. The short introduction is separate from the usage course.
+
 ## Watch and share
 
 Share this repository or the release page; viewers do not need access to the application repository. The MP4 has English subtitles visible in the picture. Separate [SRT](CareConsent-English-Training.srt), [WebVTT](CareConsent-English-Training.vtt), [transcript](CareConsent-English-Training-Transcript.md) and [chapter timings](CareConsent-English-Training-Chapters.json) are included.

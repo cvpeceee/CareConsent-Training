@@ -1,0 +1,22 @@
+{
+  "renderer": "short-story-2026-11-04-v1",
+  "source_sha256": "8beb314ee139a4faccea07d7a006df9fc47845ae8d4d9dbdf34204c253dfb432",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frames": 1765,
+  "duration_seconds": 58.833333333333336,
+  "shots": 8,
+  "subtitle_cues": 13,
+  "full_audio_video_decode_passed": true,
+  "complete_narration_caption_alignment": true,
+  "original_vector_animation": true,
+  "original_quiet_ui_tones": true,
+  "narration_provider": "Microsoft Edge online speech via edge-tts 7.3.1",
+  "voice": "ta-IN-PallaviNeural",
+  "review_status": "internal_review_draft",
+  "commercial_audio_rights_verified": false,
+  "human_pronunciation_review": false,
+  "production_approval_granted": false,
+  "video_sha256": "9986685f047655285fde41e07fff14fb397dae1bf419c159db8a1418421ab60e"
+}

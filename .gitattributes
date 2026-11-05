@@ -3,3 +3,5 @@ CareConsent-English-Training* -text
 References-and-Scope.md -text
 SHA256SUMS.txt -text
 index.html -text
+
+animations/** -text

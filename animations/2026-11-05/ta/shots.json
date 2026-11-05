@@ -1,0 +1,50 @@
+[
+  {
+    "id": "short-01",
+    "visual": "reception",
+    "start_seconds": 0,
+    "duration_seconds": 6.133333333333334
+  },
+  {
+    "id": "short-02",
+    "visual": "choices",
+    "start_seconds": 6.133333333333334,
+    "duration_seconds": 7.766666666666667
+  },
+  {
+    "id": "short-03",
+    "visual": "language",
+    "start_seconds": 13.9,
+    "duration_seconds": 7.966666666666667
+  },
+  {
+    "id": "short-04",
+    "visual": "receipt",
+    "start_seconds": 21.866666666666667,
+    "duration_seconds": 3.566666666666667
+  },
+  {
+    "id": "short-05",
+    "visual": "withdraw",
+    "start_seconds": 25.433333333333334,
+    "duration_seconds": 9.733333333333333
+  },
+  {
+    "id": "short-06",
+    "visual": "followup",
+    "start_seconds": 35.166666666666664,
+    "duration_seconds": 6.733333333333333
+  },
+  {
+    "id": "short-07",
+    "visual": "security",
+    "start_seconds": 41.9,
+    "duration_seconds": 7.333333333333333
+  },
+  {
+    "id": "short-08",
+    "visual": "end",
+    "start_seconds": 49.233333333333334,
+    "duration_seconds": 9.6
+  }
+]
