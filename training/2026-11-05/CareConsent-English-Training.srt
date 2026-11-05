@@ -1,0 +1,6177 @@
+1
+00:00:00,100 --> 00:00:02,442
+Welcome to CareConsent.
+
+2
+00:00:02,442 --> 00:00:07,323
+This updated course follows everyday
+hospital work, from patient registration
+
+3
+00:00:07,323 --> 00:00:11,466
+and consent choices through remote
+withdrawal, assisted reception and
+
+4
+00:00:11,466 --> 00:00:14,288
+hospital privacy operations.
+
+5
+00:00:14,288 --> 00:00:18,823
+The November edition adds website
+preferences, metadata discovery,
+
+6
+00:00:18,823 --> 00:00:23,847
+processing records, impact assessments,
+vendor review, scoped integrations and
+
+7
+00:00:23,847 --> 00:00:25,871
+controlled access.
+
+8
+00:00:25,871 --> 00:00:30,061
+We use an invented training hospital and
+people throughout.
+
+9
+00:00:30,061 --> 00:00:34,514
+Follow the chapters for your role, pause
+to practise, and consult the dated
+
+10
+00:00:34,514 --> 00:00:37,335
+References and Scope companion.
+
+11
+00:00:37,335 --> 00:00:42,669
+Its edition manifest identifies the exact
+recorded application build.
+
+12
+00:00:42,669 --> 00:00:47,497
+The short animated introduction is
+separate from this detailed course.
+
+13
+00:00:48,225 --> 00:00:54,055
+Before entering anything, look for Public
+synthetic demo or the development warning.
+
+14
+00:00:54,055 --> 00:00:58,794
+These screens are for practice, not real
+patient registration.
+
+15
+00:00:58,794 --> 00:01:04,305
+All names, hospital numbers and contact
+references shown here are invented.
+
+16
+00:01:04,305 --> 00:01:09,746
+The SMS simulator displays a test code and
+sends no text message.
+
+17
+00:01:09,746 --> 00:01:14,472
+A green success message in training does
+not establish a production deployment,
+
+18
+00:01:14,472 --> 00:01:18,845
+legal approval or communication with
+another organisation.
+
+19
+00:01:19,558 --> 00:01:24,888
+This course uses the reference review
+dated fourth November twenty twenty-six.
+
+20
+00:01:24,888 --> 00:01:28,960
+Its companion identifies the twenty
+twenty-three Digital Personal Data
+
+21
+00:01:28,960 --> 00:01:34,222
+Protection Act, final twenty twenty-five
+Rules, commencement notification, December
+
+22
+00:01:34,222 --> 00:01:37,912
+corrigendum and October twenty twenty-six
+Order.
+
+23
+00:01:37,912 --> 00:01:42,948
+Commencement is phased; not every duty is
+already effective.
+
+24
+00:01:42,948 --> 00:01:47,853
+Reporting timelines depend on the
+applicable provisions and incident.
+
+25
+00:01:47,853 --> 00:01:52,091
+A demo retention setting is not a blanket
+hospital rule.
+
+26
+00:01:52,091 --> 00:01:57,618
+Confirm current applicability and hospital
+approval before operational reliance.
+
+27
+00:01:58,350 --> 00:02:01,669
+Different accounts see different
+navigation.
+
+28
+00:02:01,669 --> 00:02:06,478
+Reception and clinicians work within
+assigned patient scope; privacy officers
+
+29
+00:02:06,478 --> 00:02:11,228
+manage privacy cases; auditors inspect
+permitted evidence.
+
+30
+00:02:11,228 --> 00:02:15,740
+An administrator session has no direct
+patient-read permission.
+
+31
+00:02:15,740 --> 00:02:20,930
+However, directory managers can provision
+privacy-officer accounts and reset staff
+
+32
+00:02:20,930 --> 00:02:25,371
+credentials, so they remain trusted
+identity operators.
+
+33
+00:02:25,371 --> 00:02:29,490
+Stronger privileged appointment and
+recovery approval is still an open
+
+34
+00:02:29,490 --> 00:02:31,264
+production gate.
+
+35
+00:02:31,264 --> 00:02:36,478
+Use your own account, verify hospital and
+branch, and never borrow another role to
+
+36
+00:02:36,478 --> 00:02:38,690
+bypass a restriction.
+
+37
+00:02:39,392 --> 00:02:45,068
+CareConsent records choices about personal
+information for specific purposes.
+
+38
+00:02:45,068 --> 00:02:50,520
+It also has a separate register for
+references to clinical procedure evidence.
+
+39
+00:02:50,520 --> 00:02:55,353
+Neither registration, an OTP nor a
+downloaded data receipt signs a surgery
+
+40
+00:02:55,353 --> 00:02:57,020
+consent form.
+
+41
+00:02:57,020 --> 00:03:02,163
+Clinicians must still complete their
+approved procedure-specific process.
+
+42
+00:03:02,163 --> 00:03:07,461
+A patient's refusal of optional hospital
+offers must not be treated as refusal of
+
+43
+00:03:07,461 --> 00:03:11,669
+care or authority to ignore emergency
+procedures.
+
+44
+00:03:12,392 --> 00:03:17,389
+At Welcome back, choose CareConsent
+Training Hospital in Hospital.
+
+45
+00:03:17,389 --> 00:03:22,246
+Enter the Work email and Password provided
+for your training role, then select Open
+
+46
+00:03:22,246 --> 00:03:23,806
+workspace.
+
+47
+00:03:23,806 --> 00:03:26,853
+Read any error before trying again.
+
+48
+00:03:26,853 --> 00:03:30,984
+A patient uses a separately provisioned
+patient account.
+
+49
+00:03:30,984 --> 00:03:36,008
+A consent verification code from reception
+is not a workspace password and cannot be
+
+50
+00:03:36,008 --> 00:03:39,124
+used to open somebody's patient portal.
+
+51
+00:03:39,850 --> 00:03:44,278
+If an Authenticator code is requested,
+obtain the current code from your own
+
+52
+00:03:44,278 --> 00:03:47,692
+authenticator app and choose Confirm code.
+
+53
+00:03:47,692 --> 00:03:53,633
+For initial enrolment, follow Set up an
+authenticator and Confirm authenticator.
+
+54
+00:03:53,633 --> 00:03:59,323
+Inside Readiness & settings, Two-step
+sign-in also offers Set up authenticator.
+
+55
+00:03:59,323 --> 00:04:03,061
+Save recovery codes privately when they
+appear.
+
+56
+00:04:03,061 --> 00:04:07,942
+Training screenshots must never be used as
+genuine authenticator keys or recovery
+
+57
+00:04:07,942 --> 00:04:09,342
+material.
+
+58
+00:04:10,058 --> 00:04:14,665
+If the authenticator device is
+unavailable, use one unused recovery code
+
+59
+00:04:14,665 --> 00:04:16,829
+at the sign-in challenge.
+
+60
+00:04:16,829 --> 00:04:21,496
+Stop guessing after failures and contact
+the hospital through its official support
+
+61
+00:04:21,496 --> 00:04:22,734
+route.
+
+62
+00:04:22,734 --> 00:04:28,091
+Staff account administration and patient
+recovery are different processes.
+
+63
+00:04:28,091 --> 00:04:33,329
+Verified patient password recovery
+preserves an enabled authenticator.
+
+64
+00:04:33,329 --> 00:04:37,817
+If both the patient authenticator and
+recovery codes are lost, the dedicated
+
+65
+00:04:37,817 --> 00:04:43,865
+Lost authenticator recovery workflow needs
+two privacy officers and fresh enrolment.
+
+66
+00:04:43,865 --> 00:04:49,317
+This course demonstrates those paths
+later; a phone number or consent OTP is
+
+67
+00:04:49,317 --> 00:04:51,790
+never a recovery shortcut.
+
+68
+00:04:52,517 --> 00:04:57,002
+Open Readiness and settings and find Your
+workspace preferences.
+
+69
+00:04:57,002 --> 00:05:01,847
+Language offers English plus the
+twenty-two Eighth Schedule languages.
+
+70
+00:05:01,847 --> 00:05:07,359
+Additional interface catalogs remain
+drafts with explicit English fallback.
+
+71
+00:05:07,359 --> 00:05:12,312
+English, Tamil, Telugu and Hindi are the
+current patient PDF and legal-notice
+
+72
+00:05:12,312 --> 00:05:17,371
+qualification boundary, not automatically
+approved translations.
+
+73
+00:05:17,371 --> 00:05:22,395
+Appearance offers System, Light and Dark;
+Text size and High contrast support
+
+74
+00:05:22,395 --> 00:05:24,312
+comfortable reading.
+
+75
+00:05:24,312 --> 00:05:29,264
+These preferences do not translate an old
+receipt or change the patient's recorded
+
+76
+00:05:29,264 --> 00:05:31,154
+notice language.
+
+77
+00:05:31,892 --> 00:05:36,722
+Review patient choices shows the exact
+recorded notice language.
+
+78
+00:05:36,722 --> 00:05:41,258
+Where an approved recording is available,
+Listen to reviewed recording verifies it
+
+79
+00:05:41,258 --> 00:05:44,675
+against the published notice before
+playback.
+
+80
+00:05:44,675 --> 00:05:49,592
+Read using on-device voice is a separately
+labelled optional alternative that needs a
+
+81
+00:05:49,592 --> 00:05:51,782
+matching installed voice.
+
+82
+00:05:51,782 --> 00:05:55,770
+Pause, Resume and Stop reading control
+playback.
+
+83
+00:05:55,770 --> 00:06:00,163
+If neither route is available, use the
+transcript and approved communication
+
+84
+00:06:00,163 --> 00:06:01,699
+assistance.
+
+85
+00:06:01,699 --> 00:06:06,746
+Playback never establishes agreement,
+identity or understanding, and patient
+
+86
+00:06:06,746 --> 00:06:09,664
+identifiers are not read aloud.
+
+87
+00:06:10,392 --> 00:06:15,889
+Keyboard users can move with Tab and
+activate controls with Enter or Space.
+
+88
+00:06:15,889 --> 00:06:18,806
+Use Skip to workspace when offered.
+
+89
+00:06:18,806 --> 00:06:23,092
+On smaller screens, Open navigation
+reveals the menu.
+
+90
+00:06:23,092 --> 00:06:26,592
+Increase text size before struggling to
+read.
+
+91
+00:06:26,592 --> 00:06:30,365
+Offer communication support chosen by the
+patient.
+
+92
+00:06:30,365 --> 00:06:35,211
+Disability alone does not remove the
+person's ability to decide, and an audio
+
+93
+00:06:35,211 --> 00:06:40,364
+button does not establish that every
+accessibility need has been met.
+
+94
+00:06:41,100 --> 00:06:44,466
+Select Overview to open Consent overview.
+
+95
+00:06:44,466 --> 00:06:48,680
+Registered patients counts records in your
+permitted scope.
+
+96
+00:06:48,680 --> 00:06:53,585
+Patients with consent means at least one
+active purpose, not permission for every
+
+97
+00:06:53,585 --> 00:06:54,990
+purpose.
+
+98
+00:06:54,990 --> 00:06:59,657
+Awaiting consent indicates no recorded
+consent in that summary.
+
+99
+00:06:59,657 --> 00:07:03,919
+Withdrawn purposes counts individual
+purpose withdrawals.
+
+100
+00:07:03,919 --> 00:07:08,442
+Read the explanatory labels before
+comparing numbers, and remember that your
+
+101
+00:07:08,442 --> 00:07:11,817
+role and branch influence what you can
+see.
+
+102
+00:07:12,517 --> 00:07:17,502
+Look at Needs your attention for privacy
+requests and integration work.
+
+103
+00:07:17,502 --> 00:07:22,895
+A service target is a date for follow-up,
+not proof that a response was sent.
+
+104
+00:07:22,895 --> 00:07:27,169
+Pending integration events need
+investigation even when local consent was
+
+105
+00:07:27,169 --> 00:07:28,443
+saved.
+
+106
+00:07:28,443 --> 00:07:32,502
+Use View all patients to continue with the
+directory.
+
+107
+00:07:32,502 --> 00:07:37,133
+Follow the hospital's escalation process
+for overdue requests rather than simply
+
+108
+00:07:37,133 --> 00:07:39,969
+closing them to clear the dashboard.
+
+109
+00:07:40,683 --> 00:07:44,668
+Open Patient directory and select Register
+patient.
+
+110
+00:07:44,668 --> 00:07:49,061
+Enter Training Adult Patient under Full
+name and use a unique training Hospital
+
+111
+00:07:49,061 --> 00:07:50,383
+number.
+
+112
+00:07:50,383 --> 00:07:54,871
+Enter the agreed synthetic date of birth
+and select Department.
+
+113
+00:07:54,871 --> 00:08:00,978
+Record the actual contact arrangement:
+personal phone, shared phone or no phone.
+
+114
+00:08:00,978 --> 00:08:05,597
+Use the agreed synthetic ten-digit number
+only when that arrangement includes a
+
+115
+00:08:05,597 --> 00:08:09,490
+phone, and record message permission
+accurately.
+
+116
+00:08:09,490 --> 00:08:15,575
+Investigate duplicate hospital numbers;
+never invent a number to satisfy the form.
+
+117
+00:08:16,308 --> 00:08:20,450
+Set Patient notice language to the
+language the patient understands,
+
+118
+00:08:20,450 --> 00:08:23,662
+independently of your interface
+preference.
+
+119
+00:08:23,662 --> 00:08:28,031
+For this adult exercise, leave guardian
+details unused.
+
+120
+00:08:28,031 --> 00:08:32,710
+Review every field, then select Save and
+review choices.
+
+121
+00:08:32,710 --> 00:08:37,698
+Wait for the saved record or the next
+screen before assuming success.
+
+122
+00:08:37,698 --> 00:08:42,305
+If validation identifies a mistake,
+correct that field.
+
+123
+00:08:42,305 --> 00:08:46,519
+Do not invent a guardian or another
+person's phone number just to complete
+
+124
+00:08:46,519 --> 00:08:48,177
+registration.
+
+125
+00:08:48,892 --> 00:08:53,842
+The Review patient choices screen shows
+the notice version and language.
+
+126
+00:08:53,842 --> 00:08:58,592
+Read Privacy notice and the hospital's
+published contact and request channels
+
+127
+00:08:58,592 --> 00:09:00,211
+where present.
+
+128
+00:09:00,211 --> 00:09:04,068
+In training, a draft warning may remain
+visible.
+
+129
+00:09:04,068 --> 00:09:08,865
+In real operation, staff must use the
+approved effective publication for that
+
+130
+00:09:08,865 --> 00:09:10,318
+language.
+
+131
+00:09:10,318 --> 00:09:15,496
+An unavailable notice is a stop condition
+for this consent workflow, not a reason to
+
+132
+00:09:15,496 --> 00:09:18,121
+silently switch languages.
+
+133
+00:09:18,850 --> 00:09:23,719
+Under Choose each purpose separately,
+explain each purpose's Data and Use
+
+134
+00:09:23,719 --> 00:09:25,359
+descriptions.
+
+135
+00:09:25,359 --> 00:09:30,776
+Insurance claim processing does not
+automatically approve every recipient.
+
+136
+00:09:30,776 --> 00:09:36,252
+Research contact means contact about a
+study, not study participation or release
+
+137
+00:09:36,252 --> 00:09:38,347
+of research records.
+
+138
+00:09:38,347 --> 00:09:41,430
+Hospital news and offers is optional.
+
+139
+00:09:41,430 --> 00:09:46,157
+Select only the patient's agreed purposes,
+then ask them to make the displayed
+
+140
+00:09:46,157 --> 00:09:47,800
+confirmation.
+
+141
+00:09:47,800 --> 00:09:50,959
+Do not preselect choices for speed.
+
+142
+00:09:51,683 --> 00:09:56,299
+If the patient does not agree, choose
+Close without consent.
+
+143
+00:09:56,299 --> 00:09:59,692
+No new purpose is granted through this
+action.
+
+144
+00:09:59,692 --> 00:10:05,133
+Importantly, leaving a box unticked does
+not withdraw a purpose granted previously;
+
+145
+00:10:05,133 --> 00:10:08,371
+use the separate Withdraw action for that.
+
+146
+00:10:08,371 --> 00:10:12,275
+This screen is not a complete
+refusal-of-treatment process or an
+
+147
+00:10:12,275 --> 00:10:14,609
+emergency decision tool.
+
+148
+00:10:14,609 --> 00:10:18,394
+Escalate care questions through the
+hospital's approved clinical and
+
+149
+00:10:18,394 --> 00:10:20,840
+lawful-basis procedures.
+
+150
+00:10:21,558 --> 00:10:27,662
+After the patient confirms the selected
+purposes, choose Generate simulated OTP.
+
+151
+00:10:27,662 --> 00:10:33,841
+The next screen says SMS simulator — no
+message sent and displays Test code.
+
+152
+00:10:33,841 --> 00:10:40,365
+Enter that six-digit code in Verification
+code, then select Verify & record consent.
+
+153
+00:10:40,365 --> 00:10:45,281
+In a qualified live setup, the button and
+delivery process differ.
+
+154
+00:10:45,281 --> 00:10:50,043
+Never tell a patient that a training test
+code arrived by SMS.
+
+155
+00:10:50,767 --> 00:10:54,169
+Read any verification error carefully.
+
+156
+00:10:54,169 --> 00:10:59,097
+Codes expire after five minutes and allow
+a limited number of attempts.
+
+157
+00:10:59,097 --> 00:11:03,657
+For an incorrect training code, correct
+the entry instead of repeatedly submitting
+
+158
+00:11:03,657 --> 00:11:05,026
+guesses.
+
+159
+00:11:05,026 --> 00:11:09,871
+Use Change choices if the selected
+purposes need changing, then obtain a new
+
+160
+00:11:09,871 --> 00:11:11,276
+challenge.
+
+161
+00:11:11,276 --> 00:11:16,002
+A code for an earlier notice or different
+purposes must not be reused for the new
+
+162
+00:11:16,002 --> 00:11:17,307
+choice.
+
+163
+00:11:18,017 --> 00:11:22,990
+A network timeout may happen after a
+server has accepted an operation.
+
+164
+00:11:22,990 --> 00:11:27,574
+If the screen offers Retry the same
+operation, keep the same request intact
+
+165
+00:11:27,574 --> 00:11:30,217
+and use that recovery action.
+
+166
+00:11:30,217 --> 00:11:34,300
+Avoid double-clicking, changing the form
+and treating a retry as a new
+
+167
+00:11:34,300 --> 00:11:35,955
+registration.
+
+168
+00:11:35,955 --> 00:11:41,276
+Refresh the authorised patient view to
+reconcile the result when instructed.
+
+169
+00:11:41,276 --> 00:11:46,062
+If the outcome remains unclear, contact
+support before recording contradictory
+
+170
+00:11:46,062 --> 00:11:47,509
+choices.
+
+171
+00:11:48,225 --> 00:11:53,105
+After verification, return to Patient
+consent profile and find Signed consent
+
+172
+00:11:53,105 --> 00:11:54,532
+receipts.
+
+173
+00:11:54,532 --> 00:12:00,139
+Choose Download patient receipt (PDF) for
+the relevant purpose and event.
+
+174
+00:12:00,139 --> 00:12:04,567
+A grant, a change and a withdrawal can
+have different receipts.
+
+175
+00:12:04,567 --> 00:12:08,853
+Check that you selected the correct row
+before handing over a copy.
+
+176
+00:12:08,853 --> 00:12:13,782
+Store downloaded documents securely;
+authorised access to a download is not
+
+177
+00:12:13,782 --> 00:12:17,045
+permission to leave it on a shared
+desktop.
+
+178
+00:12:17,767 --> 00:12:23,005
+The PDF shows Your recorded choice,
+Purpose, Recorded on, notice information
+
+179
+00:12:23,005 --> 00:12:25,193
+and a receipt reference.
+
+180
+00:12:25,193 --> 00:12:29,252
+Patient name is labelled as the current
+hospital record.
+
+181
+00:12:29,252 --> 00:12:32,931
+The notice language belongs to the
+recorded event.
+
+182
+00:12:32,931 --> 00:12:38,038
+Read Check the latest status: a historical
+grant does not guarantee that permission
+
+183
+00:12:38,038 --> 00:12:39,788
+is active now.
+
+184
+00:12:39,788 --> 00:12:44,943
+The QR opens a status check; the printable
+summary is not itself a newly signed
+
+185
+00:12:44,943 --> 00:12:47,116
+clinical consent form.
+
+186
+00:12:47,850 --> 00:12:53,516
+Technical verification details contains
+Download verification data (JSON) and Copy
+
+187
+00:12:53,516 --> 00:12:56,133
+signed token for audit tools.
+
+188
+00:12:56,133 --> 00:13:01,323
+Export consent data (JSON) is a separate
+profile export containing personal
+
+189
+00:13:01,323 --> 00:13:02,966
+information.
+
+190
+00:13:02,966 --> 00:13:08,038
+For a public check, open Check a receipt,
+paste the signed token or use Scan QR
+
+191
+00:13:08,038 --> 00:13:10,823
+image, then choose Check receipt.
+
+192
+00:13:10,823 --> 00:13:15,680
+Valid signature describes cryptographic
+verification; also read withdrawal,
+
+193
+00:13:15,680 --> 00:13:20,655
+superseded and key-status information
+before interpreting the result.
+
+194
+00:13:21,392 --> 00:13:25,832
+For staff-assisted withdrawal, open
+Patient consent profile and locate the
+
+195
+00:13:25,832 --> 00:13:29,222
+granted purpose the patient wants to
+withdraw.
+
+196
+00:13:29,222 --> 00:13:31,663
+Select its Withdraw button.
+
+197
+00:13:31,663 --> 00:13:36,972
+Verify the displayed patient and purpose,
+record Patient identity verification or
+
+198
+00:13:36,972 --> 00:13:42,342
+request reference under the approved
+procedure, and select Confirm withdrawal.
+
+199
+00:13:42,342 --> 00:13:47,115
+This is selective: withdrawing insurance
+permission does not withdraw every other
+
+200
+00:13:47,115 --> 00:13:48,496
+purpose.
+
+201
+00:13:48,496 --> 00:13:53,127
+Patients with existing verified accounts
+can also withdraw remotely themselves,
+
+202
+00:13:53,127 --> 00:13:58,496
+without coming to hospital or supplying a
+new consent OTP; the patient chapter shows
+
+203
+00:13:58,496 --> 00:14:00,004
+that route.
+
+204
+00:14:00,725 --> 00:14:04,820
+Wait for the withdrawal confirmation, then
+check that the intended purpose is
+
+205
+00:14:04,820 --> 00:14:08,996
+Withdrawn while unrelated choices remain
+as expected.
+
+206
+00:14:08,996 --> 00:14:13,246
+A new withdrawal receipt should appear in
+the receipt history.
+
+207
+00:14:13,246 --> 00:14:17,686
+The message also explains that downstream
+enforcement and legal retention need
+
+208
+00:14:17,686 --> 00:14:18,948
+review.
+
+209
+00:14:18,948 --> 00:14:23,901
+Do not promise that a laboratory, insurer
+or other system has stopped processing
+
+210
+00:14:23,901 --> 00:14:27,745
+just because the local status changed
+successfully.
+
+211
+00:14:28,475 --> 00:14:32,246
+Select Patient directory or Consent
+register.
+
+212
+00:14:32,246 --> 00:14:36,865
+Use Find patient by name or hospital
+number, enter the training name or
+
+213
+00:14:36,865 --> 00:14:39,889
+hospital number, then choose Search.
+
+214
+00:14:39,889 --> 00:14:43,365
+Previous and Next move through result
+pages.
+
+215
+00:14:43,365 --> 00:14:47,508
+Open the matching patient only after
+checking identity.
+
+216
+00:14:47,508 --> 00:14:52,734
+In Patient consent profile, review the
+masked contact, notice language, purpose
+
+217
+00:14:52,734 --> 00:14:54,865
+statuses and history.
+
+218
+00:14:54,865 --> 00:14:59,335
+Similar names are not enough to establish
+the correct patient.
+
+219
+00:15:00,058 --> 00:15:05,105
+An account may be unable to find or open a
+patient because the record is outside its
+
+220
+00:15:05,105 --> 00:15:08,138
+hospital, branch or assignment.
+
+221
+00:15:08,138 --> 00:15:12,758
+Treat that denial as an access boundary,
+not a browser fault.
+
+222
+00:15:12,758 --> 00:15:17,317
+Patient linking and staff assignments
+require hospital-controlled provisioning;
+
+223
+00:15:17,317 --> 00:15:21,246
+this interface has no general Assign
+patient button.
+
+224
+00:15:21,246 --> 00:15:24,936
+Ask the authorised team to review the
+relationship.
+
+225
+00:15:24,936 --> 00:15:28,615
+Never ask another person to share their
+session.
+
+226
+00:15:29,350 --> 00:15:33,300
+Open Data sharing and choose Record
+sharing approval.
+
+227
+00:15:33,300 --> 00:15:36,323
+Find and select the correct patient.
+
+228
+00:15:36,323 --> 00:15:41,038
+Enter Recipient organisation, choose
+Purpose and Minimum data category, and
+
+229
+00:15:41,038 --> 00:15:44,978
+record Recipient-specific patient approval
+evidence.
+
+230
+00:15:44,978 --> 00:15:49,407
+Review the expiry explanation, then use
+Save record.
+
+231
+00:15:49,407 --> 00:15:54,335
+This register records an approval; it does
+not transmit reports.
+
+232
+00:15:54,335 --> 00:15:58,859
+A general registration OTP does not
+authorise disclosure to whichever
+
+233
+00:15:58,859 --> 00:16:02,155
+recipient happens to request the
+information.
+
+234
+00:16:02,892 --> 00:16:07,689
+A clinician with the appropriate patient
+scope opens Procedure records and chooses
+
+235
+00:16:07,689 --> 00:16:10,175
+Record procedure evidence.
+
+236
+00:16:10,175 --> 00:16:15,139
+Select the patient, enter Procedure and
+Responsible clinician, then add the Signed
+
+237
+00:16:15,139 --> 00:16:18,865
+clinical consent and witness evidence
+reference.
+
+238
+00:16:18,865 --> 00:16:22,758
+Use Save record after reviewing the source
+document.
+
+239
+00:16:22,758 --> 00:16:25,496
+This action stores a reference.
+
+240
+00:16:25,496 --> 00:16:30,544
+It does not create a patient signature,
+witness signature or clinically adequate
+
+241
+00:16:30,544 --> 00:16:33,369
+consent document on its own.
+
+242
+00:16:34,100 --> 00:16:38,954
+For a child, check the date of birth and
+the Guardian for consent section.
+
+243
+00:16:38,954 --> 00:16:42,478
+Use Add verified guardian when
+appropriate.
+
+244
+00:16:42,478 --> 00:16:47,454
+Record the guardian's identity, date of
+birth, relationship and mobile number,
+
+245
+00:16:47,454 --> 00:16:52,692
+then choose How identity was verified and
+enter Verification reference.
+
+246
+00:16:52,692 --> 00:16:56,954
+Confirm the in-person authority
+attestation only after the hospital's
+
+247
+00:16:56,954 --> 00:16:59,014
+checks are complete.
+
+248
+00:16:59,014 --> 00:17:02,560
+Never enter a full Aadhaar number as the
+reference.
+
+249
+00:17:03,267 --> 00:17:07,814
+The active guardian panel identifies who
+is giving consent and which contact
+
+250
+00:17:07,814 --> 00:17:09,633
+receives the code.
+
+251
+00:17:09,633 --> 00:17:13,419
+Review these details before generating a
+challenge.
+
+252
+00:17:13,419 --> 00:17:18,264
+The child's purpose options may be
+restricted, including marketing.
+
+253
+00:17:18,264 --> 00:17:23,359
+Do not bypass those restrictions or assume
+the software applies every healthcare
+
+254
+00:17:23,359 --> 00:17:25,800
+exemption automatically.
+
+255
+00:17:25,800 --> 00:17:30,371
+When the child reaches adulthood, guardian
+authority and patient access need the
+
+256
+00:17:30,371 --> 00:17:34,752
+hospital's approved handover and
+identity-review process.
+
+257
+00:17:35,475 --> 00:17:40,296
+For an adult, record a lawful guardian
+only where verified legal authority
+
+258
+00:17:40,296 --> 00:17:44,663
+applies; disability by itself is not
+sufficient.
+
+259
+00:17:44,663 --> 00:17:49,758
+The form offers appropriate court-order or
+guardianship evidence methods.
+
+260
+00:17:49,758 --> 00:17:53,853
+Replace guardian starts a new verified
+relationship.
+
+261
+00:17:53,853 --> 00:17:58,901
+Revoke guardian requires a reason and
+affects future consent collection.
+
+262
+00:17:58,901 --> 00:18:03,377
+It does not silently cancel every consent
+already given.
+
+263
+00:18:03,377 --> 00:18:09,047
+Review the guardian history after either
+action and escalate uncertain authority.
+
+264
+00:18:09,767 --> 00:18:14,147
+A verified patient activates a
+hospital-controlled account, chooses a
+
+265
+00:18:14,147 --> 00:18:19,728
+private password, then signs in with the
+hospital and patient account ID.
+
+266
+00:18:19,728 --> 00:18:24,514
+The portal opens Your privacy choices and
+Your hospital-linked record.
+
+267
+00:18:24,514 --> 00:18:29,228
+Check the identity before continuing; this
+is not a phone-number search or open
+
+268
+00:18:29,228 --> 00:18:31,478
+self-enrolment service.
+
+269
+00:18:31,478 --> 00:18:35,228
+Activation does not itself sign the person
+in.
+
+270
+00:18:35,228 --> 00:18:40,288
+The later access chapter demonstrates
+private handover, activation, recovery and
+
+271
+00:18:40,288 --> 00:18:44,707
+the difference between a consent OTP and
+an account credential.
+
+272
+00:18:45,433 --> 00:18:49,656
+Under Your data requests, choose Send a
+data request.
+
+273
+00:18:49,656 --> 00:18:55,918
+Request type offers Access, Correction,
+Erasure review, Grievance and Nomination.
+
+274
+00:18:55,918 --> 00:19:00,775
+Select the appropriate type, explain What
+would you like the hospital to do, then
+
+275
+00:19:00,775 --> 00:19:02,883
+choose Send request.
+
+276
+00:19:02,883 --> 00:19:07,013
+Use a separate, clear request for a
+different issue.
+
+277
+00:19:07,013 --> 00:19:12,240
+Submission sends work to the privacy team;
+it does not immediately correct a record,
+
+278
+00:19:12,240 --> 00:19:16,102
+erase clinical information or approve a
+nominee.
+
+279
+00:19:16,808 --> 00:19:21,534
+Choose Read request and response to
+inspect the hospital's recorded status and
+
+280
+00:19:21,534 --> 00:19:23,388
+response target.
+
+281
+00:19:23,388 --> 00:19:26,769
+Refresh my records retrieves updates.
+
+282
+00:19:26,769 --> 00:19:31,234
+To withdraw an active permission, choose
+Withdraw, check Withdraw this permission
+
+283
+00:19:31,234 --> 00:19:34,031
+and confirm with Withdraw permission.
+
+284
+00:19:34,031 --> 00:19:40,115
+An existing verified patient account needs
+no hospital visit, new consent OTP, reason
+
+285
+00:19:40,115 --> 00:19:43,246
+field or staff approval for this action.
+
+286
+00:19:43,246 --> 00:19:46,877
+Review Action in connected systems
+afterwards.
+
+287
+00:19:46,877 --> 00:19:51,079
+Local withdrawal, delivery
+acknowledgement, receiver statements and
+
+288
+00:19:51,079 --> 00:19:55,493
+independent enforcement verification
+remain different facts.
+
+289
+00:19:56,225 --> 00:20:00,460
+Staff can receive requests outside the
+patient portal.
+
+290
+00:20:00,460 --> 00:20:03,794
+In Patient rights, choose New request.
+
+291
+00:20:03,794 --> 00:20:08,294
+Search for and select the verified
+patient, choose Request type and enter
+
+292
+00:20:08,294 --> 00:20:10,175
+Request details.
+
+293
+00:20:10,175 --> 00:20:15,448
+Record Identity verification / request
+reference, then Save record.
+
+294
+00:20:15,448 --> 00:20:19,008
+The same five request types are available.
+
+295
+00:20:19,008 --> 00:20:23,389
+Reception may record the intake, but
+privacy-team permission is required to
+
+296
+00:20:23,389 --> 00:20:26,557
+fulfil it or make a retention decision.
+
+297
+00:20:27,267 --> 00:20:32,526
+Open Patient rights, locate the Access
+case and choose Review request.
+
+298
+00:20:32,526 --> 00:20:37,347
+Read Request history, identity evidence
+and the service target.
+
+299
+00:20:37,347 --> 00:20:41,907
+Download data summary creates a protected
+export for the authorised response
+
+300
+00:20:41,907 --> 00:20:43,395
+process.
+
+301
+00:20:43,395 --> 00:20:49,109
+In Fulfil request, enter How the summary
+was provided and any Internal notes.
+
+302
+00:20:49,109 --> 00:20:54,717
+Select Fulfil request only after providing
+the response through the approved channel.
+
+303
+00:20:54,717 --> 00:20:58,252
+Reopen the request to review the saved
+result.
+
+304
+00:20:58,252 --> 00:21:02,399
+A downloaded file alone is not evidence of
+delivery.
+
+305
+00:21:03,100 --> 00:21:07,885
+For a Correction case, open the request
+and verify the requested change against
+
+306
+00:21:07,885 --> 00:21:09,895
+hospital evidence.
+
+307
+00:21:09,895 --> 00:21:14,609
+Under Corrected values, complete only the
+fields that should change; leave the
+
+308
+00:21:14,609 --> 00:21:16,359
+others blank.
+
+309
+00:21:16,359 --> 00:21:21,680
+Review the proposed name, contact, date of
+birth or language carefully, then use
+
+310
+00:21:21,680 --> 00:21:23,597
+Fulfil request.
+
+311
+00:21:23,597 --> 00:21:28,466
+If more evidence is needed, use Update
+status and Awaiting information instead of
+
+312
+00:21:28,466 --> 00:21:29,811
+guessing.
+
+313
+00:21:29,811 --> 00:21:33,000
+Review the request history after saving.
+
+314
+00:21:33,725 --> 00:21:38,379
+Open the Erasure review request and read
+the existing patient state and Legal
+
+315
+00:21:38,379 --> 00:21:39,675
+holds.
+
+316
+00:21:39,675 --> 00:21:45,032
+Under Decision, choose Erase personal data
+or Refuse with legal basis only after
+
+317
+00:21:45,032 --> 00:21:48,175
+reviewing the applicable records policy.
+
+318
+00:21:48,175 --> 00:21:51,591
+If refusing, record the Legal basis.
+
+319
+00:21:51,591 --> 00:21:54,936
+Use Fulfil request to apply the decision.
+
+320
+00:21:54,936 --> 00:21:59,341
+The system may schedule anonymisation
+after required retention instead of
+
+321
+00:21:59,341 --> 00:22:04,250
+deleting immediately, and downstream
+obligations remain separate.
+
+322
+00:22:04,975 --> 00:22:09,520
+In an authorised rights-request detail,
+find Legal holds.
+
+323
+00:22:09,520 --> 00:22:14,496
+Record Reason and Legal basis, then use
+Place legal hold when preservation is
+
+324
+00:22:14,496 --> 00:22:16,032
+justified.
+
+325
+00:22:16,032 --> 00:22:20,829
+To release an active hold, select Release
+hold and use the visible release form to
+
+326
+00:22:20,829 --> 00:22:23,460
+record the accountable reason.
+
+327
+00:22:23,460 --> 00:22:27,663
+Confirm the action and verify that the
+hold is released, including when the
+
+328
+00:22:27,663 --> 00:22:30,317
+request is already completed.
+
+329
+00:22:30,317 --> 00:22:33,234
+Cancelling the form releases nothing.
+
+330
+00:22:33,234 --> 00:22:38,234
+A released hold does not itself authorise
+erasing every record; recheck the
+
+331
+00:22:38,234 --> 00:22:41,067
+retention and request decisions.
+
+332
+00:22:41,808 --> 00:22:46,153
+Open the Grievance case, read the
+patient's concern and check the published
+
+333
+00:22:46,153 --> 00:22:48,019
+response target.
+
+334
+00:22:48,019 --> 00:22:52,888
+In Fulfil request, enter Response,
+retention decision and fulfilment evidence
+
+335
+00:22:52,888 --> 00:22:57,412
+with a clear explanation of what was
+investigated and decided.
+
+336
+00:22:57,412 --> 00:23:02,269
+If the issue is still being investigated,
+Update status can record In review or
+
+337
+00:23:02,269 --> 00:23:04,305
+Awaiting information.
+
+338
+00:23:04,305 --> 00:23:08,865
+Do not label an unresolved complaint
+complete just to meet an internal
+
+339
+00:23:08,865 --> 00:23:10,820
+dashboard target.
+
+340
+00:23:11,558 --> 00:23:16,236
+For Nomination, verify the patient's
+instructions and complete Nominee name,
+
+341
+00:23:16,236 --> 00:23:22,138
+Relationship, Nominee mobile number and
+Identity verification / request reference.
+
+342
+00:23:22,138 --> 00:23:25,841
+Use Fulfil request after the required
+checks.
+
+343
+00:23:25,841 --> 00:23:29,436
+The nominee appears in Nominees with a
+status.
+
+344
+00:23:29,436 --> 00:23:33,400
+Revoke nomination asks for identity
+evidence.
+
+345
+00:23:33,400 --> 00:23:38,615
+Naming a nominee does not give that person
+an unrestricted staff account or automatic
+
+346
+00:23:38,615 --> 00:23:42,323
+access to the patient's entire hospital
+record.
+
+347
+00:23:43,058 --> 00:23:46,936
+Select Incident response, then Log an
+incident.
+
+348
+00:23:46,936 --> 00:23:52,603
+Enter Incident title, the actual time the
+hospital became aware, and Nature, scope,
+
+349
+00:23:52,603 --> 00:23:55,412
+likely impact and containment.
+
+350
+00:23:55,412 --> 00:23:59,258
+Check the computer's timezone before
+entering time.
+
+351
+00:23:59,258 --> 00:24:04,900
+After saving, open Breach workflow and
+complete Assessment: nature, extent,
+
+352
+00:24:04,900 --> 00:24:10,996
+timing, location, impact, consequences,
+mitigation and safety measures.
+
+353
+00:24:10,996 --> 00:24:13,305
+Choose Save assessment.
+
+354
+00:24:13,305 --> 00:24:18,310
+Do not substitute the time you opened this
+screen for earlier awareness.
+
+355
+00:24:19,017 --> 00:24:23,778
+Review Initial intimation to the Board and
+use Preview message before Send initial
+
+356
+00:24:23,778 --> 00:24:25,324
+intimation.
+
+357
+00:24:25,324 --> 00:24:30,526
+In this training workspace, the notifier
+logs a simulated message; it does not
+
+358
+00:24:30,526 --> 00:24:32,395
+contact the Board.
+
+359
+00:24:32,395 --> 00:24:37,728
+Add the Hospital numbers of affected
+patients using Add affected patients.
+
+360
+00:24:37,728 --> 00:24:43,038
+Review the affected list and patient
+notice preview before Notify patients.
+
+361
+00:24:43,038 --> 00:24:47,312
+Failed or unreachable notices need
+follow-up, not an assumption that
+
+362
+00:24:47,312 --> 00:24:49,374
+everybody was told.
+
+363
+00:24:50,100 --> 00:24:54,647
+Open Detailed report to the Board and
+complete the updated description, relevant
+
+364
+00:24:54,647 --> 00:24:58,883
+facts, mitigation, findings and remedial
+measures.
+
+365
+00:24:58,883 --> 00:25:03,216
+Check the assessment and patient-notice
+information before choosing Send detailed
+
+366
+00:25:03,216 --> 00:25:05,526
+report and confirming.
+
+367
+00:25:05,526 --> 00:25:09,395
+This training action records a simulated
+report.
+
+368
+00:25:09,395 --> 00:25:14,204
+The seventy-two-hour deadline concerns the
+detailed report; initial intimation is
+
+369
+00:25:14,204 --> 00:25:15,883
+without delay.
+
+370
+00:25:15,883 --> 00:25:21,032
+CERT-In reporting is a separate process,
+not completed by this screen.
+
+371
+00:25:21,767 --> 00:25:26,862
+Before closing a report, Board extension
+can record an extension already granted in
+
+372
+00:25:26,862 --> 00:25:28,252
+writing.
+
+373
+00:25:28,252 --> 00:25:33,145
+Enter Extended deadline and Board
+reference, then Record extension.
+
+374
+00:25:33,145 --> 00:25:38,419
+To document communication outside this
+app, select Record evidence of intimations
+
+375
+00:25:38,419 --> 00:25:40,764
+made outside the system.
+
+376
+00:25:40,764 --> 00:25:44,478
+Enter the Board references and
+affected-person evidence, then Save
+
+377
+00:25:44,478 --> 00:25:45,836
+record.
+
+378
+00:25:45,836 --> 00:25:49,824
+Use clearly labelled synthetic references
+in training.
+
+379
+00:25:49,824 --> 00:25:54,284
+Never invent a regulator approval or a
+delivery confirmation.
+
+380
+00:25:55,017 --> 00:26:00,383
+In Readiness & settings, find Retention
+and erasure and choose Add policy.
+
+381
+00:26:00,383 --> 00:26:06,217
+Enter Policy name, Applies to, Retention
+period, Notice before erasure and Legal or
+
+382
+00:26:06,217 --> 00:26:08,062
+records basis.
+
+383
+00:26:08,062 --> 00:26:11,717
+Policy is active controls whether it runs.
+
+384
+00:26:11,717 --> 00:26:15,859
+Save policy only after hospital records
+review.
+
+385
+00:26:15,859 --> 00:26:20,455
+The demo's minimums and inactivity
+workflow are not universal medical-record
+
+386
+00:26:20,455 --> 00:26:26,309
+retention advice, and statutory holds or
+other required retention still apply.
+
+387
+00:26:27,017 --> 00:26:32,967
+Review Scheduled erasures, Erasure notices
+and Recent runs before using Run now.
+
+388
+00:26:32,967 --> 00:26:39,252
+That action can carry out due erasures;
+practise only on the synthetic exercise.
+
+389
+00:26:39,252 --> 00:26:44,014
+Cancel erasure asks why the schedule
+should stop, such as verified patient
+
+390
+00:26:44,014 --> 00:26:45,455
+contact.
+
+391
+00:26:45,455 --> 00:26:49,824
+A hold or patient-contact change can
+affect eligibility.
+
+392
+00:26:49,824 --> 00:26:55,217
+After a run, inspect notified, failed,
+held and cancelled counts, remembering
+
+393
+00:26:55,217 --> 00:26:58,742
+that a logged notice is not handset
+delivery.
+
+394
+00:26:59,475 --> 00:27:04,165
+A privacy author opens Readiness &
+settings, then Notice publication and
+
+395
+00:27:04,165 --> 00:27:06,377
+Create notice version.
+
+396
+00:27:06,377 --> 00:27:12,079
+Enter Version reference, Patient notice
+language, title, hospital privacy contact,
+
+397
+00:27:12,079 --> 00:27:15,270
+full text and confirmation statement.
+
+398
+00:27:15,270 --> 00:27:20,829
+Complete the withdrawal, rights, grievance
+and complaint information URLs.
+
+399
+00:27:20,829 --> 00:27:25,675
+Select only the consent purposes being
+published and enter their names, data,
+
+400
+00:27:25,675 --> 00:27:27,972
+uses and categories.
+
+401
+00:27:27,972 --> 00:27:32,087
+Create the version, then expand it and
+Submit for review.
+
+402
+00:27:32,808 --> 00:27:36,734
+Sign in as a different authorised privacy
+reviewer.
+
+403
+00:27:36,734 --> 00:27:41,710
+Expand the In review version and read the
+complete content, purpose definitions and
+
+404
+00:27:41,710 --> 00:27:43,865
+communication channels.
+
+405
+00:27:43,865 --> 00:27:48,258
+Enter Legal review reference and Language
+and audio review reference; where audio
+
+406
+00:27:48,258 --> 00:27:51,984
+metadata exists, review its reference too.
+
+407
+00:27:51,984 --> 00:27:56,638
+Tick the independent-review attestation
+only after checking the actual evidence,
+
+408
+00:27:56,638 --> 00:27:59,377
+then choose Approve reviewed version.
+
+409
+00:27:59,377 --> 00:28:02,780
+The author cannot approve their own
+document.
+
+410
+00:28:03,517 --> 00:28:08,493
+An authorised hospital administrator opens
+the Approved notice version and selects
+
+411
+00:28:08,493 --> 00:28:10,121
+Publish now.
+
+412
+00:28:10,121 --> 00:28:15,097
+Publication is for that exact hospital and
+language; its current role does not
+
+413
+00:28:15,097 --> 00:28:17,883
+directly read patient records.
+
+414
+00:28:17,883 --> 00:28:23,300
+Directory administration remains a
+separately trusted identity function.
+
+415
+00:28:23,300 --> 00:28:27,312
+Notice changes require another version and
+review.
+
+416
+00:28:27,312 --> 00:28:31,990
+To retire an effective version, enter
+Reason for retirement and select Retire
+
+417
+00:28:31,990 --> 00:28:33,312
+version.
+
+418
+00:28:33,312 --> 00:28:37,943
+Without a replacement, that language's
+consent collection becomes unavailable
+
+419
+00:28:37,943 --> 00:28:41,722
+instead of silently reverting to an older
+notice.
+
+420
+00:28:42,433 --> 00:28:47,290
+Platform administration can use Add
+hospital to create a hospital identifier,
+
+421
+00:28:47,290 --> 00:28:50,609
+name, short code and first branch.
+
+422
+00:28:50,609 --> 00:28:55,418
+A hospital administrator operates within
+the selected hospital under Hospitals and
+
+423
+00:28:55,418 --> 00:28:56,835
+accounts.
+
+424
+00:28:56,835 --> 00:29:01,359
+Add branch accepts a branch identifier and
+Branch name.
+
+425
+00:29:01,359 --> 00:29:04,442
+Verify the hospital before saving.
+
+426
+00:29:04,442 --> 00:29:08,406
+Activate and Deactivate change
+availability; they do not remove
+
+427
+00:29:08,406 --> 00:29:13,342
+historical records or transfer patient
+data to another hospital.
+
+428
+00:29:14,058 --> 00:29:19,260
+Under Accounts, Add account creates a
+synthetic staff learner with Email, Role,
+
+429
+00:29:19,260 --> 00:29:22,019
+Branch and Temporary password.
+
+430
+00:29:22,019 --> 00:29:28,079
+Patient accounts use the separate verified
+patient-access workflow, not this form.
+
+431
+00:29:28,079 --> 00:29:33,900
+Staff controls include role Save, Set
+password, Unlock, Reset authenticator,
+
+432
+00:29:33,900 --> 00:29:36,341
+Activate and Deactivate.
+
+433
+00:29:36,341 --> 00:29:40,103
+Treat these as high-trust identity
+operations.
+
+434
+00:29:40,103 --> 00:29:44,329
+A directory manager can provision a
+privacy officer or reset staff
+
+435
+00:29:44,329 --> 00:29:49,031
+credentials, so this build does not
+establish strong separation from patient
+
+436
+00:29:49,031 --> 00:29:50,496
+authority.
+
+437
+00:29:50,496 --> 00:29:55,838
+Follow approved appointment, verification
+and access-review procedures.
+
+438
+00:29:56,558 --> 00:30:01,867
+Authenticator policy lets an administrator
+select a Role, set Require authenticator
+
+439
+00:30:01,867 --> 00:30:03,662
+and choose Save.
+
+440
+00:30:03,662 --> 00:30:08,722
+Plan enrolment and recovery support before
+enforcing a requirement.
+
+441
+00:30:08,722 --> 00:30:13,293
+Notice delivery lists queued or attempted
+notifications with their provider and
+
+442
+00:30:13,293 --> 00:30:14,698
+status.
+
+443
+00:30:14,698 --> 00:30:19,210
+A log provider is simulation, not an SMS
+receipt.
+
+444
+00:30:19,210 --> 00:30:24,496
+Administrative resets and policy changes
+belong in the access review; they do not
+
+445
+00:30:24,496 --> 00:30:29,867
+establish that the hospital has completed
+production identity qualification.
+
+446
+00:30:30,600 --> 00:30:35,014
+Receipt signing keys is a separate
+administrator control.
+
+447
+00:30:35,014 --> 00:30:38,764
+Read the listed key states and Public keys
+link.
+
+448
+00:30:38,764 --> 00:30:43,133
+Only an approved key operator should use
+Rotate signing key.
+
+449
+00:30:43,133 --> 00:30:48,276
+Rotation retires the previous key; Revoke
+accepts a retired key and requires a
+
+450
+00:30:48,276 --> 00:30:49,621
+Reason.
+
+451
+00:30:49,621 --> 00:30:53,335
+Revocation changes verification outcomes.
+
+452
+00:30:53,335 --> 00:30:57,835
+Practise only in the disposable training
+hospital, following the key-management
+
+453
+00:30:57,835 --> 00:31:02,589
+runbook, and never treat rotation as a
+routine reception task.
+
+454
+00:31:03,308 --> 00:31:07,867
+An auditor opens Audit trail to inspect
+actions within their authorised hospital
+
+455
+00:31:07,867 --> 00:31:09,138
+scope.
+
+456
+00:31:09,138 --> 00:31:13,793
+Review Actor, time and record references,
+then choose Inspect evidence for the
+
+457
+00:31:13,793 --> 00:31:15,615
+relevant event.
+
+458
+00:31:15,615 --> 00:31:19,924
+Read what the event actually records
+instead of assuming it proves every
+
+459
+00:31:19,924 --> 00:31:21,841
+external outcome.
+
+460
+00:31:21,841 --> 00:31:26,400
+Auditors do not receive general
+patient-directory or edit access merely
+
+461
+00:31:26,400 --> 00:31:29,543
+because they can inspect audit evidence.
+
+462
+00:31:29,543 --> 00:31:33,833
+Handle exported or displayed evidence as
+confidential.
+
+463
+00:31:34,558 --> 00:31:39,900
+Choose Verify local chain and read the
+result and number of events checked.
+
+464
+00:31:39,900 --> 00:31:45,329
+A successful result means the available
+local chain is internally consistent.
+
+465
+00:31:45,329 --> 00:31:50,055
+It does not independently protect against
+every privileged database rewrite or
+
+466
+00:31:50,055 --> 00:31:51,638
+missing tail.
+
+467
+00:31:51,638 --> 00:31:55,436
+Independent signed checkpoints and
+separately controlled storage remain
+
+468
+00:31:55,436 --> 00:31:57,269
+production work.
+
+469
+00:31:57,269 --> 00:32:02,258
+Preserve evidence and escalate a failed
+check; do not delete or recreate records
+
+470
+00:32:02,258 --> 00:32:04,818
+to make the result turn green.
+
+471
+00:32:05,558 --> 00:32:10,486
+In Readiness & settings, inspect Consent
+propagation webhooks, Subscribers and
+
+472
+00:32:10,486 --> 00:32:12,008
+Deliveries.
+
+473
+00:32:12,008 --> 00:32:16,579
+Delivery status filters pending, delivered
+and dead-letter work.
+
+474
+00:32:16,579 --> 00:32:21,829
+Approved non-public environments can
+expose Add subscriber, Dispatch now and
+
+475
+00:32:21,829 --> 00:32:26,817
+Retry; the public synthetic demo disables
+outbound webhooks.
+
+476
+00:32:26,817 --> 00:32:31,650
+Do not demonstrate a real receiver or
+reveal a signing secret.
+
+477
+00:32:31,650 --> 00:32:37,450
+Delivered describes transport, not proof
+that the recipient stopped using data.
+
+478
+00:32:38,183 --> 00:32:43,647
+Delivery operations now provides a visible
+Processors and outbox view for transport,
+
+479
+00:32:43,647 --> 00:32:47,775
+current or stale receiver statements and
+operator review.
+
+480
+00:32:47,775 --> 00:32:52,656
+Processor registration, contract binding
+and authenticated callback integration
+
+481
+00:32:52,656 --> 00:32:55,454
+remain technical responsibilities.
+
+482
+00:32:55,454 --> 00:32:59,573
+A receiver-attested result is the
+receiver's statement, not independent
+
+483
+00:32:59,573 --> 00:33:02,025
+proof that processing stopped.
+
+484
+00:33:02,025 --> 00:33:07,263
+An older acknowledgement does not
+establish the current withdrawal outcome.
+
+485
+00:33:07,263 --> 00:33:11,680
+Use the delivery chapter for visible
+reconciliation controls and ask the
+
+486
+00:33:11,680 --> 00:33:16,292
+integration owner to resolve actual
+downstream enforcement.
+
+487
+00:33:17,017 --> 00:33:22,717
+The managed edge feature buffers prepared
+staff-assisted withdrawal intents only.
+
+488
+00:33:22,717 --> 00:33:27,526
+It needs a qualified local node and an
+online, short-lived capability prepared
+
+489
+00:33:27,526 --> 00:33:29,050
+beforehand.
+
+490
+00:33:29,050 --> 00:33:35,312
+Hospital IT operates its APIs; this GUI
+has no offline capture switch.
+
+491
+00:33:35,312 --> 00:33:39,609
+A locally buffered intent is not yet a
+central withdrawal.
+
+492
+00:33:39,609 --> 00:33:44,276
+Stale revisions, revoked access, full
+storage or missing tickets require
+
+493
+00:33:44,276 --> 00:33:49,633
+reconciliation or the approved downtime
+process, never automatic offline grants or
+
+494
+00:33:49,633 --> 00:33:52,149
+expired OTP replay.
+
+495
+00:33:52,850 --> 00:33:57,778
+A patient may have no private phone, share
+a family phone, need communication
+
+496
+00:33:57,778 --> 00:34:01,085
+support, or require emergency care.
+
+497
+00:34:01,085 --> 00:34:05,502
+The current app records contact
+preferences, signed-paper or independently
+
+498
+00:34:05,502 --> 00:34:10,621
+witnessed data consent, and separate
+emergency processing records.
+
+499
+00:34:10,621 --> 00:34:15,526
+Those workflows do not create verified
+representative authority or replace
+
+500
+00:34:15,526 --> 00:34:18,061
+clinical procedure consent.
+
+501
+00:34:18,061 --> 00:34:23,061
+Use hospital-approved evidence and
+assistance; do not invent contact details
+
+502
+00:34:23,061 --> 00:34:25,895
+or reuse another person's code.
+
+503
+00:34:25,895 --> 00:34:30,050
+Emergency care must not wait for OTP
+completion.
+
+504
+00:34:30,050 --> 00:34:34,535
+The reception chapter demonstrates the
+available alternatives.
+
+505
+00:34:35,267 --> 00:34:39,324
+Internet loss differs from loss of the
+hospital server.
+
+506
+00:34:39,324 --> 00:34:44,228
+A healthy local server may remain
+available on the LAN, while SMS or cloud
+
+507
+00:34:44,228 --> 00:34:46,026
+services fail.
+
+508
+00:34:46,026 --> 00:34:50,836
+If the server is unreachable, an ordinary
+browser save is not automatically
+
+509
+00:34:50,836 --> 00:34:52,181
+buffered.
+
+510
+00:34:52,181 --> 00:34:57,026
+Check the displayed error, preserve only
+approved references and use the agreed
+
+511
+00:34:57,026 --> 00:34:59,050
+downtime procedure.
+
+512
+00:34:59,050 --> 00:35:03,943
+Do not repeatedly create records or claim
+a save succeeded without a durable
+
+513
+00:35:03,943 --> 00:35:05,696
+acknowledgement.
+
+514
+00:35:06,433 --> 00:35:11,873
+Before finishing, review overdue requests,
+unresolved delivery failures, withdrawn
+
+515
+00:35:11,873 --> 00:35:17,216
+purposes needing follow-up and any
+scheduled erasures or open incidents.
+
+516
+00:35:17,216 --> 00:35:21,633
+Hand over responsibilities and evidence
+references through the hospital's approved
+
+517
+00:35:21,633 --> 00:35:22,918
+channel.
+
+518
+00:35:22,918 --> 00:35:27,799
+Secure patient PDFs and exports, clear
+shared-device documents according to
+
+519
+00:35:27,799 --> 00:35:30,644
+policy and select Sign out.
+
+520
+00:35:30,644 --> 00:35:34,299
+Do not leave an account open for the next
+shift.
+
+521
+00:35:34,299 --> 00:35:39,693
+Return to the relevant chapter whenever a
+workflow or permission is uncertain.
+
+522
+00:35:40,433 --> 00:35:45,706
+A privacy officer opens the correct adult
+patient profile and expands Patient portal
+
+523
+00:35:45,706 --> 00:35:47,133
+access.
+
+524
+00:35:47,133 --> 00:35:52,347
+Select Enrol verified adult patient,
+choose Identity verification method and
+
+525
+00:35:52,347 --> 00:35:55,585
+enter the controlled Verification
+reference.
+
+526
+00:35:55,585 --> 00:36:00,954
+Complete the displayed attestation only
+after the approved identity check.
+
+527
+00:36:00,954 --> 00:36:06,121
+A hospital number, mobile number or
+consent OTP alone does not establish
+
+528
+00:36:06,121 --> 00:36:08,121
+portal identity.
+
+529
+00:36:08,121 --> 00:36:12,644
+Issue private activation code creates the
+protected account relationship;
+
+530
+00:36:12,644 --> 00:36:17,725
+registration or consent collection does
+not create it automatically.
+
+531
+00:36:18,433 --> 00:36:23,956
+The handover shows Patient account ID, a
+masked Activation code, expiry, Patient
+
+532
+00:36:23,956 --> 00:36:27,490
+activation page and Patient privacy
+portal.
+
+533
+00:36:27,490 --> 00:36:32,561
+Reveal a code only privately for its
+verified recipient, then use Hide handover
+
+534
+00:36:32,561 --> 00:36:33,978
+details.
+
+535
+00:36:33,978 --> 00:36:38,311
+The addresses do not contain the code or
+patient identity.
+
+536
+00:36:38,311 --> 00:36:42,490
+Codes expire after fifteen minutes and are
+single-use.
+
+537
+00:36:42,490 --> 00:36:47,204
+Do not put one in a receipt QR, public
+message, support note or shared
+
+538
+00:36:47,204 --> 00:36:48,799
+screenshot.
+
+539
+00:36:48,799 --> 00:36:53,299
+Closing the panel discards a delayed
+secret response; it is not a secure
+
+540
+00:36:53,299 --> 00:36:55,102
+storage method.
+
+541
+00:36:55,808 --> 00:37:01,400
+On a signed-out phone, tablet or computer,
+open Activate patient access.
+
+542
+00:37:01,400 --> 00:37:06,031
+Choose the hospital, enter the private
+Activation code, choose New password and
+
+543
+00:37:06,031 --> 00:37:10,579
+Confirm new password, then select Set
+password and activate.
+
+544
+00:37:10,579 --> 00:37:14,031
+The patient chooses this password
+privately.
+
+545
+00:37:14,031 --> 00:37:18,996
+Activation creates no signed-in session:
+return to sign in using the hospital,
+
+546
+00:37:18,996 --> 00:37:24,150
+Patient account ID and chosen password,
+then complete any required authenticator
+
+547
+00:37:24,150 --> 00:37:25,388
+step.
+
+548
+00:37:25,388 --> 00:37:30,797
+No patient directory or phone-number
+lookup appears in the patient workspace.
+
+549
+00:37:31,517 --> 00:37:36,147
+An existing verified account can withdraw
+from Your privacy choices without a
+
+550
+00:37:36,147 --> 00:37:37,978
+hospital visit.
+
+551
+00:37:37,978 --> 00:37:43,109
+Find the granted purpose, select Withdraw,
+review Withdraw this permission and select
+
+552
+00:37:43,109 --> 00:37:45,038
+Withdraw permission.
+
+553
+00:37:45,038 --> 00:37:50,109
+No reason, fresh consent OTP or staff
+approval is required by this patient
+
+554
+00:37:50,109 --> 00:37:51,431
+action.
+
+555
+00:37:51,431 --> 00:37:56,228
+Verify that only the selected purpose
+becomes Withdrawn and download its patient
+
+556
+00:37:56,228 --> 00:37:57,752
+PDF.
+
+557
+00:37:57,752 --> 00:38:01,252
+Check Action in connected systems
+separately.
+
+558
+00:38:01,252 --> 00:38:06,181
+Record the portal and reception channels
+in the cross-touchpoint assessment; remote
+
+559
+00:38:06,181 --> 00:38:12,674
+availability alone does not qualify every
+hospital access or enforcement process.
+
+560
+00:38:13,392 --> 00:38:18,296
+For a forgotten patient password, the
+privacy officer independently verifies the
+
+561
+00:38:18,296 --> 00:38:23,130
+person again and uses Verify identity and
+recover access with the required
+
+562
+00:38:23,130 --> 00:38:26,282
+verification and request references.
+
+563
+00:38:26,282 --> 00:38:30,770
+Existing sessions and earlier activation
+codes are invalidated; the patient
+
+564
+00:38:30,770 --> 00:38:34,115
+receives a new private activation
+handover.
+
+565
+00:38:34,115 --> 00:38:38,187
+An already enabled authenticator remains
+enabled.
+
+566
+00:38:38,187 --> 00:38:42,865
+The public activation page explains
+official recovery contacts but does not
+
+567
+00:38:42,865 --> 00:38:47,342
+accept identity-document uploads or
+phone-only resets.
+
+568
+00:38:47,342 --> 00:38:52,008
+Loss of the authenticator and all recovery
+codes needs the independently reviewed
+
+569
+00:38:52,008 --> 00:38:54,404
+factor-recovery workflow.
+
+570
+00:38:55,142 --> 00:38:59,261
+Expand Guardian and limited delegate
+portal access and choose Request
+
+571
+00:38:59,261 --> 00:39:01,639
+representative access.
+
+572
+00:39:01,639 --> 00:39:06,199
+Select Current verified guardian or
+Limited adult-patient delegate, check the
+
+573
+00:39:06,199 --> 00:39:11,008
+applicable authority and expiry, and
+record controlled verification and
+
+574
+00:39:11,008 --> 00:39:13,532
+authorisation references.
+
+575
+00:39:13,532 --> 00:39:18,234
+The first officer uses their own
+authenticator; another officer uses
+
+576
+00:39:18,234 --> 00:39:22,246
+Independently approve access after a
+separate check.
+
+577
+00:39:22,246 --> 00:39:26,842
+No private activation handover is issued
+at the request stage.
+
+578
+00:39:26,842 --> 00:39:30,353
+A guardian needs the current lawful
+relationship.
+
+579
+00:39:30,353 --> 00:39:35,425
+A limited delegate may inspect permitted
+evidence and submit requests, but cannot
+
+580
+00:39:35,425 --> 00:39:38,051
+grant or withdraw consent.
+
+581
+00:39:38,767 --> 00:39:43,695
+In Staff access to this patient, inspect
+current assignments and use Review staff
+
+582
+00:39:43,695 --> 00:39:45,264
+assignment.
+
+583
+00:39:45,264 --> 00:39:50,217
+Search Staff email for the intended branch
+account, choose Grant or renew expiring
+
+584
+00:39:50,217 --> 00:39:55,038
+assignment, set the permitted duration and
+controlled access-review reference, and
+
+585
+00:39:55,038 --> 00:39:57,907
+enter Your current authenticator code.
+
+586
+00:39:57,907 --> 00:40:02,264
+Revoke assignment removes that assignment
+when access ends.
+
+587
+00:40:02,264 --> 00:40:06,895
+Staff role and patient relationship are
+both required: an assignment is not
+
+588
+00:40:06,895 --> 00:40:09,383
+consent for a new purpose.
+
+589
+00:40:09,383 --> 00:40:13,919
+Review shift changes and expiry rather
+than leaving permanent links simply for
+
+590
+00:40:13,919 --> 00:40:15,484
+convenience.
+
+591
+00:40:16,183 --> 00:40:20,849
+When both a patient authenticator and its
+recovery codes are lost, open Lost
+
+592
+00:40:20,849 --> 00:40:23,073
+authenticator recovery.
+
+593
+00:40:23,073 --> 00:40:27,204
+Verify the account and first
+identity-check reference, then choose
+
+594
+00:40:27,204 --> 00:40:30,525
+Suspend access and request recovery.
+
+595
+00:40:30,525 --> 00:40:35,228
+A different privacy officer checks the
+independent evidence and uses Approve as
+
+596
+00:40:35,228 --> 00:40:39,787
+independent privacy officer with their own
+current authenticator.
+
+597
+00:40:39,787 --> 00:40:44,406
+The patient receives a new private
+activation handover and must enrol a fresh
+
+598
+00:40:44,406 --> 00:40:47,894
+authenticator before normal access
+resumes.
+
+599
+00:40:47,894 --> 00:40:52,847
+Cancellation or expiry does not silently
+restore access.
+
+600
+00:40:52,847 --> 00:40:58,060
+Do not route patient recovery through
+ordinary staff password controls.
+
+601
+00:40:58,767 --> 00:41:04,302
+In the patient profile, expand Contact,
+assisted consent and emergency records,
+
+602
+00:41:04,302 --> 00:41:07,288
+then Verify contact preferences.
+
+603
+00:41:07,288 --> 00:41:11,847
+Select the actual personal, shared or
+no-phone arrangement, record message
+
+604
+00:41:11,847 --> 00:41:16,097
+permission and make the displayed
+attestation after checking the patient or
+
+605
+00:41:16,097 --> 00:41:17,871
+lawful guardian.
+
+606
+00:41:17,871 --> 00:41:23,788
+Save record refreshes the current revision
+and invalidates outdated consent codes.
+
+607
+00:41:23,788 --> 00:41:27,931
+A shared phone does not create shared
+portal identity.
+
+608
+00:41:27,931 --> 00:41:33,026
+Sensitive receipt or breach delivery needs
+a permitted personal route; unavailable
+
+609
+00:41:33,026 --> 00:41:37,356
+delivery becomes alternate work rather
+than a false success.
+
+610
+00:41:38,058 --> 00:41:43,153
+Under Assisted data consent, choose Signed
+paper data consent, record Evidence
+
+611
+00:41:43,153 --> 00:41:47,915
+reference ID and select only the patient's
+affirmed purposes after explaining the
+
+612
+00:41:47,915 --> 00:41:49,662
+current notice.
+
+613
+00:41:49,662 --> 00:41:52,972
+Select Prepare evidence for confirmation.
+
+614
+00:41:52,972 --> 00:41:57,424
+Preparation grants nothing and expires
+after fifteen minutes.
+
+615
+00:41:57,424 --> 00:42:02,555
+Inspect the preserved evidence and
+explicit affirmation before confirming.
+
+616
+00:42:02,555 --> 00:42:07,579
+Keep the original signed document in
+approved hospital custody; this app stores
+
+617
+00:42:07,579 --> 00:42:09,781
+its controlled reference.
+
+618
+00:42:09,781 --> 00:42:14,805
+Successful confirmation uses the normal
+consent history and patient-receipt path
+
+619
+00:42:14,805 --> 00:42:18,230
+and identifies the paper method
+truthfully.
+
+620
+00:42:18,933 --> 00:42:23,111
+Choose Affirmation with an independent
+witness only when that approved method
+
+621
+00:42:23,111 --> 00:42:25,871
+reflects the actual interaction.
+
+622
+00:42:25,871 --> 00:42:30,406
+Prepare the selected purposes and evidence
+reference, then have another currently
+
+623
+00:42:30,406 --> 00:42:34,644
+authorised staff account check the
+original evidence and affirmative choice
+
+624
+00:42:34,644 --> 00:42:36,704
+before confirmation.
+
+625
+00:42:36,704 --> 00:42:41,204
+The preparer cannot serve as the
+independent confirming witness.
+
+626
+00:42:41,204 --> 00:42:46,549
+Changes to the patient, authority, notice,
+assignment or session can invalidate the
+
+627
+00:42:46,549 --> 00:42:48,097
+preparation.
+
+628
+00:42:48,097 --> 00:42:53,525
+Start again when required; do not reuse an
+expired preparation or attempt to restore
+
+629
+00:42:53,525 --> 00:42:56,442
+a withdrawn grant through an old form.
+
+630
+00:42:57,142 --> 00:43:01,939
+An assigned clinician opens Emergency
+processing record, chooses the necessary
+
+631
+00:43:01,939 --> 00:43:06,808
+data scope and emergency basis, records
+the start time and Clinical record
+
+632
+00:43:06,808 --> 00:43:11,520
+reference ID, and selects Record emergency
+processing.
+
+633
+00:43:11,520 --> 00:43:15,961
+Keep diagnoses and clinical narrative in
+the clinical system.
+
+634
+00:43:15,961 --> 00:43:21,032
+The clinician later uses Close clinical
+episode, and privacy staff use Record
+
+635
+00:43:21,032 --> 00:43:23,615
+privacy review for follow-up.
+
+636
+00:43:23,615 --> 00:43:28,842
+This records a distinct emergency
+processing basis; it grants no consent,
+
+637
+00:43:28,842 --> 00:43:33,663
+research or marketing permission, extra
+staff access or clinical procedure
+
+638
+00:43:33,663 --> 00:43:35,154
+signature.
+
+639
+00:43:35,892 --> 00:43:40,008
+Open Delivery operations and select
+Patient notices.
+
+640
+00:43:40,008 --> 00:43:44,734
+Filter the state or overdue work, then use
+Refresh and return to first page when
+
+641
+00:43:44,734 --> 00:43:47,008
+checking current progress.
+
+642
+00:43:47,008 --> 00:43:51,306
+Pending and Sending do not establish
+provider acceptance.
+
+643
+00:43:51,306 --> 00:43:55,080
+Submitted does not establish handset
+delivery.
+
+644
+00:43:55,080 --> 00:44:00,639
+Delivered is a provider-reported delivery
+state, not identity or consent.
+
+645
+00:44:00,639 --> 00:44:04,151
+Simulated means no real message was sent.
+
+646
+00:44:04,151 --> 00:44:08,889
+Unknown needs approved provider
+reconciliation; do not assume failure and
+
+647
+00:44:08,889 --> 00:44:11,151
+create duplicate sends.
+
+648
+00:44:11,151 --> 00:44:16,281
+Use Review this item to record an
+evidence-based review or escalation.
+
+649
+00:44:17,017 --> 00:44:22,183
+Processors and outbox separates transport
+from application acknowledgement and shows
+
+650
+00:44:22,183 --> 00:44:26,526
+whether a receiver statement matches the
+current consent revision.
+
+651
+00:44:26,526 --> 00:44:31,467
+Review this item opens Record delivery
+action for a controlled reconciliation or
+
+652
+00:44:31,467 --> 00:44:33,562
+escalation reference.
+
+653
+00:44:33,562 --> 00:44:38,455
+These actions record a review; they do not
+poll the receiver, change consent or
+
+654
+00:44:38,455 --> 00:44:41,502
+independently verify enforcement.
+
+655
+00:44:41,502 --> 00:44:46,383
+Retry only an eligible explicit rejection
+through its available control and the
+
+656
+00:44:46,383 --> 00:44:49,062
+approved integration procedure.
+
+657
+00:44:49,062 --> 00:44:54,181
+Unknown submission, stale attestations and
+missing routing need investigation, not a
+
+658
+00:44:54,181 --> 00:44:57,166
+new grant or an invented success.
+
+659
+00:44:57,892 --> 00:45:02,749
+Select Alternate delivery to inspect tasks
+created when the permitted digital route
+
+660
+00:45:02,749 --> 00:45:04,615
+was unavailable.
+
+661
+00:45:04,615 --> 00:45:10,080
+Follow the approved phone, paper, assisted
+or other hospital procedure outside this
+
+662
+00:45:10,080 --> 00:45:12,842
+app, retaining its evidence.
+
+663
+00:45:12,842 --> 00:45:16,984
+Then use Review this item and Attest
+alternate delivery with the controlled
+
+664
+00:45:16,984 --> 00:45:18,401
+reference.
+
+665
+00:45:18,401 --> 00:45:23,080
+Cancel an inapplicable task only with an
+accountable decision.
+
+666
+00:45:23,080 --> 00:45:28,413
+The completed task means a privacy officer
+recorded an attestation; it neither grants
+
+667
+00:45:28,413 --> 00:45:33,377
+consent nor proves SMS delivery or
+downstream enforcement.
+
+668
+00:45:33,377 --> 00:45:37,801
+Keep unresolved and overdue work visible
+for the next shift.
+
+669
+00:45:38,517 --> 00:45:44,205
+Branch synchronization and reconciliation
+is a controlled metadata workflow.
+
+670
+00:45:44,205 --> 00:45:48,812
+Choose the operational node and use Pull
+metadata batch, inspect the offered
+
+671
+00:45:48,812 --> 00:45:54,550
+sequence range, then Acknowledge exact
+metadata receipt only for that batch.
+
+672
+00:45:54,550 --> 00:46:00,217
+A stale historical observation must not
+replace the current canonical consent.
+
+673
+00:46:00,217 --> 00:46:05,133
+Record an offline intention for review
+when reconciliation is required; Close
+
+674
+00:46:05,133 --> 00:46:10,181
+review closes the case only and does not
+grant or withdraw consent.
+
+675
+00:46:10,181 --> 00:46:15,407
+This screen does not supply a full patient
+replica, autonomous multi-writer consent
+
+676
+00:46:15,407 --> 00:46:18,426
+or universal offline registration.
+
+677
+00:46:19,142 --> 00:46:24,094
+Managed node identity lets an authorised
+operator verify and bind the managed
+
+678
+00:46:24,094 --> 00:46:28,844
+machine's public key and approved origin
+using current node state, a controlled
+
+679
+00:46:28,844 --> 00:46:32,008
+reference and their actual authenticator.
+
+680
+00:46:32,008 --> 00:46:36,389
+Confirm key binding only after checking
+the authorised machine operator and
+
+681
+00:46:36,389 --> 00:46:38,449
+replacement impact.
+
+682
+00:46:38,449 --> 00:46:42,830
+Rotate the node public key and Revoke this
+credential are separate controlled
+
+683
+00:46:42,830 --> 00:46:44,306
+actions.
+
+684
+00:46:44,306 --> 00:46:49,294
+The private key stays on its managed host
+and must never enter the form, video or
+
+685
+00:46:49,294 --> 00:46:51,032
+support notes.
+
+686
+00:46:51,032 --> 00:46:56,103
+Revocation stops that credential receiving
+new metadata; it does not erase an
+
+687
+00:46:56,103 --> 00:46:58,091
+existing replica.
+
+688
+00:46:58,808 --> 00:47:03,546
+Open Production operations readiness to
+inspect configuration checks, the signing
+
+689
+00:47:03,546 --> 00:47:07,793
+probe, current branch counters and
+Operational alerts.
+
+690
+00:47:07,793 --> 00:47:12,222
+A synthetic environment should not appear
+production-qualified.
+
+691
+00:47:12,222 --> 00:47:16,877
+Record operations evidence accepts an
+actual artifact reference, its SHA
+
+692
+00:47:16,877 --> 00:47:21,769
+two-fifty-six digest, performed time and
+operator-reported outcome for activities
+
+693
+00:47:21,769 --> 00:47:27,710
+such as restore, key rotation, incident
+exercise and security assessment.
+
+694
+00:47:27,710 --> 00:47:31,722
+Missing, failed or stale evidence stays
+visible.
+
+695
+00:47:31,722 --> 00:47:36,341
+Download signed audit anchor preserves a
+local checkpoint; the hospital must
+
+696
+00:47:36,341 --> 00:47:41,222
+separately qualify protected storage,
+monitoring, recovery and independent
+
+697
+00:47:41,222 --> 00:47:42,485
+review.
+
+698
+00:47:43,225 --> 00:47:47,605
+External checkpoints and alert delivery
+displays its enabled or disabled
+
+699
+00:47:47,605 --> 00:47:49,496
+deployment state.
+
+700
+00:47:49,496 --> 00:47:53,639
+Demonstrations make no external operations
+calls.
+
+701
+00:47:53,639 --> 00:47:58,175
+In a qualified configuration, Queue
+current checkpoint for signing creates an
+
+702
+00:47:58,175 --> 00:48:02,329
+immutable snapshot for the controlled
+delivery pipeline.
+
+703
+00:48:02,329 --> 00:48:06,996
+Retry this export preserves the same
+export; acknowledgement is still a
+
+704
+00:48:06,996 --> 00:48:09,020
+receiver statement.
+
+705
+00:48:09,020 --> 00:48:13,686
+Managed receipt signing uses separately
+provisioned versioned keys and does not
+
+706
+00:48:13,686 --> 00:48:17,151
+silently fall back during a vault outage.
+
+707
+00:48:17,151 --> 00:48:21,615
+Neither the screen nor this course
+provisions a vault, immutable archive,
+
+708
+00:48:21,615 --> 00:48:25,174
+monitoring destination or on-call service.
+
+709
+00:48:25,892 --> 00:48:30,949
+FHIR and HL7 connections is optional and
+disabled by default.
+
+710
+00:48:30,949 --> 00:48:36,246
+The visible System clients, Purpose codes,
+Demographic review and Sync log belong to
+
+711
+00:48:36,246 --> 00:48:41,806
+a controlled integration facade, not a
+general patient-access entitlement.
+
+712
+00:48:41,806 --> 00:48:46,663
+Actual credential provisioning needs an
+authorised current privacy officer, real
+
+713
+00:48:46,663 --> 00:48:49,401
+authenticator and reviewed scope.
+
+714
+00:48:49,401 --> 00:48:53,996
+No production hospital system is connected
+in this tutorial.
+
+715
+00:48:53,996 --> 00:48:59,270
+Do not interpret terminology in the screen
+as SMART Backend Services certification,
+
+716
+00:48:59,270 --> 00:49:03,889
+or imported demographics as verified
+guardian authority or permission to send
+
+717
+00:49:03,889 --> 00:49:05,369
+messages.
+
+718
+00:49:06,100 --> 00:49:10,538
+Ayushman Bharat, or ABDM, is also
+optional.
+
+719
+00:49:10,538 --> 00:49:14,430
+The default screen reports that it is not
+enabled.
+
+720
+00:49:14,430 --> 00:49:19,680
+This build permits only an explicitly
+configured local synthetic mock; it does
+
+721
+00:49:19,680 --> 00:49:23,811
+not open NHA sandbox or production
+exchange.
+
+722
+00:49:23,811 --> 00:49:29,645
+Do not enter real Aadhaar, ABHA or
+clinical records in a training exercise.
+
+723
+00:49:29,645 --> 00:49:34,383
+No ABHA is required for the app's ordinary
+data-consent journey.
+
+724
+00:49:34,383 --> 00:49:39,764
+A local artefact, callback or transfer
+demonstration does not establish authentic
+
+725
+00:49:39,764 --> 00:49:44,811
+national consent verification, provider
+authentication or externally qualified
+
+726
+00:49:44,811 --> 00:49:46,729
+record exchange.
+
+727
+00:49:47,433 --> 00:49:52,668
+Languages and translations shows review
+status and language versions.
+
+728
+00:49:52,668 --> 00:49:57,144
+The interface offers twenty-three
+selectable locales, but drafts and English
+
+729
+00:49:57,144 --> 00:50:00,013
+fallback are explicitly labelled.
+
+730
+00:50:00,013 --> 00:50:05,454
+Export JSON or Export XLIFF supports the
+controlled review process; Import
+
+731
+00:50:05,454 --> 00:50:10,787
+translation draft stores a draft and does
+not replace a published notice or silently
+
+732
+00:50:10,787 --> 00:50:12,906
+update the interface.
+
+733
+00:50:12,906 --> 00:50:18,311
+The current legal and PDF qualification
+boundary remains English, Tamil, Telugu
+
+734
+00:50:18,311 --> 00:50:21,811
+and Hindi with actual approval still
+required.
+
+735
+00:50:21,811 --> 00:50:26,894
+Reviewed recordings must match the exact
+published version and digest; generic
+
+736
+00:50:26,894 --> 00:50:29,358
+server speech is disabled.
+
+737
+00:50:30,058 --> 00:50:34,724
+Open Privacy workspace with a
+privacy-officer account, or inspect it as
+
+738
+00:50:34,724 --> 00:50:36,722
+a read-only auditor.
+
+739
+00:50:36,722 --> 00:50:41,043
+Twenty framework outcomes and evidence
+gaps separates Software workflow from
+
+740
+00:50:41,043 --> 00:50:44,484
+Hospital evidence and remaining
+qualification.
+
+741
+00:50:44,484 --> 00:50:49,472
+Register and review workflow available
+means the software exists.
+
+742
+00:50:49,472 --> 00:50:54,496
+No evidence registered, Incomplete or
+awaiting review, Review overdue and
+
+743
+00:50:54,496 --> 00:50:59,079
+Current approved records present describe
+the registered evidence, not complete
+
+744
+00:50:59,079 --> 00:51:01,008
+hospital coverage.
+
+745
+00:51:01,008 --> 00:51:04,281
+Open register moves to the relevant area.
+
+746
+00:51:04,281 --> 00:51:09,353
+Start with an agreed scope and actual
+owners, not a target of making every card
+
+747
+00:51:09,353 --> 00:51:10,590
+green.
+
+748
+00:51:11,308 --> 00:51:16,638
+Under Controlled registers, choose the
+data inventory register and New record.
+
+749
+00:51:16,638 --> 00:51:21,472
+Enter Record title, Responsible owner and
+Review due date, then the actual
+
+750
+00:51:21,472 --> 00:51:26,996
+collection sources, subject and data
+categories, purposes, storage, access,
+
+751
+00:51:26,996 --> 00:51:31,079
+sharing and retention information
+requested by the form.
+
+752
+00:51:31,079 --> 00:51:37,008
+Cover clinical systems, laboratories,
+billing, human resources, websites, paper,
+
+753
+00:51:37,008 --> 00:51:41,353
+processors and backups through
+appropriately scoped records.
+
+754
+00:51:41,353 --> 00:51:46,246
+Keep patient details and raw documents out
+of these metadata fields.
+
+755
+00:51:46,246 --> 00:51:50,579
+Save draft records work; original
+controlled evidence remains in its
+
+756
+00:51:50,579 --> 00:51:52,560
+governed repository.
+
+757
+00:51:53,267 --> 00:51:57,517
+Choose the data-flow register to document
+how a source sends information to a
+
+758
+00:51:57,517 --> 00:52:02,505
+destination, why the flow exists, which
+categories and recipients are involved,
+
+759
+00:52:02,505 --> 00:52:05,919
+and the countries or safeguards being
+assessed.
+
+760
+00:52:05,919 --> 00:52:09,859
+Use the form's controlled references to
+connect the assessment to the real
+
+761
+00:52:09,859 --> 00:52:11,871
+interface evidence.
+
+762
+00:52:11,871 --> 00:52:17,002
+Reconcile the map against the inventory
+and responsible system owners.
+
+763
+00:52:17,002 --> 00:52:21,645
+Do not assume that a diagram or a saved
+assessment creates an integration,
+
+764
+00:52:21,645 --> 00:52:27,127
+validates its destination or stops an
+unconnected system using information.
+
+765
+00:52:27,850 --> 00:52:32,909
+Use the obligations register to document
+applicable requirements, the identified
+
+766
+00:52:32,909 --> 00:52:36,859
+gap, its priority, action and evidence.
+
+767
+00:52:36,859 --> 00:52:40,966
+Then choose the separate governance
+register for accountable and responsible
+
+768
+00:52:40,966 --> 00:52:45,335
+roles, deputies, escalation and decision
+authority.
+
+769
+00:52:45,335 --> 00:52:50,430
+These are different records reached
+through Register, not one combined form.
+
+770
+00:52:50,430 --> 00:52:56,228
+Hospital legal, privacy, IT, operations,
+procurement and leadership must validate
+
+771
+00:52:56,228 --> 00:52:58,359
+their responsibilities.
+
+772
+00:52:58,359 --> 00:53:03,109
+Dates and owner names alone do not
+establish that an action happened.
+
+773
+00:53:03,109 --> 00:53:08,335
+Keep unresolved gaps explicit and revisit
+them at the recorded review date.
+
+774
+00:53:09,058 --> 00:53:13,474
+Choose the privacy and cookie policy
+register for the actual policy or
+
+775
+00:53:13,474 --> 00:53:19,353
+procedure version, its scope, effective
+date, owner and controlled evidence.
+
+776
+00:53:19,353 --> 00:53:24,638
+Include the full organisational privacy
+policy and relevant operating procedures;
+
+777
+00:53:24,638 --> 00:53:28,877
+a purpose-specific patient notice is not
+the whole policy.
+
+778
+00:53:28,877 --> 00:53:33,079
+Keep original documents in approved
+custody and record their reference and
+
+779
+00:53:33,079 --> 00:53:35,091
+digest for review.
+
+780
+00:53:35,091 --> 00:53:39,448
+A material change requires a new reviewed
+record revision.
+
+781
+00:53:39,448 --> 00:53:44,138
+The hospital must separately approve and
+publish the real wording, contacts and
+
+782
+00:53:44,138 --> 00:53:46,375
+operating arrangements.
+
+783
+00:53:47,100 --> 00:53:50,933
+Choose the tracker and preference
+assessment register for each relevant
+
+784
+00:53:50,933 --> 00:53:54,014
+hospital website or application.
+
+785
+00:53:54,014 --> 00:53:59,038
+Record the identifiers or trackers
+present, their purpose and classification,
+
+786
+00:53:59,038 --> 00:54:03,466
+and evidence of any required preference or
+blocking controls.
+
+787
+00:54:03,466 --> 00:54:08,073
+The essential session cookie in this app
+is not a reason to invent a blanket cookie
+
+788
+00:54:08,073 --> 00:54:09,347
+banner.
+
+789
+00:54:09,347 --> 00:54:14,514
+If a conditional area genuinely does not
+apply, document a substantive scope and
+
+790
+00:54:14,514 --> 00:54:16,788
+applicability rationale.
+
+791
+00:54:16,788 --> 00:54:21,597
+Actual hospital sites and third-party
+software still need inspection; saving
+
+792
+00:54:21,597 --> 00:54:25,352
+this assessment cannot disable an external
+tracker.
+
+793
+00:54:26,058 --> 00:54:31,236
+Begin with the vendor assessment register
+for services, safeguards, subprocessors,
+
+794
+00:54:31,236 --> 00:54:33,424
+findings and follow-up.
+
+795
+00:54:33,424 --> 00:54:37,412
+Use the separate agreement register for
+the reviewed contract version,
+
+796
+00:54:37,412 --> 00:54:41,031
+responsibilities and security
+arrangements.
+
+797
+00:54:41,031 --> 00:54:46,519
+Use the cross-border transfer register for
+actual locations, flows, restrictions and
+
+798
+00:54:46,519 --> 00:54:48,115
+safeguards.
+
+799
+00:54:48,115 --> 00:54:52,888
+Choose each through Register; the example
+background is one vendor form, not a
+
+800
+00:54:52,888 --> 00:54:54,805
+merged questionnaire.
+
+801
+00:54:54,805 --> 00:55:00,150
+Procurement, legal and system owners must
+review genuine artifacts and execute any
+
+802
+00:55:00,150 --> 00:55:02,281
+required agreements.
+
+803
+00:55:02,281 --> 00:55:07,198
+A processor registration or typed contract
+reference alone does not complete due
+
+804
+00:55:07,198 --> 00:55:08,678
+diligence.
+
+805
+00:55:09,392 --> 00:55:14,642
+Use the privacy impact assessment register
+for a real activity, technology or
+
+806
+00:55:14,642 --> 00:55:16,437
+proposed change.
+
+807
+00:55:16,437 --> 00:55:21,937
+Identify the people and data affected, the
+privacy risk, planned mitigation, residual
+
+808
+00:55:21,937 --> 00:55:27,627
+risk, decision, accountable owner and
+review evidence requested by the form.
+
+809
+00:55:27,627 --> 00:55:32,342
+Keep risk acceptance explicit and retain
+the underlying assessment.
+
+810
+00:55:32,342 --> 00:55:37,258
+Do not choose a verified outcome while
+mitigation is merely planned.
+
+811
+00:55:37,258 --> 00:55:41,627
+The hospital must assess whether
+additional legal duties apply; the app
+
+812
+00:55:41,627 --> 00:55:47,692
+does not automatically classify every
+hospital as a significant data fiduciary.
+
+813
+00:55:48,392 --> 00:55:52,737
+The rights-fulfilment register records a
+controlled request reference, target
+
+814
+00:55:52,737 --> 00:55:57,842
+system, deadline, decision, performed
+action and verification.
+
+815
+00:55:57,842 --> 00:56:03,020
+The separate retention register records a
+category, legal schedule, holds, backup
+
+816
+00:56:03,020 --> 00:56:07,234
+treatment and actual disposal or retention
+evidence.
+
+817
+00:56:07,234 --> 00:56:11,842
+The background here shows the retention
+example; switch Register for the rights
+
+818
+00:56:11,842 --> 00:56:13,139
+record.
+
+819
+00:56:13,139 --> 00:56:18,199
+Existing patient-request screens perform
+their supported local actions, but neither
+
+820
+00:56:18,199 --> 00:56:22,984
+assessment form edits every clinical
+system, deletes a processor's copy or
+
+821
+00:56:22,984 --> 00:56:25,484
+proves backup expiry.
+
+822
+00:56:25,484 --> 00:56:29,764
+Keep those external actions and
+limitations in the evidence.
+
+823
+00:56:30,475 --> 00:56:35,058
+Use the children's protection assessment
+register to review actual collection,
+
+824
+00:56:35,058 --> 00:56:40,522
+purposes, identity and authority checks,
+applicable safeguards and any claimed
+
+825
+00:56:40,522 --> 00:56:42,103
+exemption.
+
+826
+00:56:42,103 --> 00:56:47,055
+The existing guardian workflow and purpose
+blocks are controls to assess, not a
+
+827
+00:56:47,055 --> 00:56:50,127
+complete organisational conclusion.
+
+828
+00:56:50,127 --> 00:56:54,115
+Check connected systems and the transition
+to adulthood.
+
+829
+00:56:54,115 --> 00:56:59,246
+Healthcare exceptions require a relevant
+purpose and applicable conditions; do not
+
+830
+00:56:59,246 --> 00:57:02,996
+assume every hospital activity is exempt.
+
+831
+00:57:02,996 --> 00:57:07,841
+Disability alone does not remove an
+adult's decision-making rights or create
+
+832
+00:57:07,841 --> 00:57:10,287
+lawful guardian authority.
+
+833
+00:57:11,017 --> 00:57:15,731
+Choose the training register to record the
+controlled course, content version, staff
+
+834
+00:57:15,731 --> 00:57:21,181
+role or cohort, completion date,
+assessment method and exceptions.
+
+835
+00:57:21,181 --> 00:57:26,252
+It is a completion-evidence register, not
+an automatic learning platform.
+
+836
+00:57:26,252 --> 00:57:30,205
+Use the separate continuous-review
+register for scheduled assessments,
+
+837
+00:57:30,205 --> 00:57:35,693
+regulatory changes, audit findings, risk,
+corrective action, owner and closure
+
+838
+00:57:35,693 --> 00:57:37,419
+verification.
+
+839
+00:57:37,419 --> 00:57:42,836
+The background shows the training example;
+change Register for review work.
+
+840
+00:57:42,836 --> 00:57:48,359
+Actual employees must learn and
+responsible owners must verify closure.
+
+841
+00:57:48,359 --> 00:57:53,589
+Future planned training cannot be approved
+as already verified completion.
+
+842
+00:57:54,308 --> 00:57:59,793
+In a patient profile, Marketing consent
+preflight offers Check current consent.
+
+843
+00:57:59,793 --> 00:58:04,650
+It checks the current local marketing
+purpose, age, erasure or retention state
+
+844
+00:58:04,650 --> 00:58:07,984
+and an authorised personal SMS route.
+
+845
+00:58:07,984 --> 00:58:13,400
+Care consent and OTP message permission do
+not imply marketing permission.
+
+846
+00:58:13,400 --> 00:58:17,758
+The preview grants no dispatch permission
+and sends nothing.
+
+847
+00:58:17,758 --> 00:58:23,638
+In Privacy workspace, separately assess
+the real CRM, segmentation, recipients,
+
+848
+00:58:23,638 --> 00:58:27,865
+campaign eligibility and cross-touchpoint
+withdrawal process.
+
+849
+00:58:27,865 --> 00:58:32,948
+The actual sender must enforce suppression
+immediately before each send; a stale
+
+850
+00:58:32,948 --> 00:58:35,920
+preview cannot authorise a campaign.
+
+851
+00:58:36,642 --> 00:58:41,618
+Use the security and operations register
+to identify the control, qualified
+
+852
+00:58:41,618 --> 00:58:46,344
+environment, acceptance criteria,
+performed date, observed result and
+
+853
+00:58:46,344 --> 00:58:48,342
+remaining findings.
+
+854
+00:58:48,342 --> 00:58:53,365
+Link genuine operations, restore,
+monitoring, access-review or assessment
+
+855
+00:58:53,365 --> 00:58:54,830
+evidence.
+
+856
+00:58:54,830 --> 00:58:59,722
+A planned future test cannot be approved
+as verified performance.
+
+857
+00:58:59,722 --> 00:59:04,639
+Directory administrators remain trusted
+identity roots capable of provisioning or
+
+858
+00:59:04,639 --> 00:59:09,258
+resetting privacy-officer accounts;
+stronger privileged lifecycle separation
+
+859
+00:59:09,258 --> 00:59:11,972
+is still open engineering work.
+
+860
+00:59:11,972 --> 00:59:17,139
+Production key custody, protected backups,
+real recovery, on-call delivery and
+
+861
+00:59:17,139 --> 00:59:21,662
+independent assessment also need actual
+commissioning evidence.
+
+862
+00:59:22,392 --> 00:59:25,856
+Choose the breach and incident
+operational-readiness register for an
+
+863
+00:59:25,856 --> 00:59:29,139
+actual exercise or incident scenario.
+
+864
+00:59:29,139 --> 00:59:34,353
+Record detection, ownership, applicable
+reporting clocks and channels, delivery
+
+865
+00:59:34,353 --> 00:59:39,568
+and escalation results, investigation,
+containment, recovery and corrective
+
+866
+00:59:39,568 --> 00:59:41,020
+actions.
+
+867
+00:59:41,020 --> 00:59:44,913
+Link the controlled incident or exercise
+evidence.
+
+868
+00:59:44,913 --> 00:59:49,806
+This supplements the existing incident
+workflow shown earlier; it does not submit
+
+869
+00:59:49,806 --> 00:59:52,687
+a report or establish delivery.
+
+870
+00:59:52,687 --> 00:59:58,556
+Assess DPDP and CERT-In duties separately
+and check their current applicability.
+
+871
+00:59:58,556 --> 01:00:03,401
+A tabletop record cannot prove that a real
+contact route, response team or
+
+872
+01:00:03,401 --> 01:00:05,972
+notification service works.
+
+873
+01:00:06,683 --> 01:00:11,540
+For any register, New record opens its
+specific required fields together with
+
+874
+01:00:11,540 --> 01:00:15,835
+Record title, Responsible owner and Review
+due date.
+
+875
+01:00:15,835 --> 01:00:18,978
+Enter only bounded governance metadata.
+
+876
+01:00:18,978 --> 01:00:23,918
+Use Controlled evidence reference and
+Artifact SHA two-fifty-six to identify the
+
+877
+01:00:23,918 --> 01:00:27,430
+original artifact kept in its governed
+location.
+
+878
+01:00:27,430 --> 01:00:32,418
+Save draft can preserve work before that
+evidence is ready, but Submit for review
+
+879
+01:00:32,418 --> 01:00:36,573
+requires both a controlled reference and
+valid digest.
+
+880
+01:00:36,573 --> 01:00:41,454
+The app does not upload or authenticate
+the original document merely because these
+
+881
+01:00:41,454 --> 01:00:43,280
+fields are filled.
+
+882
+01:00:44,017 --> 01:00:48,633
+Open View record and inspect its current
+revision and Review history.
+
+883
+01:00:48,633 --> 01:00:53,919
+Select Submit for review, provide Decision
+reason and confirm the submission.
+
+884
+01:00:53,919 --> 01:00:58,455
+A different current DPO from both the
+creator and last editor must inspect the
+
+885
+01:00:58,455 --> 01:01:00,193
+real evidence.
+
+886
+01:01:00,193 --> 01:01:04,586
+That officer chooses Approve record
+revision or Reject record revision and
+
+887
+01:01:04,586 --> 01:01:08,978
+enters their own actual Authenticator code
+and decision reason.
+
+888
+01:01:08,978 --> 01:01:12,800
+A demo fallback code cannot perform this
+review.
+
+889
+01:01:12,800 --> 01:01:17,717
+Approval applies only to the submitted
+revision; it is not hospital certification
+
+890
+01:01:17,717 --> 01:01:21,286
+or proof of independent external
+assurance.
+
+891
+01:01:22,017 --> 01:01:26,909
+Edit record changes require the observed
+revision and reset earlier approval to
+
+892
+01:01:26,909 --> 01:01:28,264
+Draft.
+
+893
+01:01:28,264 --> 01:01:33,336
+Reopen as draft returns a submitted,
+rejected or approved record for a fresh
+
+894
+01:01:33,336 --> 01:01:34,586
+review.
+
+895
+01:01:34,586 --> 01:01:39,288
+Stale edits fail rather than overwrite
+another person's work, and immutable
+
+896
+01:01:39,288 --> 01:01:42,407
+Review history preserves prior revisions.
+
+897
+01:01:42,407 --> 01:01:47,764
+An approved record that still identifies a
+gap remains incomplete evidence; overdue
+
+898
+01:01:47,764 --> 01:01:50,228
+review dates remain visible.
+
+899
+01:01:50,228 --> 01:01:55,764
+If the result is unknown, use Retry same
+operation with the unchanged intent.
+
+900
+01:01:55,764 --> 01:02:00,836
+Refresh records also retries a failed
+initial catalog load; do not create
+
+901
+01:02:00,836 --> 01:02:03,797
+duplicates to work around an error.
+
+902
+01:02:04,517 --> 01:02:09,731
+Download evidence JSON exports the
+bounded, consistent branch snapshot and
+
+903
+01:02:09,731 --> 01:02:11,478
+record history.
+
+904
+01:02:11,478 --> 01:02:15,836
+Download readable report creates a
+printable evidence and gap report with
+
+905
+01:02:15,836 --> 01:02:21,074
+owners, review dates, references, findings
+and remaining gates.
+
+906
+01:02:21,074 --> 01:02:25,574
+Original documents are not embedded, and
+the report is not a signed compliance
+
+907
+01:02:25,574 --> 01:02:27,145
+certificate.
+
+908
+01:02:27,145 --> 01:02:31,443
+Use the evidence-pack register to
+reconcile the complete organisational
+
+909
+01:02:31,443 --> 01:02:35,764
+scope and accountable final decision
+across branches.
+
+910
+01:02:35,764 --> 01:02:41,395
+Oversized exports fail explicitly instead
+of silently omitting records.
+
+911
+01:02:41,395 --> 01:02:46,609
+Before real-patient release, close genuine
+implementation, integration, hospital
+
+912
+01:02:46,609 --> 01:02:52,322
+approval and independent-assessment gaps;
+completing the course does not close them.
+
+913
+01:02:53,058 --> 01:02:58,093
+The November update requires authenticator
+enrolment for staff outside demo mode
+
+914
+01:02:58,093 --> 01:03:00,829
+before a full session is issued.
+
+915
+01:03:00,829 --> 01:03:05,186
+A shared hospital network has separate
+account and address rate budgets, and
+
+916
+01:03:05,186 --> 01:03:08,627
+repeated wrong passwords still lock an
+account.
+
+917
+01:03:08,627 --> 01:03:13,305
+These production controls differ from the
+password-only synthetic demo shown in
+
+918
+01:03:13,305 --> 01:03:15,234
+earlier chapters.
+
+919
+01:03:15,234 --> 01:03:19,948
+Train staff in authenticator enrolment and
+protected recovery.
+
+920
+01:03:19,948 --> 01:03:25,222
+Directory administrators remain trusted
+identity operators; a separate approval
+
+921
+01:03:25,222 --> 01:03:29,558
+for every privileged appointment has not
+been demonstrated.
+
+922
+01:03:30,267 --> 01:03:35,481
+Open the intended patient profile, then
+Contact, assisted consent and emergency
+
+923
+01:03:35,481 --> 01:03:36,919
+records.
+
+924
+01:03:36,919 --> 01:03:42,526
+Verify the intended phone or private email
+address under the hospital procedure.
+
+925
+01:03:42,526 --> 01:03:48,133
+Choose SMS, Email or SMS and email in
+Preferred delivery channel, record the
+
+926
+01:03:48,133 --> 01:03:52,931
+relevant authorisation and contact
+attestation, then save.
+
+927
+01:03:52,931 --> 01:03:55,728
+The address shown here is invented.
+
+928
+01:03:55,728 --> 01:04:00,026
+Guardian contact forms have the
+corresponding channel fields.
+
+929
+01:04:00,026 --> 01:04:05,086
+Production delivery still requires an
+approved provider and templates.
+
+930
+01:04:05,086 --> 01:04:09,919
+Contract and sandbox routes remain
+explicitly non-production, and an Android
+
+931
+01:04:09,919 --> 01:04:15,167
+gateway is a development pilot option
+rather than production qualification.
+
+932
+01:04:15,892 --> 01:04:21,032
+Deployment uses a separate migrate command
+before starting the API.
+
+933
+01:04:21,032 --> 01:04:26,092
+The owner migration connection must be
+removed from the runtime environment.
+
+934
+01:04:26,092 --> 01:04:30,913
+Production startup checks validate the
+configured policy, distinct secrets,
+
+935
+01:04:30,913 --> 01:04:35,199
+secure transport and protected application
+key storage.
+
+936
+01:04:35,199 --> 01:04:38,889
+The November corrections address the
+reviewed migration command and
+
+937
+01:04:38,889 --> 01:04:44,663
+key-protection wiring; consult the dated
+qualification record for actual results.
+
+938
+01:04:44,663 --> 01:04:49,151
+Rehearse the intended Production profile
+instead of treating a development smoke
+
+939
+01:04:49,151 --> 01:04:51,651
+test as deployment proof.
+
+940
+01:04:51,651 --> 01:04:56,365
+Hospital notices, processor agreements,
+operational ownership and independent
+
+941
+01:04:56,365 --> 01:04:59,161
+assessment remain separate gates.
+
+942
+01:04:59,892 --> 01:05:04,722
+In Settings, open Notice publication and
+create a new version.
+
+943
+01:05:04,722 --> 01:05:09,675
+For each selected purpose, describe the
+information and its use, then choose the
+
+944
+01:05:09,675 --> 01:05:11,984
+approved lawful basis.
+
+945
+01:05:11,984 --> 01:05:15,996
+A consent purpose remains a separate
+optional choice.
+
+946
+01:05:15,996 --> 01:05:21,199
+For a qualifying section seven purpose,
+enter the exact lawful-use notice text as
+
+947
+01:05:21,199 --> 01:05:22,365
+well.
+
+948
+01:05:22,365 --> 01:05:27,211
+The emergency example here is invented and
+must not be copied as a general
+
+949
+01:05:27,211 --> 01:05:29,139
+routine-care basis.
+
+950
+01:05:29,139 --> 01:05:33,853
+Submit the version for a different
+reviewer and an authorised publisher.
+
+951
+01:05:33,853 --> 01:05:39,921
+A saved draft does not become the patient
+notice until that lifecycle is complete.
+
+952
+01:05:40,642 --> 01:05:45,199
+In the patient profile, expand Lawful use
+and child health.
+
+953
+01:05:45,199 --> 01:05:49,984
+Review the exact published purpose and its
+stated lawful basis.
+
+954
+01:05:49,984 --> 01:05:54,913
+When the approved procedure applies,
+explain that notice, confirm that it was
+
+955
+01:05:54,913 --> 01:05:58,568
+shown, and choose Record lawful-use
+notice.
+
+956
+01:05:58,568 --> 01:06:04,472
+The saved history records this separate
+event; it does not create a consent grant.
+
+957
+01:06:04,472 --> 01:06:10,115
+In the consent journey, only consent-based
+purposes are selectable checkboxes.
+
+958
+01:06:10,115 --> 01:06:15,222
+The illustrated medical emergency is a
+narrow training example, not a claim that
+
+959
+01:06:15,222 --> 01:06:19,662
+all routine care is an emergency or a
+permission for marketing.
+
+960
+01:06:20,392 --> 01:06:26,199
+An authorised privacy officer opens
+Hospital privacy policy in Settings.
+
+961
+01:06:26,199 --> 01:06:30,639
+Keep the child healthcare exemption
+disabled until the hospital has approved
+
+962
+01:06:30,639 --> 01:06:33,437
+the decision and its narrow scope.
+
+963
+01:06:33,437 --> 01:06:38,103
+If it applies, record the legal review
+reference and decision, select only the
+
+964
+01:06:38,103 --> 01:06:42,092
+approved care or telemedicine purposes,
+and save.
+
+965
+01:06:42,092 --> 01:06:45,984
+Marketing, research and insurance are
+excluded.
+
+966
+01:06:45,984 --> 01:06:50,211
+The panel also sets the maximum
+limited-delegate count.
+
+967
+01:06:50,211 --> 01:06:54,734
+Saving these controls is not legal
+approval, and a limited delegate still
+
+968
+01:06:54,734 --> 01:06:57,637
+cannot grant or withdraw consent.
+
+969
+01:06:58,350 --> 01:07:02,600
+With the reviewed policy configured,
+return to the intended child patient
+
+970
+01:07:02,600 --> 01:07:06,371
+profile and expand Lawful use and child
+health.
+
+971
+01:07:06,371 --> 01:07:11,359
+In Child healthcare exemption, select only
+the approved health purpose and enter the
+
+972
+01:07:11,359 --> 01:07:15,085
+actual reason and controlled clinical
+reference.
+
+973
+01:07:15,085 --> 01:07:19,597
+Choose Record child health exemption and
+inspect the history.
+
+974
+01:07:19,597 --> 01:07:24,597
+This records the scoped exception; it does
+not grant optional consent or give new
+
+975
+01:07:24,597 --> 01:07:26,454
+staff access.
+
+976
+01:07:26,454 --> 01:07:31,526
+A qualifying exception must not become a
+general guardian bypass.
+
+977
+01:07:31,526 --> 01:07:36,842
+Keep verified guardian procedures for the
+circumstances that require them.
+
+978
+01:07:37,558 --> 01:07:43,353
+Verification codes belong to a particular
+patient, contact route and request.
+
+979
+01:07:43,353 --> 01:07:48,829
+Saving a contact change cancels unused
+challenges; begin a new confirmation using
+
+980
+01:07:48,829 --> 01:07:50,591
+the correct route.
+
+981
+01:07:50,591 --> 01:07:55,448
+Replacing or removing email is a separate
+explicit choice so a masked address is
+
+982
+01:07:55,448 --> 01:07:58,888
+never accidentally submitted as an
+address.
+
+983
+01:07:58,888 --> 01:08:04,246
+Before capture, confirm the recipient and
+explain the specified purposes.
+
+984
+01:08:04,246 --> 01:08:09,377
+A code verifies a step through that route;
+it does not establish every aspect of
+
+985
+01:08:09,377 --> 01:08:14,803
+identity, agreement to treatment or
+agreement to every future use.
+
+986
+01:08:15,517 --> 01:08:21,145
+The privacy evidence export now includes
+an application HMAC signature.
+
+987
+01:08:21,145 --> 01:08:25,597
+It can detect an alteration when checked
+with the appropriate protected application
+
+988
+01:08:25,597 --> 01:08:26,800
+key.
+
+989
+01:08:26,800 --> 01:08:30,967
+It does not independently timestamp the
+evidence or prove that a referenced
+
+990
+01:08:30,967 --> 01:08:35,169
+contract, deletion or assessment actually
+happened.
+
+991
+01:08:35,169 --> 01:08:40,252
+Preserve the original export and verify it
+through the supported procedure.
+
+992
+01:08:40,252 --> 01:08:45,969
+The export still explicitly says that
+production approval has not been granted.
+
+993
+01:08:46,683 --> 01:08:50,966
+Open the privacy workspace and expand
+Review reminders.
+
+994
+01:08:50,966 --> 01:08:54,573
+Choose Scan reminders to refresh the work
+list.
+
+995
+01:08:54,573 --> 01:08:59,430
+Review the record, review window and due
+date, then return to the underlying case
+
+996
+01:08:59,430 --> 01:09:02,978
+or governance record to complete the
+actual work.
+
+997
+01:09:02,978 --> 01:09:07,942
+Entries cover applicable seven-day,
+one-day and overdue windows; an empty list
+
+998
+01:09:07,942 --> 01:09:12,252
+is not a certificate that the entire
+hospital has no gaps.
+
+999
+01:09:12,252 --> 01:09:17,811
+These are work-list entries, not evidence
+that a notification reached its owner.
+
+1000
+01:09:17,811 --> 01:09:22,128
+Keep an accountable person and retain
+completion evidence.
+
+1001
+01:09:22,850 --> 01:09:27,407
+Open the correct incident and expand
+Regulatory filing evidence.
+
+1002
+01:09:27,407 --> 01:09:32,264
+When the CERT-In duty applies, enter the
+real first-awareness time, category and
+
+1003
+01:09:32,264 --> 01:09:35,788
+responsible contact, then open the clock.
+
+1004
+01:09:35,788 --> 01:09:38,800
+The screen shows its six-hour deadline.
+
+1005
+01:09:38,800 --> 01:09:43,180
+Use the filing form to record the
+reference and hash of an actual submitted
+
+1006
+01:09:43,180 --> 01:09:46,788
+report, not merely a notification log.
+
+1007
+01:09:46,788 --> 01:09:50,204
+The values here are an invented exercise.
+
+1008
+01:09:50,204 --> 01:09:53,859
+This screen never submits a report to a
+regulator.
+
+1009
+01:09:53,859 --> 01:09:58,633
+Preserve awareness time, escalate promptly
+and follow the approved incident
+
+1010
+01:09:58,633 --> 01:10:00,142
+procedure.
+
+1011
+01:10:00,850 --> 01:10:05,635
+Board submission evidence is separate from
+CERT-In filing and from sending patient
+
+1012
+01:10:05,635 --> 01:10:07,442
+notifications.
+
+1013
+01:10:07,442 --> 01:10:12,073
+Choose the initial or detailed stage that
+applies, enter the genuine submission
+
+1014
+01:10:12,073 --> 01:10:16,157
+reference and report hash, and record the
+evidence.
+
+1015
+01:10:16,157 --> 01:10:18,526
+Review the saved history.
+
+1016
+01:10:18,526 --> 01:10:24,300
+This does not itself send the report or
+establish that an authority accepted it.
+
+1017
+01:10:24,300 --> 01:10:28,776
+The hospital must assess the applicable
+legal phase and deadlines, preserve the
+
+1018
+01:10:28,776 --> 01:10:33,002
+original report in its controlled
+repository and retain proof of the actual
+
+1019
+01:10:33,002 --> 01:10:34,454
+submission.
+
+1020
+01:10:34,454 --> 01:10:39,030
+Training entries must never be reused as
+real filing evidence.
+
+1021
+01:10:39,767 --> 01:10:45,052
+The public receipt-verification page now
+explains its essential security cookie and
+
+1022
+01:10:45,052 --> 01:10:48,431
+offers a separate optional preference
+choice.
+
+1023
+01:10:48,431 --> 01:10:52,859
+Choose Essential only when optional
+storage is unnecessary.
+
+1024
+01:10:52,859 --> 01:10:58,574
+This website preference is separate from
+the patient purposes on a hospital notice.
+
+1025
+01:10:58,574 --> 01:11:02,859
+It must never be described as clinical
+consent or permission to use health
+
+1026
+01:11:02,859 --> 01:11:04,276
+records.
+
+1027
+01:11:04,276 --> 01:11:09,467
+Receipt verification checks the evidence
+presented; it does not establish a patient
+
+1028
+01:11:09,467 --> 01:11:13,556
+account or give access to all hospital
+information.
+
+1029
+01:11:14,267 --> 01:11:18,612
+Patients should receive the readable
+receipt and retain its identifier when
+
+1030
+01:11:18,612 --> 01:11:20,597
+contacting support.
+
+1031
+01:11:20,597 --> 01:11:25,193
+Use the authorised verification route and
+avoid posting private receipts or
+
+1032
+01:11:25,193 --> 01:11:28,181
+identifiers in public messages.
+
+1033
+01:11:28,181 --> 01:11:32,847
+Public notice wording and translated
+interface text still require independent
+
+1034
+01:11:32,847 --> 01:11:35,586
+review before patient publication.
+
+1035
+01:11:35,586 --> 01:11:40,324
+A selected language does not establish
+approved legal wording.
+
+1036
+01:11:40,324 --> 01:11:45,371
+Essential website security storage,
+optional website preferences and patient
+
+1037
+01:11:45,371 --> 01:11:48,439
+data purposes are separate decisions.
+
+1038
+01:11:49,142 --> 01:11:54,094
+Use the dated qualification report to
+establish which exact application version
+
+1039
+01:11:54,094 --> 01:11:55,972
+and checks passed.
+
+1040
+01:11:55,972 --> 01:11:59,806
+The November corrections include
+production startup and key handling,
+
+1041
+01:11:59,806 --> 01:12:04,532
+incident scope, lawful-purpose filtering,
+delivery fields and keyboard access to
+
+1042
+01:12:04,532 --> 01:12:06,449
+scrolling tables.
+
+1043
+01:12:06,449 --> 01:12:11,294
+A recording shows the exercised synthetic
+journey; build, backend and browser
+
+1044
+01:12:11,294 --> 01:12:13,949
+results add their own evidence.
+
+1045
+01:12:13,949 --> 01:12:18,639
+None of these substitutes for an
+independent security assessment, an actual
+
+1046
+01:12:18,639 --> 01:12:23,163
+Production-profile rehearsal, real service
+qualification or a restore from the
+
+1047
+01:12:23,163 --> 01:12:25,499
+intended backup system.
+
+1048
+01:12:26,225 --> 01:12:30,248
+Rehearse with synthetic people in a
+separate non-demo environment using the
+
+1049
+01:12:30,248 --> 01:12:33,567
+reviewed application and configuration.
+
+1050
+01:12:33,567 --> 01:12:39,067
+Test first staff authenticator enrolment,
+verified reception, approved notices,
+
+1051
+01:12:39,067 --> 01:12:43,639
+purpose choices, remote patient
+withdrawal, restricted-role denials and
+
+1052
+01:12:43,639 --> 01:12:46,103
+downstream acknowledgements.
+
+1053
+01:12:46,103 --> 01:12:51,651
+Exercise provider failure, retries, lost
+connectivity and restore.
+
+1054
+01:12:51,651 --> 01:12:56,603
+Record the source version, configuration,
+results and owner of every remaining
+
+1055
+01:12:56,603 --> 01:12:58,115
+exception.
+
+1056
+01:12:58,115 --> 01:13:02,960
+A successfully recorded demo is useful
+training evidence, but it does not turn
+
+1057
+01:13:02,960 --> 01:13:06,974
+the public synthetic service into a
+patient deployment.
+
+1058
+01:13:07,683 --> 01:13:12,837
+Before real patient use, the hospital
+needs approved notices and lawful bases,
+
+1059
+01:13:12,837 --> 01:13:17,813
+verified guardian and assisted procedures,
+qualified delivery and hospital-system
+
+1060
+01:13:17,813 --> 01:13:22,409
+enforcement, working managed keys and
+backups, monitoring ownership and
+
+1061
+01:13:22,409 --> 01:13:26,478
+independent security and accessibility
+acceptance.
+
+1062
+01:13:26,478 --> 01:13:30,966
+The product supports that programme; it
+does not automatically certify the
+
+1063
+01:13:30,966 --> 01:13:32,430
+hospital.
+
+1064
+01:13:32,430 --> 01:13:36,549
+Use the training chapters to understand
+the workflow, then keep the readiness
+
+1065
+01:13:36,549 --> 01:13:40,415
+register accurate as the implementation
+changes.
+
+1066
+01:13:41,142 --> 01:13:45,889
+Open Privacy platform and identify the
+website you are reviewing.
+
+1067
+01:13:45,889 --> 01:13:50,746
+Enter its name and exact origin, then
+paste a bounded cookie snapshot and scan
+
+1068
+01:13:50,746 --> 01:13:51,842
+it.
+
+1069
+01:13:51,842 --> 01:13:55,258
+The inventory groups supplied names for
+review.
+
+1070
+01:13:55,258 --> 01:13:59,734
+A familiar cookie name alone cannot
+establish what the script actually does,
+
+1071
+01:13:59,734 --> 01:14:03,258
+and this action does not crawl every page.
+
+1072
+01:14:03,258 --> 01:14:07,949
+Inspect the source, purpose and actual
+browser behaviour with the website owner
+
+1073
+01:14:07,949 --> 01:14:10,865
+before relying on the classification.
+
+1074
+01:14:10,865 --> 01:14:16,371
+Website storage choices remain separate
+from patient information purposes.
+
+1075
+01:14:17,100 --> 01:14:22,669
+The published website preference centre
+identifies the hospital and website.
+
+1076
+01:14:22,669 --> 01:14:26,085
+Essential security storage stays on.
+
+1077
+01:14:26,085 --> 01:14:30,728
+A visitor can choose optional categories,
+save them and later select essential
+
+1078
+01:14:30,728 --> 01:14:32,526
+cookies only.
+
+1079
+01:14:32,526 --> 01:14:38,240
+Wait for a genuine acknowledgement; a
+failed request must not appear saved.
+
+1080
+01:14:38,240 --> 01:14:42,335
+The browser remembers choices when storage
+is available.
+
+1081
+01:14:42,335 --> 01:14:47,073
+After withdrawal, reload the website as
+instructed and verify the actual
+
+1082
+01:14:47,073 --> 01:14:49,157
+integrated scripts.
+
+1083
+01:14:49,157 --> 01:14:53,907
+These choices concern this browser and
+website; they do not change a patient
+
+1084
+01:14:53,907 --> 01:14:57,249
+account or authorise hospital marketing.
+
+1085
+01:14:57,975 --> 01:15:02,320
+The website integration helper exposes
+choice checks and preference-change
+
+1086
+01:15:02,320 --> 01:15:03,686
+events.
+
+1087
+01:15:03,686 --> 01:15:07,365
+The website team must connect each
+optional script to the appropriate
+
+1088
+01:15:07,365 --> 01:15:12,139
+category, remove uncontrolled early
+loading and test grant and withdrawal in a
+
+1089
+01:15:12,139 --> 01:15:13,889
+fresh browser.
+
+1090
+01:15:13,889 --> 01:15:19,472
+Existing third-party scripts may require a
+reload and their own disposal steps.
+
+1091
+01:15:19,472 --> 01:15:24,055
+This chapter explains that integration
+boundary; the preference screen is not
+
+1092
+01:15:24,055 --> 01:15:28,948
+evidence that every tracker on a real
+hospital website is blocked.
+
+1093
+01:15:28,948 --> 01:15:33,084
+Keep a website-specific test record before
+release.
+
+1094
+01:15:33,808 --> 01:15:37,400
+Open Data discovery and processing
+records.
+
+1095
+01:15:37,400 --> 01:15:40,936
+Give the connector a recognisable system
+name.
+
+1096
+01:15:40,936 --> 01:15:45,817
+A contract connector accepts declared
+column metadata for review.
+
+1097
+01:15:45,817 --> 01:15:50,186
+A PostgreSQL connector uses
+server-managed, approved connection
+
+1098
+01:15:50,186 --> 01:15:55,138
+configuration; do not enter database
+credentials in this form.
+
+1099
+01:15:55,138 --> 01:16:01,793
+Record only metadata, never actual patient
+names, phone numbers or clinical values.
+
+1100
+01:16:01,793 --> 01:16:06,388
+The resulting inventory describes what was
+supplied or configured, and cannot
+
+1101
+01:16:06,388 --> 01:16:10,620
+establish that every hospital system has
+been discovered.
+
+1102
+01:16:11,350 --> 01:16:16,028
+Select the connector and supply one line
+per declared field, following the visible
+
+1103
+01:16:16,028 --> 01:16:21,240
+system, table, field, purpose, retention
+and country format.
+
+1104
+01:16:21,240 --> 01:16:23,883
+Inspect the resulting items.
+
+1105
+01:16:23,883 --> 01:16:28,823
+Record a source-to-destination flow, its
+purpose, countries and approved safeguard
+
+1106
+01:16:28,823 --> 01:16:30,228
+reference.
+
+1107
+01:16:30,228 --> 01:16:35,264
+This exercise uses invented system names
+and no actual transfer.
+
+1108
+01:16:35,264 --> 01:16:40,061
+Ask the real system owners to confirm the
+map and keep it current when interfaces
+
+1109
+01:16:40,061 --> 01:16:41,371
+change.
+
+1110
+01:16:41,371 --> 01:16:46,675
+A declared flow does not prove that its
+receiving system obeys a withdrawal.
+
+1111
+01:16:47,392 --> 01:16:53,044
+Generate a record of processing activities
+after reviewing the inventory and flows.
+
+1112
+01:16:53,044 --> 01:16:57,806
+Inspect the activities, date and source
+evidence, then download the report if
+
+1113
+01:16:57,806 --> 01:16:59,211
+required.
+
+1114
+01:16:59,211 --> 01:17:03,461
+Ask the accountable system owners to
+correct omissions.
+
+1115
+01:17:03,461 --> 01:17:08,449
+A processing record is useful only when it
+reflects actual hospital practices,
+
+1116
+01:17:08,449 --> 01:17:12,806
+including external processors and
+retention arrangements.
+
+1117
+01:17:12,806 --> 01:17:17,865
+Generating a report does not provide legal
+approval, and its production-approval flag
+
+1118
+01:17:17,865 --> 01:17:20,821
+must not be interpreted as granted.
+
+1119
+01:17:21,558 --> 01:17:25,805
+Generate the gap assessment and inspect
+its unmet controls.
+
+1120
+01:17:25,805 --> 01:17:31,162
+The score summarises recorded inputs and
+rules; it does not independently examine
+
+1121
+01:17:31,162 --> 01:17:34,258
+the hospital or certify compliance.
+
+1122
+01:17:34,258 --> 01:17:38,115
+Open the full evidence where the summary
+is abbreviated.
+
+1123
+01:17:38,115 --> 01:17:43,460
+Turn each applicable gap into a concrete
+owner, due date and verifiable action in
+
+1124
+01:17:43,460 --> 01:17:45,543
+the hospital programme.
+
+1125
+01:17:45,543 --> 01:17:51,267
+Keep unverified work open, even if another
+part of the dashboard looks green.
+
+1126
+01:17:51,975 --> 01:17:56,975
+When closing programme work, retain the
+controlled reference, reviewer, date and
+
+1127
+01:17:56,975 --> 01:17:58,305
+result.
+
+1128
+01:17:58,305 --> 01:18:03,115
+Review summaries may show only a bounded
+number of returned records, with full
+
+1129
+01:18:03,115 --> 01:18:05,782
+evidence available separately.
+
+1130
+01:18:05,782 --> 01:18:10,258
+Do not mistake an empty table for proof
+that there is no work, or a saved
+
+1131
+01:18:10,258 --> 01:18:13,686
+attestation for independent verification.
+
+1132
+01:18:13,686 --> 01:18:18,627
+Use the existing governance workspaces to
+maintain owners, reviews and acceptance
+
+1133
+01:18:18,627 --> 01:18:22,115
+evidence alongside these platform reports.
+
+1134
+01:18:22,850 --> 01:18:27,633
+Create an impact assessment for a specific
+processing activity.
+
+1135
+01:18:27,633 --> 01:18:32,478
+Select the appropriate template, describe
+the activity and enter justified
+
+1136
+01:18:32,478 --> 01:18:37,264
+likelihood, impact and mitigation values,
+with a review date.
+
+1137
+01:18:37,264 --> 01:18:42,109
+The residual score is a structured aid,
+not a substitute for examining the real
+
+1138
+01:18:42,109 --> 01:18:43,359
+risk.
+
+1139
+01:18:43,359 --> 01:18:47,347
+Submit the assessment with supporting
+decision evidence.
+
+1140
+01:18:47,347 --> 01:18:51,883
+This synthetic example uses invented
+processing and is not an approval of a
+
+1141
+01:18:51,883 --> 01:18:54,142
+real hospital service.
+
+1142
+01:18:54,850 --> 01:18:59,300
+A different authorised officer reviews the
+submitted assessment.
+
+1143
+01:18:59,300 --> 01:19:04,050
+They inspect the activity, mitigation and
+supporting evidence before approving or
+
+1144
+01:19:04,050 --> 01:19:05,680
+rejecting it.
+
+1145
+01:19:05,680 --> 01:19:08,978
+The author cannot approve their own
+submission.
+
+1146
+01:19:08,978 --> 01:19:13,835
+Reopen when processing or assumptions
+change, rather than silently editing an
+
+1147
+01:19:13,835 --> 01:19:15,680
+approved result.
+
+1148
+01:19:15,680 --> 01:19:20,716
+Current record revisions protect this
+workflow against stale updates.
+
+1149
+01:19:20,716 --> 01:19:25,300
+An internal approval is not independent
+security testing or permission to start
+
+1150
+01:19:25,300 --> 01:19:27,630
+every form of processing.
+
+1151
+01:19:28,350 --> 01:19:33,169
+Register the vendor and its service, then
+select it in the questionnaire.
+
+1152
+01:19:33,169 --> 01:19:37,192
+Tick a control only when reviewed evidence
+supports it.
+
+1153
+01:19:37,192 --> 01:19:42,038
+The computed score reflects those answers;
+it is not an independent audit of the
+
+1154
+01:19:42,038 --> 01:19:43,514
+provider.
+
+1155
+01:19:43,514 --> 01:19:49,145
+Keep missing controls visible and follow
+up through procurement and privacy review.
+
+1156
+01:19:49,145 --> 01:19:53,823
+This training vendor is fictional and its
+selected answers demonstrate the workflow
+
+1157
+01:19:53,823 --> 01:19:56,715
+rather than endorse any service.
+
+1158
+01:19:57,433 --> 01:20:02,159
+After the real agreement has been executed
+through the approved process, record its
+
+1159
+01:20:02,159 --> 01:20:06,811
+controlled reference and expiry against
+the current vendor revision.
+
+1160
+01:20:06,811 --> 01:20:09,037
+Check the saved result.
+
+1161
+01:20:09,037 --> 01:20:13,597
+Entering a reference in CareConsent does
+not sign the agreement or verify its
+
+1162
+01:20:13,597 --> 01:20:15,609
+original artifact.
+
+1163
+01:20:15,609 --> 01:20:20,716
+Our synthetic reference is explicitly an
+exercise, so it must not be used as
+
+1164
+01:20:20,716 --> 01:20:23,299
+evidence of a real contract.
+
+1165
+01:20:23,299 --> 01:20:28,702
+Keep procurement ownership and renewal
+review outside this demonstration clear.
+
+1166
+01:20:29,433 --> 01:20:34,513
+Select the patient through the authorised
+search and locate declared records.
+
+1167
+01:20:34,513 --> 01:20:39,121
+Confirm the hospital and branch scope
+before inspecting the result.
+
+1168
+01:20:39,121 --> 01:20:44,002
+Location metadata helps plan a rights
+response, but does not retrieve all
+
+1169
+01:20:44,002 --> 01:20:48,823
+clinical values or establish a complete
+cross-system disclosure.
+
+1170
+01:20:48,823 --> 01:20:53,204
+Continue through the actual rights-request
+workflow and contact the responsible
+
+1171
+01:20:53,204 --> 01:20:57,582
+system owners for information not held by
+this application.
+
+1172
+01:20:58,308 --> 01:21:03,948
+Select the patient and the exact purpose,
+then check the current result and reason.
+
+1173
+01:21:03,948 --> 01:21:08,996
+A permit is current informational evidence
+within the authorised scope; a denial must
+
+1174
+01:21:08,996 --> 01:21:12,936
+not be overridden by reusing an older
+response.
+
+1175
+01:21:12,936 --> 01:21:18,174
+A historical lawful-use notice does not
+create blanket present permission.
+
+1176
+01:21:18,174 --> 01:21:23,198
+The receiving application must re-evaluate
+at use time and also enforce its other
+
+1177
+01:21:23,198 --> 01:21:25,412
+applicable restrictions.
+
+1178
+01:21:25,412 --> 01:21:29,385
+The result is not a reusable marketing
+authorisation.
+
+1179
+01:21:30,100 --> 01:21:34,242
+Create a named connector only after
+approving its purpose and integration
+
+1180
+01:21:34,242 --> 01:21:35,788
+permissions.
+
+1181
+01:21:35,788 --> 01:21:41,323
+Select the minimum required purposes and
+purpose-check or security-ingest scope.
+
+1182
+01:21:41,323 --> 01:21:46,073
+Provide your current authenticator and a
+controlled evidence reference.
+
+1183
+01:21:46,073 --> 01:21:49,514
+The server derives the hospital and
+branch.
+
+1184
+01:21:49,514 --> 01:21:54,716
+The credential is displayed privately once
+and stays masked in this recording.
+
+1185
+01:21:54,716 --> 01:21:59,645
+Transfer it directly to the approved
+secret store, then clear it.
+
+1186
+01:21:59,645 --> 01:22:04,811
+It must never appear in a screenshot,
+exported evidence, source control or a
+
+1187
+01:22:04,811 --> 01:22:06,720
+patient receipt.
+
+1188
+01:22:07,433 --> 01:22:12,254
+Select the current connector, confirm its
+identity and revoke it using your current
+
+1189
+01:22:12,254 --> 01:22:15,216
+authenticator and evidence reference.
+
+1190
+01:22:15,216 --> 01:22:18,013
+Check that the result is inactive.
+
+1191
+01:22:18,013 --> 01:22:22,847
+A lost original key response requires
+revoke and reissue, rather than retrieving
+
+1192
+01:22:22,847 --> 01:22:25,287
+a raw secret from history.
+
+1193
+01:22:25,287 --> 01:22:30,478
+Store rotations and dependent-service
+changes in the operational procedure.
+
+1194
+01:22:30,478 --> 01:22:35,133
+Revoking this connector does not recall
+data already delivered or prove that
+
+1195
+01:22:35,133 --> 01:22:38,413
+another system deleted its own copies.
+
+1196
+01:22:39,142 --> 01:22:43,306
+Select the patient and approved
+privacy-notice template.
+
+1197
+01:22:43,306 --> 01:22:47,734
+Confirm that the patient specifically
+authorised this WhatsApp notice and that
+
+1198
+01:22:47,734 --> 01:22:51,163
+the intended recipient is private and
+correct.
+
+1199
+01:22:51,163 --> 01:22:55,496
+Record the controlled authorisation
+reference before sending.
+
+1200
+01:22:55,496 --> 01:23:00,330
+SMS permission alone is not WhatsApp
+permission, and a shared number needs the
+
+1201
+01:23:00,330 --> 01:23:02,687
+approved privacy review.
+
+1202
+01:23:02,687 --> 01:23:08,151
+This exercise uses the local test provider
+and invented contact information; it does
+
+1203
+01:23:08,151 --> 01:23:11,154
+not send a real hospital message.
+
+1204
+01:23:11,892 --> 01:23:14,972
+Inspect the recorded dispatch result.
+
+1205
+01:23:14,972 --> 01:23:20,818
+Simulated or submitted means exactly that;
+it does not prove delivery.
+
+1206
+01:23:20,818 --> 01:23:25,639
+A verified provider receipt is a separate
+fact, and receiving a notice is not the
+
+1207
+01:23:25,639 --> 01:23:28,353
+patient’s affirmative consent.
+
+1208
+01:23:28,353 --> 01:23:32,889
+Resolve failed or unknown delivery through
+the reconciliation process without
+
+1209
+01:23:32,889 --> 01:23:35,532
+inventing a successful result.
+
+1210
+01:23:35,532 --> 01:23:40,568
+Before live use, the hospital must qualify
+the provider, approved templates,
+
+1211
+01:23:40,568 --> 01:23:45,561
+recipient handling and receipt
+verification under its chosen service.
+
+1212
+01:23:46,267 --> 01:23:50,969
+Describe what happened, the nature of the
+incident, likely consequences and
+
+1213
+01:23:50,969 --> 01:23:53,050
+containment measures.
+
+1214
+01:23:53,050 --> 01:23:58,288
+Identify the responsible contact and link
+the incident where available.
+
+1215
+01:23:58,288 --> 01:24:02,681
+Record investigation findings from
+evidence, without overstating what is
+
+1216
+01:24:02,681 --> 01:24:03,895
+known.
+
+1217
+01:24:03,895 --> 01:24:09,109
+Build the pack and inspect its contents
+before sharing through an approved route.
+
+1218
+01:24:09,109 --> 01:24:13,752
+This exercise contains invented facts and
+is not an actual breach report or
+
+1219
+01:24:13,752 --> 01:24:15,759
+regulator submission.
+
+1220
+01:24:16,475 --> 01:24:22,282
+Use the saved pack identifier to retrieve
+its recorded version and download it.
+
+1221
+01:24:22,282 --> 01:24:26,960
+Keep original reports, artifact integrity
+evidence and the approved access
+
+1222
+01:24:26,960 --> 01:24:28,591
+restrictions.
+
+1223
+01:24:28,591 --> 01:24:32,770
+The incident workspace has separate
+awareness clocks and filing-evidence
+
+1224
+01:24:32,770 --> 01:24:34,127
+forms.
+
+1225
+01:24:34,127 --> 01:24:38,877
+Follow the actual applicable reporting
+procedure and record its real confirmation
+
+1226
+01:24:38,877 --> 01:24:40,032
+there.
+
+1227
+01:24:40,032 --> 01:24:45,496
+An exported JSON pack, notification log or
+training reference cannot stand in for a
+
+1228
+01:24:45,496 --> 01:24:47,912
+submission acknowledgement.
+
+1229
+01:24:48,642 --> 01:24:52,975
+Set the hospital display name and reviewed
+colour, and choose whether the public
+
+1230
+01:24:52,975 --> 01:24:56,961
+preference centre and patient code sign-in
+are enabled.
+
+1231
+01:24:56,961 --> 01:24:59,068
+Check the saved state.
+
+1232
+01:24:59,068 --> 01:25:04,365
+A custom hostname field does not configure
+DNS, TLS or a commissioned branded
+
+1233
+01:25:04,365 --> 01:25:05,949
+deployment.
+
+1234
+01:25:05,949 --> 01:25:10,901
+Enable patient code access only after the
+verified account and private delivery
+
+1235
+01:25:10,901 --> 01:25:13,472
+workflows have been accepted.
+
+1236
+01:25:13,472 --> 01:25:18,399
+Keep the hospital’s privacy contact and
+patient support route clear.
+
+1237
+01:25:19,100 --> 01:25:24,669
+The patient code route is for an existing
+independently verified patient account.
+
+1238
+01:25:24,669 --> 01:25:29,800
+Enter the correct hospital, hospital
+number and authorised private channel.
+
+1239
+01:25:29,800 --> 01:25:34,597
+A generic acknowledgement does not create
+an account or confirm that a submitted
+
+1240
+01:25:34,597 --> 01:25:37,133
+number belongs to a patient.
+
+1241
+01:25:37,133 --> 01:25:42,133
+The code is private sign-in material and
+must never be shared with reception.
+
+1242
+01:25:42,133 --> 01:25:46,990
+Required account verification and
+authenticator checks still apply.
+
+1243
+01:25:46,990 --> 01:25:52,745
+For enrolment or recovery, use the
+hospital’s separate verified procedure.
+
+1244
+01:25:53,475 --> 01:25:59,332
+An authorised administrator configures the
+approved identity provider using its HTTPS
+
+1245
+01:25:59,332 --> 01:26:05,022
+issuer, registered client identifier,
+public pinned RSA key, authorization and
+
+1246
+01:26:05,022 --> 01:26:08,746
+token endpoints, and exact callback URI.
+
+1247
+01:26:08,746 --> 01:26:13,163
+The endpoints must follow the configured
+issuer restrictions.
+
+1248
+01:26:13,163 --> 01:26:16,925
+Never paste a private signing key or
+password here.
+
+1249
+01:26:16,925 --> 01:26:20,877
+Changes require current authentication and
+evidence.
+
+1250
+01:26:20,877 --> 01:26:25,520
+This recording shows the configuration
+form without commissioning a real provider
+
+1251
+01:26:25,520 --> 01:26:29,207
+or fabricating a successful external
+sign-in.
+
+1252
+01:26:29,933 --> 01:26:34,290
+Staff single sign-on starts with the
+selected hospital and its configured
+
+1253
+01:26:34,290 --> 01:26:36,490
+identity provider.
+
+1254
+01:26:36,490 --> 01:26:40,871
+The browser returns through the approved
+callback; the application validates the
+
+1255
+01:26:40,871 --> 01:26:45,585
+protected sign-in flow and any required
+authenticator step.
+
+1256
+01:26:45,585 --> 01:26:50,894
+Staff accounts and roles must already
+exist through the approved lifecycle.
+
+1257
+01:26:50,894 --> 01:26:55,109
+Single sign-on does not create privilege
+automatically.
+
+1258
+01:26:55,109 --> 01:26:59,811
+Synthetic contract or broker assertions
+are not evidence of a live SAML or
+
+1259
+01:26:59,811 --> 01:27:02,593
+hospital provider integration.
+
+1260
+01:27:03,308 --> 01:27:07,855
+An authorised administrator selects
+another current active staff account,
+
+1261
+01:27:07,855 --> 01:27:12,105
+independently verifies the person under
+the hospital procedure and records
+
+1262
+01:27:12,105 --> 01:27:14,710
+controlled recovery evidence.
+
+1263
+01:27:14,710 --> 01:27:18,353
+The current record revision and
+administrator’s authenticator are
+
+1264
+01:27:18,353 --> 01:27:19,793
+required.
+
+1265
+01:27:19,793 --> 01:27:25,460
+Recovery invalidates existing sessions and
+requires factor enrolment again.
+
+1266
+01:27:25,460 --> 01:27:28,865
+This is a powerful identity-root
+operation.
+
+1267
+01:27:28,865 --> 01:27:33,817
+Reauthentication and a saved attestation
+are not independent dual approval or proof
+
+1268
+01:27:33,817 --> 01:27:36,996
+that identity checking actually occurred.
+
+1269
+01:27:36,996 --> 01:27:41,633
+Keep the hospital’s broader
+privileged-access controls in force.
+
+1270
+01:27:42,350 --> 01:27:47,671
+Create a recognisable course title, target
+staff role and version, then inspect the
+
+1271
+01:27:47,671 --> 01:27:49,752
+enrolment records.
+
+1272
+01:27:49,752 --> 01:27:54,502
+Versions make it possible to distinguish
+old and current material.
+
+1273
+01:27:54,502 --> 01:27:58,966
+The application is a basic assignment and
+completion tracker; it is not an
+
+1274
+01:27:58,966 --> 01:28:02,430
+independently graded learning-management
+system.
+
+1275
+01:28:02,430 --> 01:28:07,311
+Assign this detailed course to appropriate
+staff and keep role-specific practice,
+
+1276
+01:28:07,311 --> 01:28:11,962
+assessment and support routes available
+before operational use.
+
+1277
+01:28:12,683 --> 01:28:17,373
+A staff member selects their own assigned
+enrolment and records the actual passing
+
+1278
+01:28:17,373 --> 01:28:21,525
+assessment result only after completing
+the assessment.
+
+1279
+01:28:21,525 --> 01:28:27,228
+The visible score range does not create a
+test or establish learning by itself.
+
+1280
+01:28:27,228 --> 01:28:31,287
+Our recording shows the form without
+claiming that a human completed an
+
+1281
+01:28:31,287 --> 01:28:32,811
+assessment.
+
+1282
+01:28:32,811 --> 01:28:37,454
+Retain the underlying assessment evidence
+through the hospital procedure.
+
+1283
+01:28:37,454 --> 01:28:42,775
+Do not tick the attestation simply to make
+the training dashboard look complete.
+
+1284
+01:28:43,517 --> 01:28:48,040
+Open the supplied regulatory item and
+review the official source outside this
+
+1285
+01:28:48,040 --> 01:28:49,883
+offline capture.
+
+1286
+01:28:49,883 --> 01:28:54,764
+Confirm its current applicability with the
+accountable legal or privacy owner, then
+
+1287
+01:28:54,764 --> 01:28:58,943
+retain the review date and decision in the
+hospital register.
+
+1288
+01:28:58,943 --> 01:29:03,859
+The supplied list is curated; it is not a
+live legal-monitoring feed or automatic
+
+1289
+01:29:03,859 --> 01:29:06,097
+interpretation service.
+
+1290
+01:29:06,097 --> 01:29:11,181
+A reviewed label records an action, not a
+guarantee that every hospital duty has
+
+1291
+01:29:11,181 --> 01:29:13,777
+been identified or met.
+
+1292
+01:29:14,517 --> 01:29:18,933
+Run the due-review job and inspect its
+returned result and created work-list
+
+1293
+01:29:18,933 --> 01:29:20,383
+entries.
+
+1294
+01:29:20,383 --> 01:29:24,252
+Assign owners and check the actual review
+records.
+
+1295
+01:29:24,252 --> 01:29:29,788
+Entry creation does not prove an email,
+SMS or other notification was delivered,
+
+1296
+01:29:29,788 --> 01:29:33,443
+and it does not complete the underlying
+obligation.
+
+1297
+01:29:33,443 --> 01:29:38,121
+Qualify scheduling, alert delivery,
+escalation and operational ownership
+
+1298
+01:29:38,121 --> 01:29:41,202
+separately in the intended deployment.
+
+1299
+01:29:41,933 --> 01:29:46,133
+Review the reported field-encryption mode
+and cutover state.
+
+1300
+01:29:46,133 --> 01:29:50,633
+Protected field sidecars are not proof
+that every operational name or phone
+
+1301
+01:29:50,633 --> 01:29:56,013
+column, backup, exported report or
+connected system is encrypted.
+
+1302
+01:29:56,013 --> 01:30:01,061
+Key custody, rotation, restoration,
+deployment configuration and independent
+
+1303
+01:30:01,061 --> 01:30:05,156
+security assessment need their own
+operational evidence.
+
+1304
+01:30:05,156 --> 01:30:10,525
+CareConsent supports clearer choices and
+accountable privacy work; it does not make
+
+1305
+01:30:10,525 --> 01:30:15,037
+the hospital automatically compliant or
+impossible to attack.
+
+1306
+01:30:15,037 --> 01:30:20,570
+Use the current readiness report and
+acceptance gates before real patient use.

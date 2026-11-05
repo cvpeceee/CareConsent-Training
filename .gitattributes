@@ -5,3 +5,5 @@ SHA256SUMS.txt -text
 index.html -text
 
 animations/** -text
+
+training/** -text

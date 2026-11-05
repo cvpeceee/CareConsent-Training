@@ -1,0 +1,1650 @@
+{
+  "title": "CareConsent user training: patient consent, verified access and hospital privacy operations",
+  "build": "b38a631",
+  "fps": 24,
+  "duration_seconds": 5421.208333333333,
+  "scene_count": 151,
+  "subtitle_cues": 1306,
+  "chapters": [
+    {
+      "id": "01",
+      "title": "Welcome and safe practice",
+      "role": "All learners",
+      "start_ms": 0,
+      "end_ms": 118250,
+      "scenes": [
+        {
+          "id": "01-01",
+          "title": "What this course covers",
+          "start_ms": 0,
+          "end_ms": 48125,
+          "kind": "screen",
+          "screen": "welcome"
+        },
+        {
+          "id": "01-02",
+          "title": "Recognise the demonstration boundary",
+          "start_ms": 48125,
+          "end_ms": 79458,
+          "kind": "screen",
+          "screen": "welcome"
+        },
+        {
+          "id": "01-03",
+          "title": "Reference date and phased commencement",
+          "start_ms": 79458,
+          "end_ms": 118250,
+          "kind": "explainer",
+          "screen": "welcome"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Roles and the meaning of consent",
+      "role": "All learners",
+      "start_ms": 118250,
+      "end_ms": 192292,
+      "scenes": [
+        {
+          "id": "02-01",
+          "title": "Understand your workspace role",
+          "start_ms": 118250,
+          "end_ms": 159292,
+          "kind": "explainer",
+          "screen": "dashboard"
+        },
+        {
+          "id": "02-02",
+          "title": "Separate data choices from treatment consent",
+          "start_ms": 159292,
+          "end_ms": 192292,
+          "kind": "explainer",
+          "screen": "procedures"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Sign in, authenticator and recovery",
+      "role": "Staff and patients",
+      "start_ms": 192292,
+      "end_ms": 292417,
+      "scenes": [
+        {
+          "id": "03-01",
+          "title": "Open the correct hospital workspace",
+          "start_ms": 192292,
+          "end_ms": 219750,
+          "kind": "screen",
+          "screen": "signin"
+        },
+        {
+          "id": "03-02",
+          "title": "Complete or configure two-step sign-in",
+          "start_ms": 219750,
+          "end_ms": 249958,
+          "kind": "screen",
+          "screen": "mfa"
+        },
+        {
+          "id": "03-03",
+          "title": "Recover safely and stop repeated failures",
+          "start_ms": 249958,
+          "end_ms": 292417,
+          "kind": "screen",
+          "screen": "mfa"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Language, audio and accessible use",
+      "role": "All learners",
+      "start_ms": 292417,
+      "end_ms": 401000,
+      "scenes": [
+        {
+          "id": "04-01",
+          "title": "Set language and appearance",
+          "start_ms": 292417,
+          "end_ms": 331792,
+          "kind": "screen",
+          "screen": "preferences"
+        },
+        {
+          "id": "04-02",
+          "title": "Read or hear the actual notice",
+          "start_ms": 331792,
+          "end_ms": 370292,
+          "kind": "screen",
+          "screen": "consent"
+        },
+        {
+          "id": "04-03",
+          "title": "Use a keyboard, phone or assisted communication",
+          "start_ms": 370292,
+          "end_ms": 401000,
+          "kind": "explainer",
+          "screen": "preferences"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Read the overview without misinterpreting it",
+      "role": "Reception and privacy officers",
+      "start_ms": 401000,
+      "end_ms": 460583,
+      "scenes": [
+        {
+          "id": "05-01",
+          "title": "Understand dashboard counts",
+          "start_ms": 401000,
+          "end_ms": 432417,
+          "kind": "screen",
+          "screen": "dashboard"
+        },
+        {
+          "id": "05-02",
+          "title": "Find work needing attention",
+          "start_ms": 432417,
+          "end_ms": 460583,
+          "kind": "screen",
+          "screen": "dashboard"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Register an adult patient",
+      "role": "Reception",
+      "start_ms": 460583,
+      "end_ms": 528792,
+      "scenes": [
+        {
+          "id": "06-01",
+          "title": "Enter a minimal synthetic registration",
+          "start_ms": 460583,
+          "end_ms": 496208,
+          "kind": "screen",
+          "screen": "registration"
+        },
+        {
+          "id": "06-02",
+          "title": "Choose the patient's notice language",
+          "start_ms": 496208,
+          "end_ms": 528792,
+          "kind": "screen",
+          "screen": "registration"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Explain notices, purposes and refusal",
+      "role": "Reception and patients",
+      "start_ms": 528792,
+      "end_ms": 621458,
+      "scenes": [
+        {
+          "id": "07-01",
+          "title": "Review the notice and available help",
+          "start_ms": 528792,
+          "end_ms": 558750,
+          "kind": "screen",
+          "screen": "consent"
+        },
+        {
+          "id": "07-02",
+          "title": "Select only the purposes actually agreed",
+          "start_ms": 558750,
+          "end_ms": 591583,
+          "kind": "screen",
+          "screen": "consent"
+        },
+        {
+          "id": "07-03",
+          "title": "Close without adding consent",
+          "start_ms": 591583,
+          "end_ms": 621458,
+          "kind": "screen",
+          "screen": "consent-refused"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Verify choices and handle OTP problems",
+      "role": "Reception and patients",
+      "start_ms": 621458,
+      "end_ms": 708125,
+      "scenes": [
+        {
+          "id": "08-01",
+          "title": "Complete the simulated verification",
+          "start_ms": 621458,
+          "end_ms": 650667,
+          "kind": "screen",
+          "screen": "otp"
+        },
+        {
+          "id": "08-02",
+          "title": "Handle a wrong, expired or changed code",
+          "start_ms": 650667,
+          "end_ms": 677917,
+          "kind": "screen",
+          "screen": "otp-failed"
+        },
+        {
+          "id": "08-03",
+          "title": "Recover from an uncertain save",
+          "start_ms": 677917,
+          "end_ms": 708125,
+          "kind": "explainer",
+          "screen": "otp"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Patient PDF, technical exports and verification",
+      "role": "Patients, reception and auditors",
+      "start_ms": 708125,
+      "end_ms": 801292,
+      "scenes": [
+        {
+          "id": "09-01",
+          "title": "Download the readable patient receipt",
+          "start_ms": 708125,
+          "end_ms": 737667,
+          "kind": "screen",
+          "screen": "receipts"
+        },
+        {
+          "id": "09-02",
+          "title": "Read the PDF accurately",
+          "start_ms": 737667,
+          "end_ms": 767750,
+          "kind": "screen",
+          "screen": "receipt-pdf"
+        },
+        {
+          "id": "09-03",
+          "title": "Use technical exports and the public verifier",
+          "start_ms": 767750,
+          "end_ms": 801292,
+          "kind": "screen",
+          "screen": "receipt-verify"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Withdraw one purpose safely",
+      "role": "Reception and privacy officers",
+      "start_ms": 801292,
+      "end_ms": 868375,
+      "scenes": [
+        {
+          "id": "10-01",
+          "title": "Record a selective withdrawal",
+          "start_ms": 801292,
+          "end_ms": 840625,
+          "kind": "screen",
+          "screen": "withdrawal"
+        },
+        {
+          "id": "10-02",
+          "title": "Check the outcome and connected systems",
+          "start_ms": 840625,
+          "end_ms": 868375,
+          "kind": "screen",
+          "screen": "patient-profile"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Find records and respect scope",
+      "role": "Reception and clinicians",
+      "start_ms": 868375,
+      "end_ms": 929250,
+      "scenes": [
+        {
+          "id": "11-01",
+          "title": "Search and inspect a profile",
+          "start_ms": 868375,
+          "end_ms": 899958,
+          "kind": "screen",
+          "screen": "patients"
+        },
+        {
+          "id": "11-02",
+          "title": "Understand assignment or branch denial",
+          "start_ms": 899958,
+          "end_ms": 929250,
+          "kind": "explainer",
+          "screen": "patient-profile"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Sharing approvals and procedure evidence",
+      "role": "Reception and clinicians",
+      "start_ms": 929250,
+      "end_ms": 994000,
+      "scenes": [
+        {
+          "id": "12-01",
+          "title": "Record recipient-specific sharing approval",
+          "start_ms": 929250,
+          "end_ms": 962792,
+          "kind": "screen",
+          "screen": "sharing"
+        },
+        {
+          "id": "12-02",
+          "title": "Record clinical evidence separately",
+          "start_ms": 962792,
+          "end_ms": 994000,
+          "kind": "screen",
+          "screen": "procedures"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Children and lawful guardians",
+      "role": "Reception and privacy officers",
+      "start_ms": 994000,
+      "end_ms": 1089667,
+      "scenes": [
+        {
+          "id": "13-01",
+          "title": "Register and verify a child's guardian",
+          "start_ms": 994000,
+          "end_ms": 1023167,
+          "kind": "screen",
+          "screen": "guardian-form"
+        },
+        {
+          "id": "13-02",
+          "title": "Follow guardian-specific consent limits",
+          "start_ms": 1023167,
+          "end_ms": 1055375,
+          "kind": "screen",
+          "screen": "guardian-active"
+        },
+        {
+          "id": "13-03",
+          "title": "Adult authority, replacement and revocation",
+          "start_ms": 1055375,
+          "end_ms": 1089667,
+          "kind": "screen",
+          "screen": "guardian-active"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "The patient's own privacy workspace",
+      "role": "Patients",
+      "start_ms": 1089667,
+      "end_ms": 1196125,
+      "scenes": [
+        {
+          "id": "14-01",
+          "title": "Open only the linked patient record",
+          "start_ms": 1089667,
+          "end_ms": 1125333,
+          "kind": "screen",
+          "screen": "patient-portal"
+        },
+        {
+          "id": "14-02",
+          "title": "Submit all five request types",
+          "start_ms": 1125333,
+          "end_ms": 1156708,
+          "kind": "screen",
+          "screen": "patient-request"
+        },
+        {
+          "id": "14-03",
+          "title": "Track responses and withdraw as a patient",
+          "start_ms": 1156708,
+          "end_ms": 1196125,
+          "kind": "screen",
+          "screen": "patient-portal"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Staff fulfilment: access and correction",
+      "role": "Privacy officers",
+      "start_ms": 1196125,
+      "end_ms": 1293625,
+      "scenes": [
+        {
+          "id": "15-01",
+          "title": "Receive a request through an assisted channel",
+          "start_ms": 1196125,
+          "end_ms": 1227167,
+          "kind": "screen",
+          "screen": "rights"
+        },
+        {
+          "id": "15-02",
+          "title": "Fulfil an access request",
+          "start_ms": 1227167,
+          "end_ms": 1263000,
+          "kind": "screen",
+          "screen": "rights-access"
+        },
+        {
+          "id": "15-03",
+          "title": "Apply a validated correction",
+          "start_ms": 1263000,
+          "end_ms": 1293625,
+          "kind": "screen",
+          "screen": "rights-correction"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Erasure review and legal holds",
+      "role": "Privacy officers",
+      "start_ms": 1293625,
+      "end_ms": 1361708,
+      "scenes": [
+        {
+          "id": "16-01",
+          "title": "Decide an erasure request",
+          "start_ms": 1293625,
+          "end_ms": 1324875,
+          "kind": "screen",
+          "screen": "rights-erasure"
+        },
+        {
+          "id": "16-02",
+          "title": "Place and release a legal hold",
+          "start_ms": 1324875,
+          "end_ms": 1361708,
+          "kind": "screen",
+          "screen": "legal-holds"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Grievances and nominations",
+      "role": "Privacy officers",
+      "start_ms": 1361708,
+      "end_ms": 1422958,
+      "scenes": [
+        {
+          "id": "17-01",
+          "title": "Respond to a grievance",
+          "start_ms": 1361708,
+          "end_ms": 1391458,
+          "kind": "screen",
+          "screen": "rights-grievance"
+        },
+        {
+          "id": "17-02",
+          "title": "Record or revoke a nomination",
+          "start_ms": 1391458,
+          "end_ms": 1422958,
+          "kind": "screen",
+          "screen": "rights-nomination"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Breach assessment and reporting workflow",
+      "role": "Privacy officers",
+      "start_ms": 1422958,
+      "end_ms": 1554917,
+      "scenes": [
+        {
+          "id": "18-01",
+          "title": "Log awareness and assess the incident",
+          "start_ms": 1422958,
+          "end_ms": 1458917,
+          "kind": "screen",
+          "screen": "breach-assessment"
+        },
+        {
+          "id": "18-02",
+          "title": "Initial intimation and affected patients",
+          "start_ms": 1458917,
+          "end_ms": 1490000,
+          "kind": "screen",
+          "screen": "breach-initial"
+        },
+        {
+          "id": "18-03",
+          "title": "Complete the detailed report",
+          "start_ms": 1490000,
+          "end_ms": 1521667,
+          "kind": "screen",
+          "screen": "breach-detailed"
+        },
+        {
+          "id": "18-04",
+          "title": "Record an extension and outside-submission evidence",
+          "start_ms": 1521667,
+          "end_ms": 1554917,
+          "kind": "screen",
+          "screen": "breach-extension"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Retention policies and scheduled erasures",
+      "role": "Privacy officers",
+      "start_ms": 1554917,
+      "end_ms": 1619375,
+      "scenes": [
+        {
+          "id": "19-01",
+          "title": "Create a reviewed retention policy",
+          "start_ms": 1554917,
+          "end_ms": 1586917,
+          "kind": "screen",
+          "screen": "retention-policy"
+        },
+        {
+          "id": "19-02",
+          "title": "Review schedules, cancel and inspect runs",
+          "start_ms": 1586917,
+          "end_ms": 1619375,
+          "kind": "screen",
+          "screen": "retention"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Author, review and publish notices",
+      "role": "Privacy authors, independent reviewers and hospital administrators",
+      "start_ms": 1619375,
+      "end_ms": 1722333,
+      "scenes": [
+        {
+          "id": "20-01",
+          "title": "Author an exact-language notice version",
+          "start_ms": 1619375,
+          "end_ms": 1652708,
+          "kind": "screen",
+          "screen": "notice-draft"
+        },
+        {
+          "id": "20-02",
+          "title": "Independently review the preserved content",
+          "start_ms": 1652708,
+          "end_ms": 1683417,
+          "kind": "screen",
+          "screen": "notice-review"
+        },
+        {
+          "id": "20-03",
+          "title": "Publish, replace or retire responsibly",
+          "start_ms": 1683417,
+          "end_ms": 1722333,
+          "kind": "screen",
+          "screen": "notice-published"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Hospital accounts, branches and authentication policy",
+      "role": "Hospital and platform administrators",
+      "start_ms": 1722333,
+      "end_ms": 1863208,
+      "scenes": [
+        {
+          "id": "21-01",
+          "title": "Create the right hospital and branch",
+          "start_ms": 1722333,
+          "end_ms": 1753958,
+          "kind": "screen",
+          "screen": "admin-branch"
+        },
+        {
+          "id": "21-02",
+          "title": "Add and maintain staff accounts",
+          "start_ms": 1753958,
+          "end_ms": 1796458,
+          "kind": "screen",
+          "screen": "admin-users"
+        },
+        {
+          "id": "21-03",
+          "title": "Set authenticator policy and monitor delivery",
+          "start_ms": 1796458,
+          "end_ms": 1830500,
+          "kind": "screen",
+          "screen": "admin-account"
+        },
+        {
+          "id": "21-04",
+          "title": "Understand receipt signing-key administration",
+          "start_ms": 1830500,
+          "end_ms": 1863208,
+          "kind": "screen",
+          "screen": "receipt-keys"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Auditor access and evidence handling",
+      "role": "Auditors and privacy officers",
+      "start_ms": 1863208,
+      "end_ms": 1925458,
+      "scenes": [
+        {
+          "id": "22-01",
+          "title": "Inspect the audit trail",
+          "start_ms": 1863208,
+          "end_ms": 1894458,
+          "kind": "screen",
+          "screen": "audit"
+        },
+        {
+          "id": "22-02",
+          "title": "Verify the local chain and understand its limit",
+          "start_ms": 1894458,
+          "end_ms": 1925458,
+          "kind": "screen",
+          "screen": "audit"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Integrations, receiver statements and managed outages",
+      "role": "Privacy officers and hospital IT",
+      "start_ms": 1925458,
+      "end_ms": 2032750,
+      "scenes": [
+        {
+          "id": "23-01",
+          "title": "Read transport status in the integration panel",
+          "start_ms": 1925458,
+          "end_ms": 1958083,
+          "kind": "screen",
+          "screen": "integrations"
+        },
+        {
+          "id": "23-02",
+          "title": "Understand processor attestations without inventing a panel",
+          "start_ms": 1958083,
+          "end_ms": 1996917,
+          "kind": "explainer",
+          "screen": "integrations"
+        },
+        {
+          "id": "23-03",
+          "title": "Understand the narrow managed withdrawal buffer",
+          "start_ms": 1996917,
+          "end_ms": 2032750,
+          "kind": "explainer",
+          "screen": "integrations"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Exceptions, safe handover and day-end checks",
+      "role": "All learners",
+      "start_ms": 2032750,
+      "end_ms": 2140333,
+      "scenes": [
+        {
+          "id": "24-01",
+          "title": "No phone, shared phone and emergency care",
+          "start_ms": 2032750,
+          "end_ms": 2075167,
+          "kind": "explainer",
+          "screen": "welcome"
+        },
+        {
+          "id": "24-02",
+          "title": "Respond to an outage or apparent freeze",
+          "start_ms": 2075167,
+          "end_ms": 2106333,
+          "kind": "explainer",
+          "screen": "preferences"
+        },
+        {
+          "id": "24-03",
+          "title": "Complete a safe day-end handover",
+          "start_ms": 2106333,
+          "end_ms": 2140333,
+          "kind": "screen",
+          "screen": "dashboard"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Secure patient activation and remote withdrawal",
+      "role": "Privacy officers and patients",
+      "start_ms": 2140333,
+      "end_ms": 2335042,
+      "scenes": [
+        {
+          "id": "25-01",
+          "title": "Verify the person before linking access",
+          "start_ms": 2140333,
+          "end_ms": 2178333,
+          "kind": "screen",
+          "screen": "access-enrolment"
+        },
+        {
+          "id": "25-02",
+          "title": "Hand over access without exposing a secret",
+          "start_ms": 2178333,
+          "end_ms": 2215708,
+          "kind": "screen",
+          "screen": "access-handover"
+        },
+        {
+          "id": "25-03",
+          "title": "Activate on the patient's own device",
+          "start_ms": 2215708,
+          "end_ms": 2251417,
+          "kind": "screen",
+          "screen": "patient-activation"
+        },
+        {
+          "id": "25-04",
+          "title": "Withdraw remotely and read the exact outcome",
+          "start_ms": 2251417,
+          "end_ms": 2293292,
+          "kind": "screen",
+          "screen": "patient-withdrawal"
+        },
+        {
+          "id": "25-05",
+          "title": "Recover a password without weakening identity",
+          "start_ms": 2293292,
+          "end_ms": 2335042,
+          "kind": "screen",
+          "screen": "access-recovery"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Representatives, staff assignments and lost factors",
+      "role": "Privacy officers and authorised reviewers",
+      "start_ms": 2335042,
+      "end_ms": 2458667,
+      "scenes": [
+        {
+          "id": "26-01",
+          "title": "Issue guardian or limited delegate portal authority",
+          "start_ms": 2335042,
+          "end_ms": 2378667,
+          "kind": "screen",
+          "screen": "representative-access"
+        },
+        {
+          "id": "26-02",
+          "title": "Grant only time-limited staff patient scope",
+          "start_ms": 2378667,
+          "end_ms": 2416083,
+          "kind": "screen",
+          "screen": "staff-assignments"
+        },
+        {
+          "id": "26-03",
+          "title": "Use independent review after losing all factors",
+          "start_ms": 2416083,
+          "end_ms": 2458667,
+          "kind": "screen",
+          "screen": "factor-recovery"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "No-phone, shared-phone, paper and emergency workflows",
+      "role": "Reception, clinicians and privacy officers",
+      "start_ms": 2458667,
+      "end_ms": 2615792,
+      "scenes": [
+        {
+          "id": "27-01",
+          "title": "Record the actual contact arrangement",
+          "start_ms": 2458667,
+          "end_ms": 2497958,
+          "kind": "screen",
+          "screen": "contact-preferences"
+        },
+        {
+          "id": "27-02",
+          "title": "Prepare and confirm signed-paper data consent",
+          "start_ms": 2497958,
+          "end_ms": 2538833,
+          "kind": "screen",
+          "screen": "assisted-paper"
+        },
+        {
+          "id": "27-03",
+          "title": "Obtain a genuinely separate witness",
+          "start_ms": 2538833,
+          "end_ms": 2577042,
+          "kind": "screen",
+          "screen": "assisted-witness"
+        },
+        {
+          "id": "27-04",
+          "title": "Record emergency processing without inventing consent",
+          "start_ms": 2577042,
+          "end_ms": 2615792,
+          "kind": "screen",
+          "screen": "emergency-record"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "Delivery, unknown outcomes and alternate channels",
+      "role": "Privacy officers and integration owners",
+      "start_ms": 2615792,
+      "end_ms": 2738417,
+      "scenes": [
+        {
+          "id": "28-01",
+          "title": "Read notice delivery without assuming consent",
+          "start_ms": 2615792,
+          "end_ms": 2656917,
+          "kind": "screen",
+          "screen": "delivery-notices"
+        },
+        {
+          "id": "28-02",
+          "title": "Reconcile current processor and outbox evidence",
+          "start_ms": 2656917,
+          "end_ms": 2697792,
+          "kind": "screen",
+          "screen": "delivery-processors"
+        },
+        {
+          "id": "28-03",
+          "title": "Attest an alternate delivery only after it occurs",
+          "start_ms": 2697792,
+          "end_ms": 2738417,
+          "kind": "screen",
+          "screen": "delivery-manual"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Branch metadata, managed nodes and operations",
+      "role": "Hospital IT, privacy officers and approved operators",
+      "start_ms": 2738417,
+      "end_ms": 2905792,
+      "scenes": [
+        {
+          "id": "29-01",
+          "title": "Receive metadata and reconcile offline intentions",
+          "start_ms": 2738417,
+          "end_ms": 2779042,
+          "kind": "screen",
+          "screen": "branch-sync"
+        },
+        {
+          "id": "29-02",
+          "title": "Bind and revoke technical node keys safely",
+          "start_ms": 2779042,
+          "end_ms": 2818708,
+          "kind": "screen",
+          "screen": "branch-nodes"
+        },
+        {
+          "id": "29-03",
+          "title": "Review production prerequisites and genuine operations evidence",
+          "start_ms": 2818708,
+          "end_ms": 2863125,
+          "kind": "screen",
+          "screen": "operations-readiness"
+        },
+        {
+          "id": "29-04",
+          "title": "Understand managed custody and external checkpoint limits",
+          "start_ms": 2863125,
+          "end_ms": 2905792,
+          "kind": "explainer",
+          "screen": "operations-delivery"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "Optional integrations and reviewed language resources",
+      "role": "Hospital IT and language reviewers",
+      "start_ms": 2905792,
+      "end_ms": 3029958,
+      "scenes": [
+        {
+          "id": "30-01",
+          "title": "Recognise the disabled FHIR and HL7 boundary",
+          "start_ms": 2905792,
+          "end_ms": 2946000,
+          "kind": "explainer",
+          "screen": "fhir-settings"
+        },
+        {
+          "id": "30-02",
+          "title": "Keep ABDM simulation separate from the national network",
+          "start_ms": 2946000,
+          "end_ms": 2987333,
+          "kind": "explainer",
+          "screen": "abdm-settings"
+        },
+        {
+          "id": "30-03",
+          "title": "Review language drafts without changing published legal text",
+          "start_ms": 2987333,
+          "end_ms": 3029958,
+          "kind": "screen",
+          "screen": "localization-review"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "Privacy workspace: inventory, policies and ownership",
+      "role": "Privacy officers and read-only auditors",
+      "start_ms": 3029958,
+      "end_ms": 3265958,
+      "scenes": [
+        {
+          "id": "31-01",
+          "title": "Read the twenty-area tracker honestly",
+          "start_ms": 3029958,
+          "end_ms": 3071208,
+          "kind": "screen",
+          "screen": "privacy-overview"
+        },
+        {
+          "id": "31-02",
+          "title": "Build an inventory without uploading patient records",
+          "start_ms": 3071208,
+          "end_ms": 3113167,
+          "kind": "screen",
+          "screen": "privacy-inventory"
+        },
+        {
+          "id": "31-03",
+          "title": "Map source-to-destination flows and recipients",
+          "start_ms": 3113167,
+          "end_ms": 3147750,
+          "kind": "screen",
+          "screen": "privacy-data-flow"
+        },
+        {
+          "id": "31-04",
+          "title": "Record obligations, gaps and accountable governance",
+          "start_ms": 3147750,
+          "end_ms": 3188958,
+          "kind": "explainer",
+          "screen": "privacy-governance"
+        },
+        {
+          "id": "31-05",
+          "title": "Control privacy policies and SOP versions",
+          "start_ms": 3188958,
+          "end_ms": 3227000,
+          "kind": "screen",
+          "screen": "privacy-policy"
+        },
+        {
+          "id": "31-06",
+          "title": "Assess trackers and preference controls conditionally",
+          "start_ms": 3227000,
+          "end_ms": 3265958,
+          "kind": "screen",
+          "screen": "privacy-trackers"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "title": "Privacy workspace: operational assessments and risks",
+      "role": "Privacy, clinical, security and system owners",
+      "start_ms": 3265958,
+      "end_ms": 3606583,
+      "scenes": [
+        {
+          "id": "32-01",
+          "title": "Assess vendors, agreements and transfers separately",
+          "start_ms": 3265958,
+          "end_ms": 3309292,
+          "kind": "explainer",
+          "screen": "privacy-vendors"
+        },
+        {
+          "id": "32-02",
+          "title": "Evaluate privacy impact and residual risk",
+          "start_ms": 3309292,
+          "end_ms": 3348292,
+          "kind": "screen",
+          "screen": "privacy-impact"
+        },
+        {
+          "id": "32-03",
+          "title": "Record rights and retention work in each actual system",
+          "start_ms": 3348292,
+          "end_ms": 3390375,
+          "kind": "explainer",
+          "screen": "privacy-rights-retention"
+        },
+        {
+          "id": "32-04",
+          "title": "Assess children's data beyond the guardian form",
+          "start_ms": 3390375,
+          "end_ms": 3430917,
+          "kind": "screen",
+          "screen": "privacy-children"
+        },
+        {
+          "id": "32-05",
+          "title": "Evidence training and continuous review with real outcomes",
+          "start_ms": 3430917,
+          "end_ms": 3474208,
+          "kind": "explainer",
+          "screen": "privacy-training-review"
+        },
+        {
+          "id": "32-06",
+          "title": "Check marketing permission and cross-channel withdrawal",
+          "start_ms": 3474208,
+          "end_ms": 3516542,
+          "kind": "screen",
+          "screen": "marketing-preflight"
+        },
+        {
+          "id": "32-07",
+          "title": "Record security evidence without certifying the deployment",
+          "start_ms": 3516542,
+          "end_ms": 3562292,
+          "kind": "screen",
+          "screen": "privacy-security"
+        },
+        {
+          "id": "32-08",
+          "title": "Prepare and verify breach exercises and response duties",
+          "start_ms": 3562292,
+          "end_ms": 3606583,
+          "kind": "screen",
+          "screen": "privacy-breach-exercise"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "title": "Privacy workspace: review, reporting and completion decisions",
+      "role": "Record authors, separate DPO reviewers and auditors",
+      "start_ms": 3606583,
+      "end_ms": 3772958,
+      "scenes": [
+        {
+          "id": "33-01",
+          "title": "Save a draft with controlled evidence references",
+          "start_ms": 3606583,
+          "end_ms": 3643917,
+          "kind": "screen",
+          "screen": "privacy-draft"
+        },
+        {
+          "id": "33-02",
+          "title": "Submit and review using a different current officer",
+          "start_ms": 3643917,
+          "end_ms": 3681917,
+          "kind": "screen",
+          "screen": "privacy-submitted"
+        },
+        {
+          "id": "33-03",
+          "title": "Handle edits, rejected evidence, expiry and uncertain results",
+          "start_ms": 3681917,
+          "end_ms": 3724417,
+          "kind": "screen",
+          "screen": "privacy-reviewed"
+        },
+        {
+          "id": "33-04",
+          "title": "Export a readable gap report and decide readiness honestly",
+          "start_ms": 3724417,
+          "end_ms": 3772958,
+          "kind": "screen",
+          "screen": "privacy-report"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "title": "Production controls added in November 2026",
+      "role": "Privacy officer and platform administrator",
+      "start_ms": 3772958,
+      "end_ms": 3899792,
+      "scenes": [
+        {
+          "id": "34-01",
+          "title": "Mandatory authenticator enrolment",
+          "start_ms": 3772958,
+          "end_ms": 3810167,
+          "kind": "explainer",
+          "screen": "welcome"
+        },
+        {
+          "id": "34-02",
+          "title": "Email codes and other SMS paths",
+          "start_ms": 3810167,
+          "end_ms": 3855792,
+          "kind": "screen",
+          "screen": "contact-preferences"
+        },
+        {
+          "id": "34-03",
+          "title": "Migrate, then start the API",
+          "start_ms": 3855792,
+          "end_ms": 3899792,
+          "kind": "explainer",
+          "screen": "welcome"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "title": "Lawful basis and child health safeguards",
+      "role": "Privacy officer and reception",
+      "start_ms": 3899792,
+      "end_ms": 4095417,
+      "scenes": [
+        {
+          "id": "35-01",
+          "title": "Draft a notice with distinct lawful bases",
+          "start_ms": 3899792,
+          "end_ms": 3940542,
+          "kind": "screen",
+          "screen": "lawful-notice-draft"
+        },
+        {
+          "id": "35-02",
+          "title": "Consent and another lawful basis are different",
+          "start_ms": 3940542,
+          "end_ms": 3980292,
+          "kind": "screen",
+          "screen": "lawful-use"
+        },
+        {
+          "id": "35-03",
+          "title": "Configure a reviewed child-health policy",
+          "start_ms": 3980292,
+          "end_ms": 4018250,
+          "kind": "screen",
+          "screen": "hospital-privacy-policy"
+        },
+        {
+          "id": "35-04",
+          "title": "Record a narrow child health use",
+          "start_ms": 4018250,
+          "end_ms": 4057458,
+          "kind": "screen",
+          "screen": "child-health-exemption"
+        },
+        {
+          "id": "35-05",
+          "title": "Address changes invalidate unused codes",
+          "start_ms": 4057458,
+          "end_ms": 4095417,
+          "kind": "screen",
+          "screen": "contact-preferences"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "title": "Evidence signatures, reminders and incidents",
+      "role": "Privacy officer and auditor",
+      "start_ms": 4095417,
+      "end_ms": 4239667,
+      "scenes": [
+        {
+          "id": "36-01",
+          "title": "Understand an evidence-pack signature",
+          "start_ms": 4095417,
+          "end_ms": 4126583,
+          "kind": "explainer",
+          "screen": "welcome"
+        },
+        {
+          "id": "36-02",
+          "title": "Review due and overdue obligations",
+          "start_ms": 4126583,
+          "end_ms": 4162750,
+          "kind": "screen",
+          "screen": "review-reminders"
+        },
+        {
+          "id": "36-03",
+          "title": "Separate CERT-In filing from other reporting",
+          "start_ms": 4162750,
+          "end_ms": 4200750,
+          "kind": "screen",
+          "screen": "regulatory-filings"
+        },
+        {
+          "id": "36-04",
+          "title": "Record separate Board submission evidence",
+          "start_ms": 4200750,
+          "end_ms": 4239667,
+          "kind": "screen",
+          "screen": "board-filing-evidence"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "title": "Public receipt page and storage preferences",
+      "role": "Patient and support staff",
+      "start_ms": 4239667,
+      "end_ms": 4309042,
+      "scenes": [
+        {
+          "id": "37-01",
+          "title": "Public receipt verification and preferences",
+          "start_ms": 4239667,
+          "end_ms": 4274167,
+          "kind": "screen",
+          "screen": "public-cookie"
+        },
+        {
+          "id": "37-02",
+          "title": "Prefer the current readable receipt",
+          "start_ms": 4274167,
+          "end_ms": 4309042,
+          "kind": "explainer",
+          "screen": "welcome"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "title": "Rehearsal checklist and known boundaries",
+      "role": "Hospital owner and deployment team",
+      "start_ms": 4309042,
+      "end_ms": 4421042,
+      "scenes": [
+        {
+          "id": "38-01",
+          "title": "What the current tests establish",
+          "start_ms": 4309042,
+          "end_ms": 4346125,
+          "kind": "explainer",
+          "screen": "welcome"
+        },
+        {
+          "id": "38-02",
+          "title": "A safe synthetic rehearsal",
+          "start_ms": 4346125,
+          "end_ms": 4387583,
+          "kind": "explainer",
+          "screen": "welcome"
+        },
+        {
+          "id": "38-03",
+          "title": "Know the next approval gates",
+          "start_ms": 4387583,
+          "end_ms": 4421042,
+          "kind": "explainer",
+          "screen": "welcome"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "title": "Website privacy choices",
+      "role": "Privacy officers and website teams",
+      "start_ms": 4421042,
+      "end_ms": 4533708,
+      "scenes": [
+        {
+          "id": "39-01",
+          "title": "Register and review a website snapshot",
+          "start_ms": 4421042,
+          "end_ms": 4457000,
+          "kind": "screen",
+          "screen": "platform-cookie-inventory"
+        },
+        {
+          "id": "39-02",
+          "title": "Save and withdraw optional website choices",
+          "start_ms": 4457000,
+          "end_ms": 4497875,
+          "kind": "screen",
+          "screen": "website-preferences"
+        },
+        {
+          "id": "39-03",
+          "title": "Connect the real website carefully",
+          "start_ms": 4497875,
+          "end_ms": 4533708,
+          "kind": "explainer",
+          "screen": "website-preferences"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "title": "Describe information and processing",
+      "role": "Privacy officers and system owners",
+      "start_ms": 4533708,
+      "end_ms": 4641458,
+      "scenes": [
+        {
+          "id": "40-01",
+          "title": "Add a metadata connector",
+          "start_ms": 4533708,
+          "end_ms": 4571250,
+          "kind": "screen",
+          "screen": "platform-discovery"
+        },
+        {
+          "id": "40-02",
+          "title": "Scan columns and record a flow",
+          "start_ms": 4571250,
+          "end_ms": 4607292,
+          "kind": "screen",
+          "screen": "platform-discovery-flow"
+        },
+        {
+          "id": "40-03",
+          "title": "Generate a processing record",
+          "start_ms": 4607292,
+          "end_ms": 4641458,
+          "kind": "screen",
+          "screen": "platform-ropa"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "title": "Use gaps and review work honestly",
+      "role": "Privacy officers and accountable owners",
+      "start_ms": 4641458,
+      "end_ms": 4702750,
+      "scenes": [
+        {
+          "id": "41-01",
+          "title": "Read unmet controls instead of chasing a score",
+          "start_ms": 4641458,
+          "end_ms": 4671875,
+          "kind": "screen",
+          "screen": "platform-gaps"
+        },
+        {
+          "id": "41-02",
+          "title": "Keep an accountable review trail",
+          "start_ms": 4671875,
+          "end_ms": 4702750,
+          "kind": "screen",
+          "screen": "platform-gaps"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "title": "Assess processing risks and vendors",
+      "role": "Privacy officers and independent reviewers",
+      "start_ms": 4702750,
+      "end_ms": 4829333,
+      "scenes": [
+        {
+          "id": "42-01",
+          "title": "Draft and submit an impact assessment",
+          "start_ms": 4702750,
+          "end_ms": 4734750,
+          "kind": "screen",
+          "screen": "platform-dpia-draft"
+        },
+        {
+          "id": "42-02",
+          "title": "Use a different assessment reviewer",
+          "start_ms": 4734750,
+          "end_ms": 4768250,
+          "kind": "screen",
+          "screen": "platform-dpia-review"
+        },
+        {
+          "id": "42-03",
+          "title": "Record a vendor questionnaire from evidence",
+          "start_ms": 4768250,
+          "end_ms": 4797333,
+          "kind": "screen",
+          "screen": "platform-vendor-questionnaire"
+        },
+        {
+          "id": "42-04",
+          "title": "Retain the executed agreement reference",
+          "start_ms": 4797333,
+          "end_ms": 4829333,
+          "kind": "screen",
+          "screen": "platform-vendor-dpa"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "title": "Check current purposes and scope integrations",
+      "role": "Privacy officers and integration operators",
+      "start_ms": 4829333,
+      "end_ms": 4959042,
+      "scenes": [
+        {
+          "id": "43-01",
+          "title": "Locate declared patient records",
+          "start_ms": 4829333,
+          "end_ms": 4858208,
+          "kind": "screen",
+          "screen": "platform-dsr-locations"
+        },
+        {
+          "id": "43-02",
+          "title": "Check a purpose at the time of use",
+          "start_ms": 4858208,
+          "end_ms": 4890000,
+          "kind": "screen",
+          "screen": "platform-purpose-check"
+        },
+        {
+          "id": "43-03",
+          "title": "Grant a narrow one-time integration credential",
+          "start_ms": 4890000,
+          "end_ms": 4927333,
+          "kind": "screen",
+          "screen": "platform-crm-key"
+        },
+        {
+          "id": "43-04",
+          "title": "Revoke a credential deliberately",
+          "start_ms": 4927333,
+          "end_ms": 4959042,
+          "kind": "screen",
+          "screen": "platform-crm-revoke"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "title": "Use an authorised WhatsApp route",
+      "role": "Privacy officers and reception supervisors",
+      "start_ms": 4959042,
+      "end_ms": 5026167,
+      "scenes": [
+        {
+          "id": "44-01",
+          "title": "Prepare an approved privacy notice",
+          "start_ms": 4959042,
+          "end_ms": 4991792,
+          "kind": "screen",
+          "screen": "platform-whatsapp"
+        },
+        {
+          "id": "44-02",
+          "title": "Distinguish accepted, delivered and consented",
+          "start_ms": 4991792,
+          "end_ms": 5026167,
+          "kind": "screen",
+          "screen": "platform-whatsapp-result"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "title": "Prepare and retrieve incident evidence",
+      "role": "Privacy officers and incident coordinators",
+      "start_ms": 5026167,
+      "end_ms": 5088542,
+      "scenes": [
+        {
+          "id": "45-01",
+          "title": "Build a structured incident pack",
+          "start_ms": 5026167,
+          "end_ms": 5056375,
+          "kind": "screen",
+          "screen": "platform-breach-pack"
+        },
+        {
+          "id": "45-02",
+          "title": "Retrieve the saved pack and retain originals",
+          "start_ms": 5056375,
+          "end_ms": 5088542,
+          "kind": "screen",
+          "screen": "platform-breach-retrieve"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "title": "Use branded and verified sign-in",
+      "role": "Administrators, staff and patients",
+      "start_ms": 5088542,
+      "end_ms": 5223208,
+      "scenes": [
+        {
+          "id": "46-01",
+          "title": "Configure the hospital entry carefully",
+          "start_ms": 5088542,
+          "end_ms": 5119000,
+          "kind": "screen",
+          "screen": "branded-portal-settings"
+        },
+        {
+          "id": "46-02",
+          "title": "Use a code only for an existing verified patient account",
+          "start_ms": 5119000,
+          "end_ms": 5153375,
+          "kind": "screen",
+          "screen": "patient-code-signin"
+        },
+        {
+          "id": "46-03",
+          "title": "Review the staff identity-provider form",
+          "start_ms": 5153375,
+          "end_ms": 5189833,
+          "kind": "screen",
+          "screen": "staff-sso-settings"
+        },
+        {
+          "id": "46-04",
+          "title": "Understand the staff return and verification journey",
+          "start_ms": 5189833,
+          "end_ms": 5223208,
+          "kind": "screen",
+          "screen": "staff-sso-signin"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "title": "Recover staff access and track real training",
+      "role": "Administrators, privacy officers and staff",
+      "start_ms": 5223208,
+      "end_ms": 5323417,
+      "scenes": [
+        {
+          "id": "47-01",
+          "title": "Review controlled staff-factor recovery",
+          "start_ms": 5223208,
+          "end_ms": 5262250,
+          "kind": "screen",
+          "screen": "staff-factor-recovery"
+        },
+        {
+          "id": "47-02",
+          "title": "Assign a versioned course",
+          "start_ms": 5262250,
+          "end_ms": 5292583,
+          "kind": "screen",
+          "screen": "role-training"
+        },
+        {
+          "id": "47-03",
+          "title": "Record only a genuine assessment result",
+          "start_ms": 5292583,
+          "end_ms": 5323417,
+          "kind": "screen",
+          "screen": "role-training-completion"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "title": "Maintain the programme and understand key scope",
+      "role": "Privacy officers and operational owners",
+      "start_ms": 5323417,
+      "end_ms": 5421208,
+      "scenes": [
+        {
+          "id": "48-01",
+          "title": "Review curated regulatory references",
+          "start_ms": 5323417,
+          "end_ms": 5354417,
+          "kind": "screen",
+          "screen": "curated-regulatory-items"
+        },
+        {
+          "id": "48-02",
+          "title": "Run the due-review work-list job",
+          "start_ms": 5354417,
+          "end_ms": 5381833,
+          "kind": "screen",
+          "screen": "platform-reminder-job"
+        },
+        {
+          "id": "48-03",
+          "title": "Read encryption health without overstating it",
+          "start_ms": 5381833,
+          "end_ms": 5421208,
+          "kind": "screen",
+          "screen": "field-encryption-health"
+        }
+      ]
+    }
+  ]
+}
