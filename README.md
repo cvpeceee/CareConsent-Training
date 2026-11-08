@@ -1,3 +1,7 @@
+# Current release companion — 7 November 2026
+
+[Watch the release update](https://cvpeceee.github.io/CareConsent-Training/training/2026-11-07-update/) before the dated course. [Updated English/Tamil animations](https://cvpeceee.github.io/CareConsent-Training/animations/).
+
 # CareConsent learning library
 
 [Open the learning hub](https://cvpeceee.github.io/CareConsent-Training/) · [English introduction](https://cvpeceee.github.io/CareConsent-Training/animations/#english) · [தமிழ் அறிமுகம்](https://cvpeceee.github.io/CareConsent-Training/animations/#tamil)

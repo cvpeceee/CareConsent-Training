@@ -1,0 +1,236 @@
+WEBVTT
+
+00:00:00.100 --> 00:00:05.183
+This update accompanies the November fifth
+course and describes release b c nine five
+
+00:00:05.183 --> 00:00:06.764
+e f one.
+
+00:00:06.764 --> 00:00:11.657
+It replaces that course's older statements
+that privileged approval, patient field
+
+00:00:11.657 --> 00:00:15.966
+protection and managed offline operations
+are unfinished.
+
+00:00:15.966 --> 00:00:19.478
+The original course remains a dated
+recording.
+
+00:00:19.478 --> 00:00:24.800
+These cards explain the current workflow;
+they are not recordings of clicks.
+
+00:00:24.800 --> 00:00:27.478
+Practise with invented records.
+
+00:00:27.478 --> 00:00:32.089
+Hospital deployment and live messaging
+still require commissioning.
+
+00:00:32.808 --> 00:00:37.438
+On your first visit, use the guided help
+invitation to explore the available
+
+00:00:37.438 --> 00:00:38.948
+workspace.
+
+00:00:38.948 --> 00:00:43.698
+Next advances the pointer; close or skip
+returns you to work.
+
+00:00:43.698 --> 00:00:46.853
+You can reopen help when you feel lost.
+
+00:00:46.853 --> 00:00:49.698
+Available steps follow your role.
+
+00:00:49.698 --> 00:00:54.258
+The browser remembers the tour preference,
+so shared computers may already have
+
+00:00:54.258 --> 00:00:55.912
+dismissed it.
+
+00:00:55.912 --> 00:01:01.496
+This is navigation help, not proof that an
+employee completed mandatory training.
+
+00:01:01.496 --> 00:01:04.965
+Check your hospital and branch before
+working.
+
+00:01:05.683 --> 00:01:10.099
+Privileged appointment and recovery now
+require independent approval and
+
+00:01:10.099 --> 00:01:14.121
+target-controlled activation in the
+production workflow.
+
+00:01:14.121 --> 00:01:18.680
+Submit the intended change, have a
+different authorised approver review it,
+
+00:01:18.680 --> 00:01:22.894
+and let the intended account holder
+complete activation.
+
+00:01:22.894 --> 00:01:26.502
+Never share activation or recovery
+material.
+
+00:01:26.502 --> 00:01:29.978
+A pending request is not active access.
+
+00:01:29.978 --> 00:01:34.525
+The public synthetic demo has
+demonstration-specific behaviour; do not
+
+00:01:34.525 --> 00:01:39.180
+copy its credentials or shortcuts into a
+hospital deployment.
+
+00:01:39.180 --> 00:01:43.912
+Suspected account changes belong with your
+security responder.
+
+00:01:44.642 --> 00:01:50.544
+In My account security notices, choose a
+private email address only you can read.
+
+00:01:50.544 --> 00:01:55.056
+Send the verification code, then verify
+that address.
+
+00:01:55.056 --> 00:02:00.282
+Account changes use the previously
+verified private channel for warnings.
+
+00:02:00.282 --> 00:02:05.294
+Operators review security events,
+investigate scope, take ownership, and
+
+00:02:05.294 --> 00:02:08.842
+follow escalation and acknowledgement
+status.
+
+00:02:08.842 --> 00:02:11.687
+Sent is different from acknowledged.
+
+00:02:11.687 --> 00:02:15.103
+An unexpected change needs investigation.
+
+00:02:15.103 --> 00:02:20.199
+Alerts help detect suspicious activity;
+they cannot promise that every data leak
+
+00:02:20.199 --> 00:02:22.007
+will be detected.
+
+00:02:22.725 --> 00:02:27.486
+Patient field protection now includes
+encrypted stored fields, protected lookup
+
+00:02:27.486 --> 00:02:30.996
+indexes, migration and key rotation.
+
+00:02:30.996 --> 00:02:35.555
+Ordinary staff continue using their
+authorised patient screens.
+
+00:02:35.555 --> 00:02:39.377
+Only designated operators should run
+maintenance.
+
+00:02:39.377 --> 00:02:44.317
+Verify the selected hospital, protected
+backups and paired key versions before
+
+00:02:44.317 --> 00:02:46.508
+rotation or restore.
+
+00:02:46.508 --> 00:02:51.686
+Check completed migration and rotation
+evidence; do not delete old key versions
+
+00:02:51.686 --> 00:02:55.103
+while retained records or backups need
+them.
+
+00:02:55.103 --> 00:03:00.785
+Never copy key material into a support
+ticket, screenshot or training recording.
+
+00:03:01.517 --> 00:03:06.088
+A provisioned managed branch node can
+retain encrypted local records and buffer
+
+00:03:06.088 --> 00:03:10.290
+supported intake, corrections, consent
+captures and withdrawals during
+
+00:03:10.290 --> 00:03:11.943
+disconnection.
+
+00:03:11.943 --> 00:03:16.050
+Pending local work is not a globally
+enforced decision.
+
+00:03:16.050 --> 00:03:20.562
+Reconnect the managed node, inspect
+synchronisation results, and send
+
+00:03:20.562 --> 00:03:23.407
+conflicts to an authorised reviewer.
+
+00:03:23.407 --> 00:03:27.300
+A delayed grant must not override a
+withdrawal.
+
+00:03:27.300 --> 00:03:32.371
+Do not create an independent database
+writer or manually copy database files
+
+00:03:32.371 --> 00:03:34.288
+between branches.
+
+00:03:34.288 --> 00:03:39.097
+Your ordinary browser tab alone is not a
+managed branch node.
+
+00:03:39.808 --> 00:03:44.677
+Patients with verified access can withdraw
+from home using their patient account;
+
+00:03:44.677 --> 00:03:48.174
+returning to reception is not the only
+route.
+
+00:03:48.174 --> 00:03:53.162
+Help people without a private phone
+through the approved assisted process.
+
+00:03:53.162 --> 00:03:58.210
+Keep each purpose separate, and never
+treat an OTP alone as consent to every
+
+00:03:58.210 --> 00:03:59.460
+use.
+
+00:03:59.460 --> 00:04:04.841
+After withdrawal, review downstream
+acknowledgement and retention decisions.
+
+00:04:04.841 --> 00:04:09.579
+For existing workflows, continue with the
+dated course chapters.
+
+00:04:09.579 --> 00:04:14.662
+Before real use, your team must commission
+providers, hosting, responders and
+
+00:04:14.662 --> 00:04:17.148
+approved hospital notices.

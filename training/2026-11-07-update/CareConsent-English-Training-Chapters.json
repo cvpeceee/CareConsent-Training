@@ -1,0 +1,129 @@
+{
+  "title": "CareConsent release update: guided help, security and branch continuity",
+  "build": "bc95ef1",
+  "fps": 24,
+  "duration_seconds": 257.75,
+  "scene_count": 7,
+  "subtitle_cues": 63,
+  "chapters": [
+    {
+      "id": "01",
+      "title": "Start here: the current release",
+      "role": "All users",
+      "start_ms": 0,
+      "end_ms": 32708,
+      "scenes": [
+        {
+          "id": "01-01",
+          "title": "Start here: the current release",
+          "start_ms": 0,
+          "end_ms": 32708,
+          "kind": "explainer",
+          "screen": "explainer"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Find your way with guided help",
+      "role": "All staff",
+      "start_ms": 32708,
+      "end_ms": 65583,
+      "scenes": [
+        {
+          "id": "02-01",
+          "title": "Find your way with guided help",
+          "start_ms": 32708,
+          "end_ms": 65583,
+          "kind": "explainer",
+          "screen": "explainer"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Privileged accounts and recovery",
+      "role": "Identity operators and approvers",
+      "start_ms": 65583,
+      "end_ms": 104542,
+      "scenes": [
+        {
+          "id": "03-01",
+          "title": "Privileged accounts and recovery",
+          "start_ms": 65583,
+          "end_ms": 104542,
+          "kind": "explainer",
+          "screen": "explainer"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Private account warnings and security follow-up",
+      "role": "Staff and security operators",
+      "start_ms": 104542,
+      "end_ms": 142625,
+      "scenes": [
+        {
+          "id": "04-01",
+          "title": "Private account warnings and security follow-up",
+          "start_ms": 104542,
+          "end_ms": 142625,
+          "kind": "explainer",
+          "screen": "explainer"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Protected patient fields and key maintenance",
+      "role": "Authorised operations staff",
+      "start_ms": 142625,
+      "end_ms": 181417,
+      "scenes": [
+        {
+          "id": "05-01",
+          "title": "Protected patient fields and key maintenance",
+          "start_ms": 142625,
+          "end_ms": 181417,
+          "kind": "explainer",
+          "screen": "explainer"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Work through a branch outage",
+      "role": "Reception and branch operators",
+      "start_ms": 181417,
+      "end_ms": 219708,
+      "scenes": [
+        {
+          "id": "06-01",
+          "title": "Work through a branch outage",
+          "start_ms": 181417,
+          "end_ms": 219708,
+          "kind": "explainer",
+          "screen": "explainer"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Patients remain in control",
+      "role": "Reception, patients and privacy staff",
+      "start_ms": 219708,
+      "end_ms": 257750,
+      "scenes": [
+        {
+          "id": "07-01",
+          "title": "Patients remain in control",
+          "start_ms": 219708,
+          "end_ms": 257750,
+          "kind": "explainer",
+          "screen": "explainer"
+        }
+      ]
+    }
+  ]
+}
