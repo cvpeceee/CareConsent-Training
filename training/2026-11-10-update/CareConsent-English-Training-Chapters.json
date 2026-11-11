@@ -1,0 +1,129 @@
+{
+  "title": "CareConsent release update: hospital purposes, integrations, languages and security hardening",
+  "build": "431016c",
+  "fps": 24,
+  "duration_seconds": 245.83333333333334,
+  "scene_count": 7,
+  "subtitle_cues": 59,
+  "chapters": [
+    {
+      "id": "01",
+      "title": "Start here: the 10 November release",
+      "role": "All users",
+      "start_ms": 0,
+      "end_ms": 34250,
+      "scenes": [
+        {
+          "id": "01-01",
+          "title": "Start here: the 10 November release",
+          "start_ms": 0,
+          "end_ms": 34250,
+          "kind": "explainer",
+          "screen": "explainer"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Hospital consent purposes",
+      "role": "Privacy officers and reception",
+      "start_ms": 34250,
+      "end_ms": 68208,
+      "scenes": [
+        {
+          "id": "02-01",
+          "title": "Hospital consent purposes",
+          "start_ms": 34250,
+          "end_ms": 68208,
+          "kind": "explainer",
+          "screen": "explainer"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Health record systems follow consent",
+      "role": "Integration and IT operators",
+      "start_ms": 68208,
+      "end_ms": 104667,
+      "scenes": [
+        {
+          "id": "03-01",
+          "title": "Health record systems follow consent",
+          "start_ms": 68208,
+          "end_ms": 104667,
+          "kind": "explainer",
+          "screen": "explainer"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Additional message and PDF languages",
+      "role": "Privacy officers and language reviewers",
+      "start_ms": 104667,
+      "end_ms": 137000,
+      "scenes": [
+        {
+          "id": "04-01",
+          "title": "Additional message and PDF languages",
+          "start_ms": 104667,
+          "end_ms": 137000,
+          "kind": "explainer",
+          "screen": "explainer"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Security changes for operators",
+      "role": "Security and identity operators",
+      "start_ms": 137000,
+      "end_ms": 175000,
+      "scenes": [
+        {
+          "id": "05-01",
+          "title": "Security changes for operators",
+          "start_ms": 137000,
+          "end_ms": 175000,
+          "kind": "explainer",
+          "screen": "explainer"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Hardware-protected keys and audit anchoring",
+      "role": "Authorised operations staff",
+      "start_ms": 175000,
+      "end_ms": 209625,
+      "scenes": [
+        {
+          "id": "06-01",
+          "title": "Hardware-protected keys and audit anchoring",
+          "start_ms": 175000,
+          "end_ms": 209625,
+          "kind": "explainer",
+          "screen": "explainer"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "What has not changed",
+      "role": "All users",
+      "start_ms": 209625,
+      "end_ms": 245833,
+      "scenes": [
+        {
+          "id": "07-01",
+          "title": "What has not changed",
+          "start_ms": 209625,
+          "end_ms": 245833,
+          "kind": "explainer",
+          "screen": "explainer"
+        }
+      ]
+    }
+  ]
+}

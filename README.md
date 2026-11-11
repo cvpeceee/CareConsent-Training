@@ -1,4 +1,8 @@
-# Current release companion — 7 November 2026
+# Current release companion — 10 November 2026
+
+[Watch the 10 November release update](https://cvpeceee.github.io/CareConsent-Training/training/2026-11-10-update/) (4:06, seven chapters) first. It covers hospital consent purposes, record-system decisions with SMART and the ABDM sandbox, attested additional languages, security hardening, hardware-sealed keys and audit anchoring for app release 431016c. Then watch the 7 November update and the dated course below. Synthetic practice only; not a compliance certificate or production approval.
+
+# Previous release companion — 7 November 2026
 
 [Watch the release update](https://cvpeceee.github.io/CareConsent-Training/training/2026-11-07-update/) before the dated course. [Updated English/Tamil animations](https://cvpeceee.github.io/CareConsent-Training/animations/).
 

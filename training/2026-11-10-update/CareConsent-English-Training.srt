@@ -1,0 +1,281 @@
+1
+00:00:00,100 --> 00:00:04,040
+This update describes release four three
+one zero one six c.
+
+2
+00:00:04,040 --> 00:00:07,671
+Watch it before the November seventh
+update and the dated November fifth
+
+3
+00:00:07,671 --> 00:00:08,978
+course.
+
+4
+00:00:08,978 --> 00:00:13,978
+It covers hospital consent purposes,
+integrations with health record systems,
+
+5
+00:00:13,978 --> 00:00:19,490
+additional languages, and security changes
+that operators should understand.
+
+6
+00:00:19,490 --> 00:00:24,430
+These cards explain the workflow; they are
+not recordings of clicks.
+
+7
+00:00:24,430 --> 00:00:27,478
+Practise only with invented records.
+
+8
+00:00:27,478 --> 00:00:32,038
+A hospital deployment still requires
+commissioning, approved notices and live
+
+9
+00:00:32,038 --> 00:00:33,649
+providers.
+
+10
+00:00:34,350 --> 00:00:39,028
+A privacy officer can now draft a hospital
+purpose under one of the five base
+
+11
+00:00:39,028 --> 00:00:43,216
+purposes, with its own notice wording in
+each language.
+
+12
+00:00:43,216 --> 00:00:48,050
+A different privacy officer must confirm
+the translations were reviewed and approve
+
+13
+00:00:48,050 --> 00:00:49,180
+it.
+
+14
+00:00:49,180 --> 00:00:54,240
+A scoped purpose can only narrow its base
+purpose, never widen it.
+
+15
+00:00:54,240 --> 00:00:58,978
+Reception records each purpose as a
+separate choice, and patients can withdraw
+
+16
+00:00:58,978 --> 00:01:02,109
+one purpose without touching the others.
+
+17
+00:01:02,109 --> 00:01:07,587
+Retiring a purpose stops new choices;
+earlier records stay in history.
+
+18
+00:01:08,308 --> 00:01:12,903
+The hospital record system can now ask
+CareConsent for the current allow or deny
+
+19
+00:01:12,903 --> 00:01:17,436
+decision through a signed request, and
+receives a signed answer.
+
+20
+00:01:17,436 --> 00:01:22,900
+Requests outside the time window or
+repeating a used value are refused.
+
+21
+00:01:22,900 --> 00:01:27,377
+Connected systems can authenticate with
+SMART backend services using a signed
+
+22
+00:01:27,377 --> 00:01:28,972
+client key.
+
+23
+00:01:28,972 --> 00:01:35,031
+The ABDM bridge supports mock and sandbox
+modes and verifies gateway signatures.
+
+24
+00:01:35,031 --> 00:01:39,972
+Your vendor's adapter must still enforce
+the decision where records are opened, and
+
+25
+00:01:39,972 --> 00:01:44,040
+ABDM use needs National Health Authority
+onboarding.
+
+26
+00:01:44,767 --> 00:01:47,788
+The pilot languages remain reviewed.
+
+27
+00:01:47,788 --> 00:01:52,931
+Fifteen further Indian languages now have
+draft messages and patient PDFs using
+
+28
+00:01:52,931 --> 00:01:55,490
+bundled fonts for each script.
+
+29
+00:01:55,490 --> 00:01:59,931
+A draft language is not sent to patients
+until a named reviewer records an
+
+30
+00:01:59,931 --> 00:02:02,728
+attestation that the wording was checked.
+
+31
+00:02:02,728 --> 00:02:06,990
+Until then, those patients receive English
+messages.
+
+32
+00:02:06,990 --> 00:02:11,693
+Ask your hospital's approved translator to
+review the wording, and report any
+
+33
+00:02:11,693 --> 00:02:16,396
+confusing phrase rather than editing it
+during a patient conversation.
+
+34
+00:02:17,100 --> 00:02:21,490
+Sign-in and session records are now
+isolated per hospital.
+
+35
+00:02:21,490 --> 00:02:26,942
+Configured keys must be full random keys;
+passphrases are rejected, and webhooks use
+
+36
+00:02:26,942 --> 00:02:30,907
+their own key instead of reusing the
+multi-factor key.
+
+37
+00:02:30,907 --> 00:02:35,585
+Each audit entry's hash now covers the
+branch, the person acting and the affected
+
+38
+00:02:35,585 --> 00:02:36,930
+record.
+
+39
+00:02:36,930 --> 00:02:42,442
+Recorded security events cannot be edited
+or deleted by the application.
+
+40
+00:02:42,442 --> 00:02:47,240
+Webhooks to private network addresses are
+blocked, including names that resolve to
+
+41
+00:02:47,240 --> 00:02:48,442
+them.
+
+42
+00:02:48,442 --> 00:02:53,026
+If a configuration is refused at startup,
+correct it rather than weakening the
+
+43
+00:02:53,026 --> 00:02:54,392
+setting.
+
+44
+00:02:55,100 --> 00:03:00,100
+A deployment can now require its symmetric
+keys to be sealed by a hardware security
+
+45
+00:03:00,100 --> 00:03:04,942
+module, so plain key material is not
+stored in configuration.
+
+46
+00:03:04,942 --> 00:03:09,359
+Signed audit log heads can be published
+automatically to separately owned
+
+47
+00:03:09,359 --> 00:03:14,204
+immutable storage and re-verified later,
+which helps show that history was not
+
+48
+00:03:14,204 --> 00:03:15,550
+rewritten.
+
+49
+00:03:15,550 --> 00:03:20,454
+The security monitor refuses the hospital
+or migration database connection and
+
+50
+00:03:20,454 --> 00:03:24,050
+checks it is running under its own
+database role.
+
+51
+00:03:24,050 --> 00:03:28,985
+Your team must provision the real key
+vault, storage and monitor role.
+
+52
+00:03:29,725 --> 00:03:34,225
+Everyday reception, patient withdrawal,
+breach handling and offline branch
+
+53
+00:03:34,225 --> 00:03:38,651
+workflows continue as taught in the
+earlier update and course.
+
+54
+00:03:38,651 --> 00:03:43,734
+Board filings now need the actual filing
+time and a staff attestation, and guardian
+
+55
+00:03:43,734 --> 00:03:48,436
+records need explicit verification before
+they can support consent.
+
+56
+00:03:48,436 --> 00:03:52,984
+This release was tested locally with
+synthetic data; it is not a hospital
+
+57
+00:03:52,984 --> 00:03:56,615
+production approval or a compliance
+certificate.
+
+58
+00:03:56,615 --> 00:04:01,782
+Before real use, your team must commission
+providers, hosting, translations,
+
+59
+00:04:01,782 --> 00:04:05,194
+integrations and an independent
+assessment.
