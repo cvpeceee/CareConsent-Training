@@ -1,0 +1,227 @@
+{
+  "title": "CareConsent for clinical and front-desk staff",
+  "build": "b9229b9",
+  "fps": 24,
+  "duration_seconds": 371.3333333333333,
+  "scene_count": 15,
+  "subtitle_cues": 100,
+  "chapters": [
+    {
+      "id": "01",
+      "title": "Finding your way and getting help",
+      "role": "All staff",
+      "start_ms": 0,
+      "end_ms": 56000,
+      "scenes": [
+        {
+          "id": "01-01",
+          "title": "The menu and the help box",
+          "start_ms": 0,
+          "end_ms": 32542,
+          "kind": "screen",
+          "screen": "screen-help"
+        },
+        {
+          "id": "01-02",
+          "title": "The small i next to each box",
+          "start_ms": 32542,
+          "end_ms": 56000,
+          "kind": "screen",
+          "screen": "field-tips"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Today's overview",
+      "role": "Reception and clinical staff",
+      "start_ms": 56000,
+      "end_ms": 82833,
+      "scenes": [
+        {
+          "id": "02-01",
+          "title": "What is waiting for you today",
+          "start_ms": 56000,
+          "end_ms": 82833,
+          "kind": "screen",
+          "screen": "dashboard"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Registering a patient",
+      "role": "Reception",
+      "start_ms": 82833,
+      "end_ms": 133542,
+      "scenes": [
+        {
+          "id": "03-01",
+          "title": "Find the patient first",
+          "start_ms": 82833,
+          "end_ms": 107542,
+          "kind": "screen",
+          "screen": "patients"
+        },
+        {
+          "id": "03-02",
+          "title": "Fill in the registration form",
+          "start_ms": 107542,
+          "end_ms": 133542,
+          "kind": "screen",
+          "screen": "register"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Recording the patient's choices",
+      "role": "Reception",
+      "start_ms": 133542,
+      "end_ms": 185792,
+      "scenes": [
+        {
+          "id": "04-01",
+          "title": "Read the notice with the patient",
+          "start_ms": 133542,
+          "end_ms": 162500,
+          "kind": "screen",
+          "screen": "choices"
+        },
+        {
+          "id": "04-02",
+          "title": "The consent register",
+          "start_ms": 162500,
+          "end_ms": 185792,
+          "kind": "screen",
+          "screen": "consents"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Correcting patient details",
+      "role": "Reception",
+      "start_ms": 185792,
+      "end_ms": 231208,
+      "scenes": [
+        {
+          "id": "05-01",
+          "title": "Open the patient's record",
+          "start_ms": 185792,
+          "end_ms": 203750,
+          "kind": "screen",
+          "screen": "profile"
+        },
+        {
+          "id": "05-02",
+          "title": "Make the correction",
+          "start_ms": 203750,
+          "end_ms": 231208,
+          "kind": "screen",
+          "screen": "edit-details"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "When a patient asks about their information",
+      "role": "Reception",
+      "start_ms": 231208,
+      "end_ms": 257333,
+      "scenes": [
+        {
+          "id": "06-01",
+          "title": "Record the patient's request",
+          "start_ms": 231208,
+          "end_ms": 257333,
+          "kind": "screen",
+          "screen": "requests"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Sharing records with another organisation",
+      "role": "Reception and clinical staff",
+      "start_ms": 257333,
+      "end_ms": 284292,
+      "scenes": [
+        {
+          "id": "07-01",
+          "title": "Record a sharing approval",
+          "start_ms": 257333,
+          "end_ms": 284292,
+          "kind": "screen",
+          "screen": "shares"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "For doctors and nurses",
+      "role": "Doctors and nurses",
+      "start_ms": 284292,
+      "end_ms": 327500,
+      "scenes": [
+        {
+          "id": "08-01",
+          "title": "Your menu",
+          "start_ms": 284292,
+          "end_ms": 300625,
+          "kind": "screen",
+          "screen": "clinician-menu"
+        },
+        {
+          "id": "08-02",
+          "title": "Procedure records",
+          "start_ms": 300625,
+          "end_ms": 327500,
+          "kind": "screen",
+          "screen": "procedures"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Your settings",
+      "role": "All staff",
+      "start_ms": 327500,
+      "end_ms": 348000,
+      "scenes": [
+        {
+          "id": "09-01",
+          "title": "Readiness and settings",
+          "start_ms": 327500,
+          "end_ms": 348000,
+          "kind": "screen",
+          "screen": "settings"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "What patients see",
+      "role": "Patients",
+      "start_ms": 348000,
+      "end_ms": 371333,
+      "scenes": [
+        {
+          "id": "10-01",
+          "title": "The patient's own privacy page",
+          "start_ms": 348000,
+          "end_ms": 371333,
+          "kind": "screen",
+          "screen": "portal"
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "player_tag": "FOR CLINICAL AND FRONT-DESK STAFF · ENGLISH",
+    "player_title": "CareConsent for clinical and front-desk staff",
+    "player_intro": "Short, plain-language lessons. Each chapter shows one screen: what it is for, what to fill in and why.",
+    "player_about": "Made for reception, nursing and clinical staff. The patients shown are made-up practice patients. Your hospital's screens may look slightly different. Ask your privacy officer if anything is unclear.",
+    "player_roles": "01=Start here;03=Reception;08=Doctors and nurses;10=Patients"
+  }
+}

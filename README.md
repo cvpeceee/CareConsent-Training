@@ -1,3 +1,9 @@
+# For clinical and front-desk staff ? start here
+
+[Watch the staff course](https://cvpeceee.github.io/CareConsent-Training/training/clinical-staff/) (6:11, ten short chapters). Plain-language lessons over real screens for reception, nurses and doctors: finding your way, the help panel and info icons, registering a patient, recording choices, correcting details, patient requests, sharing, procedure records and what patients see. Practice patients only.
+
+The release updates and the detailed course below are technical material for administrators, privacy officers and owners.
+
 # Current release companion — 10 November 2026
 
 [Watch the 10 November release update](https://cvpeceee.github.io/CareConsent-Training/training/2026-11-10-update/) (4:06, seven chapters) first. It covers hospital consent purposes, record-system decisions with SMART and the ABDM sandbox, attested additional languages, security hardening, hardware-sealed keys and audit anchoring for app release 431016c. Then watch the 7 November update and the dated course below. Synthetic practice only; not a compliance certificate or production approval.
